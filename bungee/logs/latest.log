@@ -1,65 +1,1048 @@
-[18:00:20] [main/INFO]: Using standard Java JCE cipher.
-[18:00:20] [main/INFO]: Using standard Java compressor.
-[18:00:20] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
-[18:00:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
-[18:00:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
-[18:00:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
-[18:00:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
-[18:00:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
-[18:00:20] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
-[18:00:21] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:21] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:21] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:21] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:21] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:21] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:21] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[18:00:21] [main/WARN]: :>  
-[18:00:21] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[18:00:21] [main/WARN]: :>  
-[18:00:21] [main/WARN]: :>  This plugin wasn't tested to be 'working'
-[18:00:21] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
-[18:00:21] [main/WARN]: :>  apart from the versions listed below:
-[18:00:21] [main/WARN]: :>  
-[18:00:21] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
-[18:00:21] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
-[18:00:21] [main/WARN]: :>  - FlameCord: 1.1.1
-[18:00:21] [main/WARN]: :>  
-[18:00:21] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
-[18:00:21] [main/WARN]: :>  
-[18:00:21] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[18:00:21] [main/WARN]: :>  
-[18:00:21] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[18:00:21] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[18:00:27] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
-[18:00:27] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
-[18:00:27] [main/WARN]: Forced host server pvp is not defined
-[18:00:27] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:27] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:27] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:27] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:27] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:27] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:00:27] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[18:00:27] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
-[18:00:27] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[18:00:28] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
-[18:00:28] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
-[18:00:32] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: D:\BitsAndBobs\EAGLERCRAFT\Eagler-1.8-Docker-Original-Old-World\bungee\plugins\EaglercraftXBungee\eagcert\$dl.11da5ec1e9d8efe3fa0e9998b0c264f5c8cb155f.cert
-[18:02:08] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51316]: Connected via websocket
-[18:02:08] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51316]: Origin header is https://rat-helping-correctly.ngrok-free.app
-[18:02:08] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51316]: Logged in as 'IceSiked'
-[18:02:08] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51316|IceSiked] -> UpstreamBridge has connected
-[18:02:08] [Netty Worker IO Thread #1/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51316] <-> ServerConnector [lobby] has connected
-[18:02:14] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51316|IceSiked] -> UpstreamBridge has disconnected
-[18:02:14] [Netty Worker IO Thread #1/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
-[18:02:14] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51316|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
-[18:02:15] [Netty Worker IO Thread #2/WARN] [EaglercraftXBungee]: Server icon is not a file: D:\BitsAndBobs\EAGLERCRAFT\Eagler-1.8-Docker-Original-Old-World\bungee\server-icon.png
-[18:45:28] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:52529]: Connected via websocket
-[18:45:28] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:52529]: Origin header is https://rat-helping-correctly.ngrok-free.app
-[18:45:28] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:52529]: Logged in as 'IceSiked'
-[18:45:28] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:52529|IceSiked] -> UpstreamBridge has connected
-[18:45:28] [Netty Worker IO Thread #4/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:52529] <-> ServerConnector [lobby] has connected
-[18:45:31] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:52529|IceSiked] -> UpstreamBridge has disconnected
-[18:45:31] [Netty Worker IO Thread #4/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
-[18:45:31] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:52529|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:12:04] [main/INFO]: Using standard Java JCE cipher.
+[08:12:04] [main/INFO]: Using standard Java compressor.
+[08:12:04] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[08:12:04] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[08:12:04] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[08:12:04] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[08:12:04] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[08:12:04] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+[08:12:04] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+[08:12:05] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:05] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:05] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:05] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:05] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:05] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:05] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[08:12:05] [main/WARN]: :>  
+[08:12:05] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[08:12:05] [main/WARN]: :>  
+[08:12:05] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[08:12:05] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[08:12:05] [main/WARN]: :>  apart from the versions listed below:
+[08:12:05] [main/WARN]: :>  
+[08:12:05] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[08:12:05] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[08:12:05] [main/WARN]: :>  - FlameCord: 1.1.1
+[08:12:05] [main/WARN]: :>  
+[08:12:05] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[08:12:05] [main/WARN]: :>  
+[08:12:05] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[08:12:05] [main/WARN]: :>  
+[08:12:05] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[08:12:05] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[08:12:09] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[08:12:09] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[08:12:10] [main/WARN]: Forced host server pvp is not defined
+[08:12:10] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:10] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:10] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:10] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:10] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:10] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[08:12:10] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[08:12:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[08:12:11] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[08:12:11] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[08:12:11] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[08:12:12] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: D:\BitsAndBobs\EAGLERCRAFT\Eagler-1.8-Docker-Original-Old-World\bungee\plugins\EaglercraftXBungee\eagcert\$dl.11da5ec1e9d8efe3fa0e9998b0c264f5c8cb155f.cert
+[08:48:21] [Netty Worker IO Thread #5/WARN] [EaglercraftXBungee]: Server icon is not a file: D:\BitsAndBobs\EAGLERCRAFT\Eagler-1.8-Docker-Original-Old-World\bungee\server-icon.png
+[08:48:36] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50781]: Connected via websocket
+[08:48:36] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50781]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:48:36] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50781]: Logged in as 'Taigaa'
+[08:48:36] [EaglerXBungee: Network Tick Tasks/ERROR] [EaglercraftXBungee]: Exception in thread "EaglerXBungee: Network Tick Tasks"! java.lang.NullPointerException
+[08:48:36] [EaglerXBungee: Network Tick Tasks/ERROR]: java.lang.NullPointerException
+[08:48:36] [EaglerXBungee: Network Tick Tasks/ERROR]: 	at net.md_5.bungee.UserConnection.sendData(UserConnection.java:550)
+[08:48:36] [EaglerXBungee: Network Tick Tasks/ERROR]: 	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.EaglerPipeline$1.run(EaglerPipeline.java:133)
+[08:48:36] [EaglerXBungee: Network Tick Tasks/ERROR]: 	at java.util.TimerThread.mainLoop(Unknown Source)
+[08:48:36] [EaglerXBungee: Network Tick Tasks/ERROR]: 	at java.util.TimerThread.run(Unknown Source)
+[08:48:36] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50781|Taigaa] -> UpstreamBridge has connected
+[08:48:36] [Netty Worker IO Thread #7/INFO]: [Taigaa|/0:0:0:0:0:0:0:1:50781] <-> ServerConnector [lobby] has connected
+[08:48:48] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50781|Taigaa] -> UpstreamBridge has disconnected
+[08:48:48] [Netty Worker IO Thread #7/INFO]: [Taigaa] disconnected with: Proxy lost connection to server.
+[08:48:48] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50781|Taigaa] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:49:00] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50785]: Connected via websocket
+[08:49:00] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50785]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:49:00] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50785]: Logged in as 'Forest'
+[08:49:00] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50785|Forest] -> UpstreamBridge has connected
+[08:49:00] [Netty Worker IO Thread #2/INFO]: [Forest|/0:0:0:0:0:0:0:1:50785] <-> ServerConnector [lobby] has connected
+[08:49:05] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50785|Forest] -> UpstreamBridge has disconnected
+[08:49:05] [Netty Worker IO Thread #2/INFO]: [Forest] disconnected with: Proxy lost connection to server.
+[08:49:05] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50785|Forest] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:49:18] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50789]: Connected via websocket
+[08:49:18] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50789]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:49:18] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50789]: Logged in as 'MegaTaiga'
+[08:49:18] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:50789|MegaTaiga] -> UpstreamBridge has connected
+[08:49:18] [Netty Worker IO Thread #5/INFO]: [MegaTaiga|/0:0:0:0:0:0:0:1:50789] <-> ServerConnector [lobby] has connected
+[08:49:41] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:50789|MegaTaiga] -> UpstreamBridge has disconnected
+[08:49:41] [Netty Worker IO Thread #5/INFO]: [MegaTaiga] disconnected with: Proxy lost connection to server.
+[08:49:41] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:50789|MegaTaiga] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:49:43] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50792]: Connected via websocket
+[08:49:43] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50792]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:49:43] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50792]: Logged in as 'MegaTaiga'
+[08:49:43] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50792|MegaTaiga] -> UpstreamBridge has connected
+[08:49:43] [Netty Worker IO Thread #7/INFO]: [MegaTaiga|/0:0:0:0:0:0:0:1:50792] <-> ServerConnector [lobby] has connected
+[08:49:47] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50792|MegaTaiga] -> UpstreamBridge has disconnected
+[08:49:47] [Netty Worker IO Thread #7/INFO]: [MegaTaiga] disconnected with: Proxy lost connection to server.
+[08:49:47] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50792|MegaTaiga] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:49:58] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50797]: Connected via websocket
+[08:49:58] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50797]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:49:58] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50797]: Logged in as 'IceSiked'
+[08:49:58] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50797|IceSiked] -> UpstreamBridge has connected
+[08:49:58] [Netty Worker IO Thread #2/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:50797] <-> ServerConnector [lobby] has connected
+[08:51:53] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50797|IceSiked] -> UpstreamBridge has disconnected
+[08:51:53] [Netty Worker IO Thread #2/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[08:51:53] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50797|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:52:06] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50803]: Connected via websocket
+[08:52:06] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50803]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:52:06] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50803]: Logged in as 'Megataiga'
+[08:52:06] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:50803|Megataiga] -> UpstreamBridge has connected
+[08:52:06] [Netty Worker IO Thread #5/INFO]: [Megataiga|/0:0:0:0:0:0:0:1:50803] <-> ServerConnector [lobby] has connected
+[08:52:06] [Netty Worker IO Thread #5/INFO]: [Megataiga] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name MegaTaiga, please log in as such.
+[08:52:06] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:50803|Megataiga] -> UpstreamBridge has disconnected
+[08:52:06] [Netty Worker IO Thread #5/INFO]: [Megataiga|/0:0:0:0:0:0:0:1:50803] <-> ServerConnector [lobby] has disconnected
+[08:52:22] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50806]: Connected via websocket
+[08:52:22] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50806]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:52:22] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50806]: Logged in as 'MegaTaiga'
+[08:52:22] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50806|MegaTaiga] -> UpstreamBridge has connected
+[08:52:22] [Netty Worker IO Thread #7/INFO]: [MegaTaiga|/0:0:0:0:0:0:0:1:50806] <-> ServerConnector [lobby] has connected
+[08:52:57] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50806|MegaTaiga] -> UpstreamBridge has disconnected
+[08:52:57] [Netty Worker IO Thread #7/INFO]: [MegaTaiga] disconnected with: Proxy lost connection to server.
+[08:52:57] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50806|MegaTaiga] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:53:06] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50810]: Connected via websocket
+[08:53:06] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50810]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:53:06] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50810]: Logged in as 'Taigaa'
+[08:53:06] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50810|Taigaa] -> UpstreamBridge has connected
+[08:53:06] [Netty Worker IO Thread #2/INFO]: [Taigaa|/0:0:0:0:0:0:0:1:50810] <-> ServerConnector [lobby] has connected
+[08:53:18] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50810|Taigaa] -> UpstreamBridge has disconnected
+[08:53:18] [Netty Worker IO Thread #2/INFO]: [Taigaa] disconnected with: Proxy lost connection to server.
+[08:53:18] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50810|Taigaa] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:53:41] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50814]: Connected via websocket
+[08:53:41] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50814]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:53:41] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50814]: Logged in as 'MegaTaigaa'
+[08:53:41] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:50814|MegaTaigaa] -> UpstreamBridge has connected
+[08:53:41] [Netty Worker IO Thread #5/INFO]: [MegaTaigaa|/0:0:0:0:0:0:0:1:50814] <-> ServerConnector [lobby] has connected
+[08:53:46] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:50814|MegaTaigaa] -> UpstreamBridge has disconnected
+[08:53:46] [Netty Worker IO Thread #5/INFO]: [MegaTaigaa] disconnected with: Proxy lost connection to server.
+[08:53:46] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:50814|MegaTaigaa] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:54:37] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50818]: Connected via websocket
+[08:54:37] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50818]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:54:37] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50818]: Logged in as 'Mega_Taiga'
+[08:54:37] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50818|Mega_Taiga] -> UpstreamBridge has connected
+[08:54:37] [Netty Worker IO Thread #0/INFO]: [Mega_Taiga|/0:0:0:0:0:0:0:1:50818] <-> ServerConnector [lobby] has connected
+[08:54:41] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50818|Mega_Taiga] -> UpstreamBridge has disconnected
+[08:54:41] [Netty Worker IO Thread #0/INFO]: [Mega_Taiga] disconnected with: Proxy lost connection to server.
+[08:54:41] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50818|Mega_Taiga] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:54:56] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50823]: Connected via websocket
+[08:54:56] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50823]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:54:56] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50823]: Logged in as 'TheTaiga'
+[08:54:56] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50823|TheTaiga] -> UpstreamBridge has connected
+[08:54:56] [Netty Worker IO Thread #3/INFO]: [TheTaiga|/0:0:0:0:0:0:0:1:50823] <-> ServerConnector [lobby] has connected
+[08:55:02] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50823|TheTaiga] -> UpstreamBridge has disconnected
+[08:55:02] [Netty Worker IO Thread #3/INFO]: [TheTaiga] disconnected with: Proxy lost connection to server.
+[08:55:02] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50823|TheTaiga] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:57:53] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50830]: Connected via websocket
+[08:57:53] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50830]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:57:53] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50830]: Logged in as 'TheTaiga'
+[08:57:53] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:50830|TheTaiga] -> UpstreamBridge has connected
+[08:57:53] [Netty Worker IO Thread #5/INFO]: [TheTaiga|/0:0:0:0:0:0:0:1:50830] <-> ServerConnector [lobby] has connected
+[08:57:58] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:50830|TheTaiga] -> UpstreamBridge has disconnected
+[08:57:58] [Netty Worker IO Thread #5/INFO]: [TheTaiga] disconnected with: Proxy lost connection to server.
+[08:57:58] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:50830|TheTaiga] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:58:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50834]: Connected via websocket
+[08:58:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50834]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[08:58:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50834]: Logged in as 'Podzol'
+[08:58:16] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50834|Podzol] -> UpstreamBridge has connected
+[08:58:16] [Netty Worker IO Thread #0/INFO]: [Podzol|/0:0:0:0:0:0:0:1:50834] <-> ServerConnector [lobby] has connected
+[08:58:25] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50834|Podzol] -> UpstreamBridge has disconnected
+[08:58:25] [Netty Worker IO Thread #0/INFO]: [Podzol] disconnected with: Proxy lost connection to server.
+[08:58:25] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50834|Podzol] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:01:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50846]: Connected via websocket
+[09:01:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50846]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:01:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50846]: Logged in as 'AHHHHHHHHHH'
+[09:01:28] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50846|AHHHHHHHHHH] -> UpstreamBridge has connected
+[09:01:28] [Netty Worker IO Thread #2/INFO]: [AHHHHHHHHHH|/0:0:0:0:0:0:0:1:50846] <-> ServerConnector [lobby] has connected
+[09:06:11] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50857]: Connected via websocket
+[09:06:11] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50857]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:06:11] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50857]: Logged in as 'XXR_justHuddo'
+[09:06:11] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50857|XXR_justHuddo] -> UpstreamBridge has connected
+[09:06:11] [Netty Worker IO Thread #2/INFO]: [XXR_justHuddo|/0:0:0:0:0:0:0:1:50857] <-> ServerConnector [lobby] has connected
+[09:08:49] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50874]: Connected via websocket
+[09:08:49] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50874]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:08:49] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50874]: Logged in as 'MrMate'
+[09:08:49] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50874|MrMate] -> UpstreamBridge has connected
+[09:08:49] [Netty Worker IO Thread #2/INFO]: [MrMate|/0:0:0:0:0:0:0:1:50874] <-> ServerConnector [lobby] has connected
+[09:09:20] [Netty Worker IO Thread #2/INFO]: [MrMate] disconnected with: Login timed out!
+[09:09:20] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50874|MrMate] -> UpstreamBridge has disconnected
+[09:09:20] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50874|MrMate] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:09:28] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50878]: Connected via websocket
+[09:09:28] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50878]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:09:28] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50878]: Logged in as 'MrMate'
+[09:09:28] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50878|MrMate] -> UpstreamBridge has connected
+[09:09:28] [Netty Worker IO Thread #3/INFO]: [MrMate|/0:0:0:0:0:0:0:1:50878] <-> ServerConnector [lobby] has connected
+[09:11:17] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50888]: Connected via websocket
+[09:11:17] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50888]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:11:17] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50888]: Logged in as 'Dark_stalker33'
+[09:11:17] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50888|Dark_stalker33] -> UpstreamBridge has connected
+[09:11:17] [Netty Worker IO Thread #3/INFO]: [Dark_stalker33|/0:0:0:0:0:0:0:1:50888] <-> ServerConnector [lobby] has connected
+[09:18:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50902]: Connected via websocket
+[09:18:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50902]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:18:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50902]: Logged in as 'rizzler'
+[09:18:29] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50902|rizzler] -> UpstreamBridge has connected
+[09:18:29] [Netty Worker IO Thread #3/INFO]: [rizzler|/0:0:0:0:0:0:0:1:50902] <-> ServerConnector [lobby] has connected
+[09:20:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50914]: Connected via websocket
+[09:20:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50914]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:20:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50914]: Logged in as 'DKing201'
+[09:20:19] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50914|DKing201] -> UpstreamBridge has connected
+[09:20:19] [Netty Worker IO Thread #3/INFO]: [DKing201|/0:0:0:0:0:0:0:1:50914] <-> ServerConnector [lobby] has connected
+[09:24:18] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50878|MrMate] -> UpstreamBridge has disconnected
+[09:24:18] [Netty Worker IO Thread #3/INFO]: [MrMate] disconnected with: Proxy lost connection to server.
+[09:24:18] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50878|MrMate] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:26:36] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50857|XXR_justHuddo] -> UpstreamBridge has disconnected
+[09:26:36] [Netty Worker IO Thread #2/INFO]: [XXR_justHuddo] disconnected with: Proxy lost connection to server.
+[09:26:36] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50857|XXR_justHuddo] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:26:41] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50902|rizzler] -> UpstreamBridge has disconnected
+[09:26:41] [Netty Worker IO Thread #3/INFO]: [rizzler] disconnected with: Proxy lost connection to server.
+[09:26:41] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50902|rizzler] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:27:37] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50888|Dark_stalker33] -> UpstreamBridge has disconnected
+[09:27:37] [Netty Worker IO Thread #3/INFO]: [Dark_stalker33] disconnected with: Proxy lost connection to server.
+[09:27:37] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50888|Dark_stalker33] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:27:37] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50914|DKing201] -> UpstreamBridge has disconnected
+[09:27:37] [Netty Worker IO Thread #3/INFO]: [DKing201] disconnected with: Proxy lost connection to server.
+[09:27:37] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50914|DKing201] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:39:45] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50940]: Connected via websocket
+[09:39:45] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50940]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:39:45] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50940]: Logged in as 'IceSiked'
+[09:39:45] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50940|IceSiked] -> UpstreamBridge has connected
+[09:39:45] [Netty Worker IO Thread #0/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:50940] <-> ServerConnector [lobby] has connected
+[09:41:43] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50943]: Connected via websocket
+[09:41:43] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50943]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:41:43] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50943]: Logged in as 'MrMate'
+[09:41:43] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:50943|MrMate] -> UpstreamBridge has connected
+[09:41:43] [Netty Worker IO Thread #1/INFO]: [MrMate|/0:0:0:0:0:0:0:1:50943] <-> ServerConnector [lobby] has connected
+[09:43:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50949]: Connected via websocket
+[09:43:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50949]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:43:36] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50949]: Logged in as 'rizzler'
+[09:43:36] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50949|rizzler] -> UpstreamBridge has connected
+[09:43:36] [Netty Worker IO Thread #3/INFO]: [rizzler|/0:0:0:0:0:0:0:1:50949] <-> ServerConnector [lobby] has connected
+[09:45:25] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50940|IceSiked] -> UpstreamBridge has disconnected
+[09:45:25] [Netty Worker IO Thread #0/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[09:45:25] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50940|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:46:12] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50954]: Connected via websocket
+[09:46:12] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50954]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:46:12] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50954]: Logged in as 'XXR_justHuddo'
+[09:46:12] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:50954|XXR_justHuddo] -> UpstreamBridge has connected
+[09:46:12] [Netty Worker IO Thread #6/INFO]: [XXR_justHuddo|/0:0:0:0:0:0:0:1:50954] <-> ServerConnector [lobby] has connected
+[09:47:54] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:50954|XXR_justHuddo] -> UpstreamBridge has disconnected
+[09:47:54] [Netty Worker IO Thread #6/INFO]: [XXR_justHuddo] disconnected with: Proxy lost connection to server.
+[09:47:54] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:50954|XXR_justHuddo] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:49:07] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50959]: Connected via websocket
+[09:49:07] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50959]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:49:07] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50959]: Logged in as 'IceSiked'
+[09:49:07] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50959|IceSiked] -> UpstreamBridge has connected
+[09:49:07] [Netty Worker IO Thread #0/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:50959] <-> ServerConnector [lobby] has connected
+[09:53:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50964]: Connected via websocket
+[09:53:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50964]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:53:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50964]: Logged in as 'XXR_justHuddo'
+[09:53:14] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:50964|XXR_justHuddo] -> UpstreamBridge has connected
+[09:53:14] [Netty Worker IO Thread #1/INFO]: [XXR_justHuddo|/0:0:0:0:0:0:0:1:50964] <-> ServerConnector [lobby] has connected
+[09:56:22] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50959|IceSiked] -> UpstreamBridge has disconnected
+[09:56:22] [Netty Worker IO Thread #0/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[09:56:22] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:50959|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:57:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50980]: Connected via websocket
+[09:57:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50980]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[09:57:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50980]: Logged in as 'IceSiked'
+[09:57:03] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50980|IceSiked] -> UpstreamBridge has connected
+[09:57:03] [Netty Worker IO Thread #3/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:50980] <-> ServerConnector [lobby] has connected
+[09:57:49] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50980|IceSiked] -> UpstreamBridge has disconnected
+[09:57:49] [Netty Worker IO Thread #3/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[09:57:49] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50980|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:05:44] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:50964|XXR_justHuddo] -> UpstreamBridge has disconnected
+[10:05:44] [Netty Worker IO Thread #1/INFO]: [XXR_justHuddo] disconnected with: Proxy lost connection to server.
+[10:05:44] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:50964|XXR_justHuddo] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:05:48] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50846|AHHHHHHHHHH] -> UpstreamBridge has disconnected
+[10:05:48] [Netty Worker IO Thread #2/INFO]: [AHHHHHHHHHH] disconnected with: Proxy lost connection to server.
+[10:05:48] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:50846|AHHHHHHHHHH] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:06:05] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50990]: Connected via websocket
+[10:06:05] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50990]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:06:05] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50990]: Logged in as 'AHHHHHHHHHHHHHHH'
+[10:06:05] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50990|AHHHHHHHHHHHHHHH] -> UpstreamBridge has connected
+[10:06:05] [Netty Worker IO Thread #7/INFO]: [AHHHHHHHHHHHHHHH|/0:0:0:0:0:0:0:1:50990] <-> ServerConnector [lobby] has connected
+[10:10:13] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51003]: Connected via websocket
+[10:10:13] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51003]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:10:13] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51003]: Logged in as 'XXR_justHuddo'
+[10:10:13] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51003|XXR_justHuddo] -> UpstreamBridge has connected
+[10:10:13] [Netty Worker IO Thread #0/INFO]: [XXR_justHuddo|/0:0:0:0:0:0:0:1:51003] <-> ServerConnector [lobby] has connected
+[10:10:45] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51003|XXR_justHuddo] -> UpstreamBridge has disconnected
+[10:10:45] [Netty Worker IO Thread #0/INFO]: [XXR_justHuddo] disconnected with: Proxy lost connection to server.
+[10:10:45] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51003|XXR_justHuddo] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:11:14] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50949|rizzler] -> UpstreamBridge has disconnected
+[10:11:14] [Netty Worker IO Thread #3/INFO]: [rizzler] disconnected with: Proxy lost connection to server.
+[10:11:14] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50949|rizzler] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:11:39] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:50943|MrMate] -> UpstreamBridge has disconnected
+[10:11:39] [Netty Worker IO Thread #1/INFO]: [MrMate] disconnected with: Proxy lost connection to server.
+[10:11:39] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:50943|MrMate] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:22:57] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51018]: Connected via websocket
+[10:22:57] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51018]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:22:57] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51018]: Logged in as 'IceSiked'
+[10:22:57] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51018|IceSiked] -> UpstreamBridge has connected
+[10:22:57] [Netty Worker IO Thread #5/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51018] <-> ServerConnector [lobby] has connected
+[10:27:30] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51048]: Connected via websocket
+[10:27:30] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51048]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:27:30] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51048]: Logged in as 'Dark_stalker33'
+[10:27:30] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51048|Dark_stalker33] -> UpstreamBridge has connected
+[10:27:30] [Netty Worker IO Thread #7/INFO]: [Dark_stalker33|/0:0:0:0:0:0:0:1:51048] <-> ServerConnector [lobby] has connected
+[10:27:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51052]: Connected via websocket
+[10:27:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51052]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:27:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51052]: Logged in as 'DKing201'
+[10:27:55] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51052|DKing201] -> UpstreamBridge has connected
+[10:27:55] [Netty Worker IO Thread #2/INFO]: [DKing201|/0:0:0:0:0:0:0:1:51052] <-> ServerConnector [lobby] has connected
+[10:28:01] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51056]: Connected via websocket
+[10:28:01] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51056]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:28:01] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51057]: Connected via websocket
+[10:28:01] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51057]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:28:02] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51056]: Logged in as 'XXR_JustAZZA'
+[10:28:02] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51056|XXR_JustAZZA] -> UpstreamBridge has connected
+[10:28:02] [Netty Worker IO Thread #5/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51056] <-> ServerConnector [lobby] has connected
+[10:28:02] [Netty Worker IO Thread #5/INFO]: [XXR_JustAZZA] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:02] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51056|XXR_JustAZZA] -> UpstreamBridge has disconnected
+[10:28:02] [Netty Worker IO Thread #5/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51056] <-> ServerConnector [lobby] has disconnected
+[10:28:02] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51057]: Logged in as 'LachlanMSFS'
+[10:28:02] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51057|LachlanMSFS] -> UpstreamBridge has connected
+[10:28:02] [Netty Worker IO Thread #6/INFO]: [LachlanMSFS|/0:0:0:0:0:0:0:1:51057] <-> ServerConnector [lobby] has connected
+[10:28:10] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51060]: Connected via websocket
+[10:28:10] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51060]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:28:10] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51060]: Logged in as 'XXR_JustAZZA'
+[10:28:10] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51060|XXR_JustAZZA] -> UpstreamBridge has connected
+[10:28:10] [Netty Worker IO Thread #7/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51060] <-> ServerConnector [lobby] has connected
+[10:28:10] [Netty Worker IO Thread #7/INFO]: [XXR_JustAZZA] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:10] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51060|XXR_JustAZZA] -> UpstreamBridge has disconnected
+[10:28:10] [Netty Worker IO Thread #7/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51060] <-> ServerConnector [lobby] has disconnected
+[10:28:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51062]: Connected via websocket
+[10:28:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51062]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:28:17] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51062]: Logged in as 'XXR_JustAZZA'
+[10:28:17] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51062|XXR_JustAZZA] -> UpstreamBridge has connected
+[10:28:17] [Netty Worker IO Thread #0/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51062] <-> ServerConnector [lobby] has connected
+[10:28:17] [Netty Worker IO Thread #0/INFO]: [XXR_JustAZZA] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:17] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51062|XXR_JustAZZA] -> UpstreamBridge has disconnected
+[10:28:17] [Netty Worker IO Thread #0/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51062] <-> ServerConnector [lobby] has disconnected
+[10:28:23] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51064]: Connected via websocket
+[10:28:23] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51064]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:28:23] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51064]: Logged in as 'XXR_JustAZZA'
+[10:28:23] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51064|XXR_JustAZZA] -> UpstreamBridge has connected
+[10:28:23] [Netty Worker IO Thread #1/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51064] <-> ServerConnector [lobby] has connected
+[10:28:23] [Netty Worker IO Thread #1/INFO]: [XXR_JustAZZA] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:23] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51064|XXR_JustAZZA] -> UpstreamBridge has disconnected
+[10:28:23] [Netty Worker IO Thread #1/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51064] <-> ServerConnector [lobby] has disconnected
+[10:28:33] [Netty Worker IO Thread #6/INFO]: [LachlanMSFS] disconnected with: Login timed out!
+[10:28:33] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51057|LachlanMSFS] -> UpstreamBridge has disconnected
+[10:28:33] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51057|LachlanMSFS] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:28:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51066]: Connected via websocket
+[10:28:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51066]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:28:43] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51066]: Logged in as 'LachlanMSFS'
+[10:28:43] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51066|LachlanMSFS] -> UpstreamBridge has connected
+[10:28:43] [Netty Worker IO Thread #2/INFO]: [LachlanMSFS|/0:0:0:0:0:0:0:1:51066] <-> ServerConnector [lobby] has connected
+[10:28:49] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51068]: Connected via websocket
+[10:28:49] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51068]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:28:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51068]: Logged in as 'XXR_JustAZZA'
+[10:28:50] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51068|XXR_JustAZZA] -> UpstreamBridge has connected
+[10:28:50] [Netty Worker IO Thread #3/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51068] <-> ServerConnector [lobby] has connected
+[10:28:50] [Netty Worker IO Thread #3/INFO]: [XXR_JustAZZA] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:50] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51068|XXR_JustAZZA] -> UpstreamBridge has disconnected
+[10:28:50] [Netty Worker IO Thread #3/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51068] <-> ServerConnector [lobby] has disconnected
+[10:29:01] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51070]: Connected via websocket
+[10:29:01] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51070]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:29:02] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51070]: Logged in as 'XXR_JustAZZA'
+[10:29:02] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51070|XXR_JustAZZA] -> UpstreamBridge has connected
+[10:29:02] [Netty Worker IO Thread #4/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51070] <-> ServerConnector [lobby] has connected
+[10:29:02] [Netty Worker IO Thread #4/INFO]: [XXR_JustAZZA] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:29:02] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51070|XXR_JustAZZA] -> UpstreamBridge has disconnected
+[10:29:02] [Netty Worker IO Thread #4/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51070] <-> ServerConnector [lobby] has disconnected
+[10:29:14] [Netty Worker IO Thread #2/INFO]: [LachlanMSFS] disconnected with: Login timed out!
+[10:29:14] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51066|LachlanMSFS] -> UpstreamBridge has disconnected
+[10:29:14] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51066|LachlanMSFS] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:29:17] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51073]: Connected via websocket
+[10:29:17] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51073]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:29:17] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51073]: Logged in as 'XXR_JustAZZA'
+[10:29:17] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51073|XXR_JustAZZA] -> UpstreamBridge has connected
+[10:29:17] [Netty Worker IO Thread #6/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51073] <-> ServerConnector [lobby] has connected
+[10:29:17] [Netty Worker IO Thread #6/INFO]: [XXR_JustAZZA] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:29:17] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51073|XXR_JustAZZA] -> UpstreamBridge has disconnected
+[10:29:17] [Netty Worker IO Thread #6/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51073] <-> ServerConnector [lobby] has disconnected
+[10:29:30] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51075]: Connected via websocket
+[10:29:30] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51075]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:29:30] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51075]: Logged in as 'XXR_JustAZZA'
+[10:29:30] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51075|XXR_JustAZZA] -> UpstreamBridge has connected
+[10:29:30] [Netty Worker IO Thread #7/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51075] <-> ServerConnector [lobby] has connected
+[10:29:30] [Netty Worker IO Thread #7/INFO]: [XXR_JustAZZA] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:29:30] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51075|XXR_JustAZZA] -> UpstreamBridge has disconnected
+[10:29:30] [Netty Worker IO Thread #7/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51075] <-> ServerConnector [lobby] has disconnected
+[10:29:34] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51077]: Connected via websocket
+[10:29:34] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51077]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:29:34] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51077]: Logged in as 'LachlanMSFS'
+[10:29:34] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51077|LachlanMSFS] -> UpstreamBridge has connected
+[10:29:34] [Netty Worker IO Thread #0/INFO]: [LachlanMSFS|/0:0:0:0:0:0:0:1:51077] <-> ServerConnector [lobby] has connected
+[10:30:05] [Netty Worker IO Thread #0/INFO]: [LachlanMSFS] disconnected with: Login timed out!
+[10:30:05] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51077|LachlanMSFS] -> UpstreamBridge has disconnected
+[10:30:05] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51077|LachlanMSFS] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:30:22] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51018|IceSiked] -> UpstreamBridge has disconnected
+[10:30:22] [Netty Worker IO Thread #5/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[10:30:22] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51018|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:30:30] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51048|Dark_stalker33] -> UpstreamBridge has disconnected
+[10:30:30] [Netty Worker IO Thread #7/INFO]: [Dark_stalker33] disconnected with: Proxy lost connection to server.
+[10:30:30] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51048|Dark_stalker33] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:30:33] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51081]: Connected via websocket
+[10:30:33] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51081]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:30:33] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51081]: Logged in as 'LachlanMSFS'
+[10:30:33] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51081|LachlanMSFS] -> UpstreamBridge has connected
+[10:30:33] [Netty Worker IO Thread #2/INFO]: [LachlanMSFS|/0:0:0:0:0:0:0:1:51081] <-> ServerConnector [lobby] has connected
+[10:31:08] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51084]: Connected via websocket
+[10:31:08] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51084]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:31:08] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51084]: Logged in as 'Dark_stalker33'
+[10:31:08] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51084|Dark_stalker33] -> UpstreamBridge has connected
+[10:31:08] [Netty Worker IO Thread #4/INFO]: [Dark_stalker33|/0:0:0:0:0:0:0:1:51084] <-> ServerConnector [lobby] has connected
+[10:31:13] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51087]: Connected via websocket
+[10:31:13] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51087]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:31:13] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51087]: Logged in as 'XXR_JustAZZA'
+[10:31:13] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51087|XXR_JustAZZA] -> UpstreamBridge has connected
+[10:31:13] [Netty Worker IO Thread #6/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51087] <-> ServerConnector [lobby] has connected
+[10:31:13] [Netty Worker IO Thread #6/INFO]: [XXR_JustAZZA] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:31:13] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51087|XXR_JustAZZA] -> UpstreamBridge has disconnected
+[10:31:13] [Netty Worker IO Thread #6/INFO]: [XXR_JustAZZA|/0:0:0:0:0:0:0:1:51087] <-> ServerConnector [lobby] has disconnected
+[10:31:45] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51092]: Connected via websocket
+[10:31:45] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51092]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:31:46] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51092]: Logged in as 'XXR_Just_Azza'
+[10:31:46] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51092|XXR_Just_Azza] -> UpstreamBridge has connected
+[10:31:46] [Netty Worker IO Thread #2/INFO]: [XXR_Just_Azza|/0:0:0:0:0:0:0:1:51092] <-> ServerConnector [lobby] has connected
+[10:39:04] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50990|AHHHHHHHHHHHHHHH] -> UpstreamBridge has disconnected
+[10:39:04] [Netty Worker IO Thread #7/INFO]: [AHHHHHHHHHHHHHHH] disconnected with: Proxy lost connection to server.
+[10:39:04] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:50990|AHHHHHHHHHHHHHHH] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:47:33] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51084|Dark_stalker33] -> UpstreamBridge has disconnected
+[10:47:33] [Netty Worker IO Thread #4/INFO]: [Dark_stalker33] disconnected with: Proxy lost connection to server.
+[10:47:33] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51084|Dark_stalker33] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:49:35] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51110]: Connected via websocket
+[10:49:35] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51110]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:49:36] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51110]: Logged in as 'IceSiked'
+[10:49:36] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51110|IceSiked] -> UpstreamBridge has connected
+[10:49:36] [Netty Worker IO Thread #4/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51110] <-> ServerConnector [lobby] has connected
+[10:54:59] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51052|DKing201] -> UpstreamBridge has disconnected
+[10:54:59] [Netty Worker IO Thread #2/INFO]: [DKing201] disconnected with: Proxy lost connection to server.
+[10:54:59] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51052|DKing201] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:55:02] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51092|XXR_Just_Azza] -> UpstreamBridge has disconnected
+[10:55:02] [Netty Worker IO Thread #2/INFO]: [XXR_Just_Azza] disconnected with: Proxy lost connection to server.
+[10:55:02] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51092|XXR_Just_Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:55:16] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51081|LachlanMSFS] -> UpstreamBridge has disconnected
+[10:55:16] [Netty Worker IO Thread #2/INFO]: [LachlanMSFS] disconnected with: Proxy lost connection to server.
+[10:55:16] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51081|LachlanMSFS] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:55:29] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51110|IceSiked] -> UpstreamBridge has disconnected
+[10:55:29] [Netty Worker IO Thread #4/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[10:55:29] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51110|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:57:07] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51118]: Connected via websocket
+[10:57:07] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51118]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[10:57:07] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51118]: Logged in as 'IceSiked'
+[10:57:07] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51118|IceSiked] -> UpstreamBridge has connected
+[10:57:07] [Netty Worker IO Thread #7/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51118] <-> ServerConnector [lobby] has connected
+[11:01:09] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51118|IceSiked] -> UpstreamBridge has disconnected
+[11:01:09] [Netty Worker IO Thread #7/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[11:01:09] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51118|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:01:29] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51124]: Connected via websocket
+[11:01:29] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51124]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[11:01:29] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51124]: Logged in as 'IceSiked'
+[11:01:29] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51124|IceSiked] -> UpstreamBridge has connected
+[11:01:29] [Netty Worker IO Thread #1/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51124] <-> ServerConnector [lobby] has connected
+[11:04:10] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51124|IceSiked] -> UpstreamBridge has disconnected
+[11:04:10] [Netty Worker IO Thread #1/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[11:04:10] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51124|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:08:23] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51133]: Connected via websocket
+[11:08:23] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51133]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[11:08:23] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51133]: Logged in as 'IceSiked'
+[11:08:23] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51133|IceSiked] -> UpstreamBridge has connected
+[11:08:23] [Netty Worker IO Thread #4/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51133] <-> ServerConnector [lobby] has connected
+[11:19:04] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51133|IceSiked] -> UpstreamBridge has disconnected
+[11:19:04] [Netty Worker IO Thread #4/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[11:19:04] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51133|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:19:36] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51151]: Connected via websocket
+[11:19:36] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51151]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[11:19:36] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51151]: Logged in as 'IceSiked'
+[11:19:36] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51151|IceSiked] -> UpstreamBridge has connected
+[11:19:36] [Netty Worker IO Thread #6/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51151] <-> ServerConnector [lobby] has connected
+[11:43:12] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51175]: Connected via websocket
+[11:43:12] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51175]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[11:43:12] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51175]: Logged in as 'FentDealer'
+[11:43:12] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51175|FentDealer] -> UpstreamBridge has connected
+[11:43:12] [Netty Worker IO Thread #6/INFO]: [FentDealer|/0:0:0:0:0:0:0:1:51175] <-> ServerConnector [lobby] has connected
+[11:44:17] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51151|IceSiked] -> UpstreamBridge has disconnected
+[11:44:17] [Netty Worker IO Thread #6/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[11:44:17] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51151|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:44:41] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51195]: Connected via websocket
+[11:44:41] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51195]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[11:44:41] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51195]: Logged in as 'IceSiked'
+[11:44:41] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51195|IceSiked] -> UpstreamBridge has connected
+[11:44:41] [Netty Worker IO Thread #1/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51195] <-> ServerConnector [lobby] has connected
+[11:44:49] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51195|IceSiked] -> UpstreamBridge has disconnected
+[11:44:49] [Netty Worker IO Thread #1/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[11:44:49] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51195|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:44:55] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51175|FentDealer] -> UpstreamBridge has disconnected
+[11:44:55] [Netty Worker IO Thread #6/INFO]: [FentDealer] disconnected with: Proxy lost connection to server.
+[11:44:55] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51175|FentDealer] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:45:52] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51200]: Connected via websocket
+[11:45:52] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51200]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[11:45:52] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51200]: Logged in as 'FentDealer'
+[11:45:52] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51200|FentDealer] -> UpstreamBridge has connected
+[11:45:52] [Netty Worker IO Thread #4/INFO]: [FentDealer|/0:0:0:0:0:0:0:1:51200] <-> ServerConnector [lobby] has connected
+[11:58:48] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51225]: Connected via websocket
+[11:58:48] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51225]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[11:58:49] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51225]: Logged in as 'IceSiked'
+[11:58:49] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51225|IceSiked] -> UpstreamBridge has connected
+[11:58:49] [Netty Worker IO Thread #6/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51225] <-> ServerConnector [lobby] has connected
+[12:00:22] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51200|FentDealer] -> UpstreamBridge has disconnected
+[12:00:22] [Netty Worker IO Thread #4/INFO]: [FentDealer] disconnected with: Proxy lost connection to server.
+[12:00:22] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51200|FentDealer] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:20:15] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51225|IceSiked] -> UpstreamBridge has disconnected
+[12:20:15] [Netty Worker IO Thread #6/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[12:20:15] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51225|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:22:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51259]: Connected via websocket
+[12:22:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51259]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:22:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51259]: Logged in as 'IceSiked'
+[12:22:26] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51259|IceSiked] -> UpstreamBridge has connected
+[12:22:26] [Netty Worker IO Thread #1/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51259] <-> ServerConnector [lobby] has connected
+[12:24:53] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51263]: Connected via websocket
+[12:24:53] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51263]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:24:53] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51263]: Logged in as 'XXR_Just_Azza'
+[12:24:53] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51263|XXR_Just_Azza] -> UpstreamBridge has connected
+[12:24:53] [Netty Worker IO Thread #3/INFO]: [XXR_Just_Azza|/0:0:0:0:0:0:0:1:51263] <-> ServerConnector [lobby] has connected
+[12:25:23] [Netty Worker IO Thread #3/INFO]: [XXR_Just_Azza] disconnected with: Login timed out!
+[12:25:23] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51263|XXR_Just_Azza] -> UpstreamBridge has disconnected
+[12:25:23] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51263|XXR_Just_Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:25:28] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51265]: Connected via websocket
+[12:25:28] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51265]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:25:28] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51265]: Logged in as 'XXR_Just_Azza'
+[12:25:28] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51265|XXR_Just_Azza] -> UpstreamBridge has connected
+[12:25:28] [Netty Worker IO Thread #4/INFO]: [XXR_Just_Azza|/0:0:0:0:0:0:0:1:51265] <-> ServerConnector [lobby] has connected
+[12:25:51] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51265|XXR_Just_Azza] -> UpstreamBridge has disconnected
+[12:25:51] [Netty Worker IO Thread #4/INFO]: [XXR_Just_Azza] disconnected with: Proxy lost connection to server.
+[12:25:51] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51265|XXR_Just_Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:30:12] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51278]: Connected via websocket
+[12:30:12] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51278]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:30:12] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51278]: Logged in as 'rizzler_'
+[12:30:12] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51278|rizzler_] -> UpstreamBridge has connected
+[12:30:12] [Netty Worker IO Thread #5/INFO]: [rizzler_|/0:0:0:0:0:0:0:1:51278] <-> ServerConnector [lobby] has connected
+[12:30:23] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51281]: Connected via websocket
+[12:30:23] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51281]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:30:23] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51281]: Logged in as 'XXR_JustAzza'
+[12:30:23] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51281|XXR_JustAzza] -> UpstreamBridge has connected
+[12:30:23] [Netty Worker IO Thread #7/INFO]: [XXR_JustAzza|/0:0:0:0:0:0:0:1:51281] <-> ServerConnector [lobby] has connected
+[12:30:23] [Netty Worker IO Thread #7/INFO]: [XXR_JustAzza] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[12:30:23] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51281|XXR_JustAzza] -> UpstreamBridge has disconnected
+[12:30:23] [Netty Worker IO Thread #7/INFO]: [XXR_JustAzza|/0:0:0:0:0:0:0:1:51281] <-> ServerConnector [lobby] has disconnected
+[12:30:43] [Netty Worker IO Thread #5/INFO]: [rizzler_] disconnected with: Login timed out!
+[12:30:43] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51278|rizzler_] -> UpstreamBridge has disconnected
+[12:30:43] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51278|rizzler_] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:30:44] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51284]: Connected via websocket
+[12:30:44] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51284]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:30:44] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51284]: Logged in as 'XXR_Just__Azza'
+[12:30:44] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51284|XXR_Just__Azza] -> UpstreamBridge has connected
+[12:30:44] [Netty Worker IO Thread #1/INFO]: [XXR_Just__Azza|/0:0:0:0:0:0:0:1:51284] <-> ServerConnector [lobby] has connected
+[12:31:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51287]: Connected via websocket
+[12:31:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51287]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:31:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51287]: Logged in as 'rizzler_'
+[12:31:03] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51287|rizzler_] -> UpstreamBridge has connected
+[12:31:03] [Netty Worker IO Thread #3/INFO]: [rizzler_|/0:0:0:0:0:0:0:1:51287] <-> ServerConnector [lobby] has connected
+[12:31:14] [Netty Worker IO Thread #1/INFO]: [XXR_Just__Azza] disconnected with: Login timed out!
+[12:31:14] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51284|XXR_Just__Azza] -> UpstreamBridge has disconnected
+[12:31:14] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51284|XXR_Just__Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:31:18] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51289]: Connected via websocket
+[12:31:18] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51289]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:31:19] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51289]: Logged in as 'XXR_Just__Azza'
+[12:31:19] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51289|XXR_Just__Azza] -> UpstreamBridge has connected
+[12:31:19] [Netty Worker IO Thread #4/INFO]: [XXR_Just__Azza|/0:0:0:0:0:0:0:1:51289] <-> ServerConnector [lobby] has connected
+[12:31:34] [Netty Worker IO Thread #3/INFO]: [rizzler_] disconnected with: Login timed out!
+[12:31:34] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51287|rizzler_] -> UpstreamBridge has disconnected
+[12:31:34] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51287|rizzler_] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:31:40] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51291]: Connected via websocket
+[12:31:40] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51291]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:31:40] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51291]: Logged in as 'rizzler_'
+[12:31:40] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51291|rizzler_] -> UpstreamBridge has connected
+[12:31:40] [Netty Worker IO Thread #5/INFO]: [rizzler_|/0:0:0:0:0:0:0:1:51291] <-> ServerConnector [lobby] has connected
+[12:32:11] [Netty Worker IO Thread #5/INFO]: [rizzler_] disconnected with: Login timed out!
+[12:32:11] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51291|rizzler_] -> UpstreamBridge has disconnected
+[12:32:11] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51291|rizzler_] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:32:19] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51294]: Connected via websocket
+[12:32:19] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51294]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:32:19] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51294]: Logged in as 'rizzler_'
+[12:32:19] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51294|rizzler_] -> UpstreamBridge has connected
+[12:32:19] [Netty Worker IO Thread #6/INFO]: [rizzler_|/0:0:0:0:0:0:0:1:51294] <-> ServerConnector [lobby] has connected
+[12:32:50] [Netty Worker IO Thread #6/INFO]: [rizzler_] disconnected with: Login timed out!
+[12:32:50] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51294|rizzler_] -> UpstreamBridge has disconnected
+[12:32:50] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51294|rizzler_] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:32:55] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51296]: Connected via websocket
+[12:32:55] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51296]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:32:56] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51296]: Logged in as 'rizzler_'
+[12:32:56] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51296|rizzler_] -> UpstreamBridge has connected
+[12:32:56] [Netty Worker IO Thread #7/INFO]: [rizzler_|/0:0:0:0:0:0:0:1:51296] <-> ServerConnector [lobby] has connected
+[12:33:26] [Netty Worker IO Thread #7/INFO]: [rizzler_] disconnected with: Login timed out!
+[12:33:26] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51296|rizzler_] -> UpstreamBridge has disconnected
+[12:33:26] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51296|rizzler_] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:33:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51298]: Connected via websocket
+[12:33:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51298]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:33:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51298]: Logged in as 'rizzler_'
+[12:33:40] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51298|rizzler_] -> UpstreamBridge has connected
+[12:33:40] [Netty Worker IO Thread #0/INFO]: [rizzler_|/0:0:0:0:0:0:0:1:51298] <-> ServerConnector [lobby] has connected
+[12:34:11] [Netty Worker IO Thread #0/INFO]: [rizzler_] disconnected with: Login timed out!
+[12:34:11] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51298|rizzler_] -> UpstreamBridge has disconnected
+[12:34:11] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51298|rizzler_] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:34:22] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51300]: Connected via websocket
+[12:34:22] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51300]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:34:22] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51300]: Logged in as 'rizzler_'
+[12:34:22] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51300|rizzler_] -> UpstreamBridge has connected
+[12:34:22] [Netty Worker IO Thread #1/INFO]: [rizzler_|/0:0:0:0:0:0:0:1:51300] <-> ServerConnector [lobby] has connected
+[12:34:53] [Netty Worker IO Thread #1/INFO]: [rizzler_] disconnected with: Login timed out!
+[12:34:53] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51300|rizzler_] -> UpstreamBridge has disconnected
+[12:34:53] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51300|rizzler_] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:36:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51304]: Connected via websocket
+[12:36:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51304]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:36:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51304]: Logged in as 'rizzler'
+[12:36:37] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51304|rizzler] -> UpstreamBridge has connected
+[12:36:37] [Netty Worker IO Thread #3/INFO]: [rizzler|/0:0:0:0:0:0:0:1:51304] <-> ServerConnector [lobby] has connected
+[12:37:08] [Netty Worker IO Thread #3/INFO]: [rizzler] disconnected with: Login timed out!
+[12:37:08] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51304|rizzler] -> UpstreamBridge has disconnected
+[12:37:08] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51304|rizzler] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:37:13] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51308]: Connected via websocket
+[12:37:13] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51308]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:37:13] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51308]: Logged in as 'rizzler'
+[12:37:13] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51308|rizzler] -> UpstreamBridge has connected
+[12:37:13] [Netty Worker IO Thread #4/INFO]: [rizzler|/0:0:0:0:0:0:0:1:51308] <-> ServerConnector [lobby] has connected
+[12:39:38] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51289|XXR_Just__Azza] -> UpstreamBridge has disconnected
+[12:39:38] [Netty Worker IO Thread #4/INFO]: [XXR_Just__Azza] disconnected with: Proxy lost connection to server.
+[12:39:38] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51289|XXR_Just__Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:39:55] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51308|rizzler] -> UpstreamBridge has disconnected
+[12:39:55] [Netty Worker IO Thread #4/INFO]: [rizzler] disconnected with: Proxy lost connection to server.
+[12:39:55] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51308|rizzler] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:40:19] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51313]: Connected via websocket
+[12:40:19] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51313]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:40:20] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51313]: Logged in as 'XXR_Just__Azza'
+[12:40:20] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51313|XXR_Just__Azza] -> UpstreamBridge has connected
+[12:40:20] [Netty Worker IO Thread #6/INFO]: [XXR_Just__Azza|/0:0:0:0:0:0:0:1:51313] <-> ServerConnector [lobby] has connected
+[12:40:36] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51313|XXR_Just__Azza] -> UpstreamBridge has disconnected
+[12:40:36] [Netty Worker IO Thread #6/INFO]: [XXR_Just__Azza] disconnected with: Proxy lost connection to server.
+[12:40:36] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51313|XXR_Just__Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:45:12] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51259|IceSiked] -> UpstreamBridge has disconnected
+[12:45:12] [Netty Worker IO Thread #1/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[12:45:12] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51259|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:48:22] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51321]: Connected via websocket
+[12:48:22] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51321]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:48:22] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51321]: Logged in as 'AHHHHHHHHHHHHHHH'
+[12:48:22] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51321|AHHHHHHHHHHHHHHH] -> UpstreamBridge has connected
+[12:48:22] [Netty Worker IO Thread #0/INFO]: [AHHHHHHHHHHHHHHH|/0:0:0:0:0:0:0:1:51321] <-> ServerConnector [lobby] has connected
+[12:53:43] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51329]: Connected via websocket
+[12:53:43] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51329]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[12:53:43] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51329]: Logged in as 'IceSiked'
+[12:53:43] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51329|IceSiked] -> UpstreamBridge has connected
+[12:53:43] [Netty Worker IO Thread #2/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51329] <-> ServerConnector [lobby] has connected
+[13:20:53] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51329|IceSiked] -> UpstreamBridge has disconnected
+[13:20:53] [Netty Worker IO Thread #2/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[13:20:53] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51329|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:21:04] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51321|AHHHHHHHHHHHHHHH] -> UpstreamBridge has disconnected
+[13:21:04] [Netty Worker IO Thread #0/INFO]: [AHHHHHHHHHHHHHHH] disconnected with: Proxy lost connection to server.
+[13:21:04] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51321|AHHHHHHHHHHHHHHH] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:23:09] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51358]: Connected via websocket
+[13:23:09] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51358]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[13:23:09] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51358]: Logged in as 'FentDealer'
+[13:23:09] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51358|FentDealer] -> UpstreamBridge has connected
+[13:23:09] [Netty Worker IO Thread #4/INFO]: [FentDealer|/0:0:0:0:0:0:0:1:51358] <-> ServerConnector [lobby] has connected
+[13:23:42] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51361]: Connected via websocket
+[13:23:42] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51361]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[13:23:42] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51361]: Logged in as 'IceSiked'
+[13:23:42] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51361|IceSiked] -> UpstreamBridge has connected
+[13:23:42] [Netty Worker IO Thread #6/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51361] <-> ServerConnector [lobby] has connected
+[13:25:06] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51358|FentDealer] -> UpstreamBridge has disconnected
+[13:25:06] [Netty Worker IO Thread #4/INFO]: [FentDealer] disconnected with: Proxy lost connection to server.
+[13:25:06] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51358|FentDealer] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:25:39] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51365]: Connected via websocket
+[13:25:39] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51365]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[13:25:39] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51365]: Logged in as 'AHHHHHHHHHHHHHHH'
+[13:25:39] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51365|AHHHHHHHHHHHHHHH] -> UpstreamBridge has connected
+[13:25:39] [Netty Worker IO Thread #0/INFO]: [AHHHHHHHHHHHHHHH|/0:0:0:0:0:0:0:1:51365] <-> ServerConnector [lobby] has connected
+[13:26:08] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51367]: Connected via websocket
+[13:26:08] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51367]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[13:26:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51367]: Logged in as 'FentDealer'
+[13:26:09] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51367|FentDealer] -> UpstreamBridge has connected
+[13:26:09] [Netty Worker IO Thread #1/INFO]: [FentDealer|/0:0:0:0:0:0:0:1:51367] <-> ServerConnector [lobby] has connected
+[13:28:35] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51367|FentDealer] -> UpstreamBridge has disconnected
+[13:28:35] [Netty Worker IO Thread #1/INFO]: [FentDealer] disconnected with: Proxy lost connection to server.
+[13:28:35] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51367|FentDealer] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:51:50] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51426]: Connected via websocket
+[13:51:50] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51426]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[13:51:51] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51426]: Logged in as 'XXR_Just__Azza'
+[13:51:51] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51426|XXR_Just__Azza] -> UpstreamBridge has connected
+[13:51:51] [Netty Worker IO Thread #0/INFO]: [XXR_Just__Azza|/0:0:0:0:0:0:0:1:51426] <-> ServerConnector [lobby] has connected
+[13:53:58] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51436]: Connected via websocket
+[13:53:58] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51436]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[13:53:58] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51436]: Logged in as 'Dark_stalker33'
+[13:53:58] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51436|Dark_stalker33] -> UpstreamBridge has connected
+[13:53:58] [Netty Worker IO Thread #0/INFO]: [Dark_stalker33|/0:0:0:0:0:0:0:1:51436] <-> ServerConnector [lobby] has connected
+[13:55:16] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51361|IceSiked] -> UpstreamBridge has disconnected
+[13:55:16] [Netty Worker IO Thread #6/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[13:55:16] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51361|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:04:17] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51452]: Connected via websocket
+[14:04:17] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51452]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:04:18] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51452]: Logged in as 'rizzler'
+[14:04:18] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51452|rizzler] -> UpstreamBridge has connected
+[14:04:18] [Netty Worker IO Thread #1/INFO]: [rizzler|/0:0:0:0:0:0:0:1:51452] <-> ServerConnector [lobby] has connected
+[14:07:06] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51471]: Connected via websocket
+[14:07:06] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51471]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:07:06] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51471]: Logged in as 'MrMate'
+[14:07:06] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51471|MrMate] -> UpstreamBridge has connected
+[14:07:06] [Netty Worker IO Thread #7/INFO]: [MrMate|/0:0:0:0:0:0:0:1:51471] <-> ServerConnector [lobby] has connected
+[14:08:01] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51474]: Connected via websocket
+[14:08:01] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51474]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:08:01] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51474]: Logged in as 'XXR_justHuddo'
+[14:08:02] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51474|XXR_justHuddo] -> UpstreamBridge has connected
+[14:08:02] [Netty Worker IO Thread #1/INFO]: [XXR_justHuddo|/0:0:0:0:0:0:0:1:51474] <-> ServerConnector [lobby] has connected
+[14:12:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51496]: Connected via websocket
+[14:12:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51496]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:12:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51496]: Logged in as 'DKing201'
+[14:12:12] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51496|DKing201] -> UpstreamBridge has connected
+[14:12:12] [Netty Worker IO Thread #1/INFO]: [DKing201|/0:0:0:0:0:0:0:1:51496] <-> ServerConnector [lobby] has connected
+[14:14:41] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51500]: Connected via websocket
+[14:14:41] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51500]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:14:41] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51500]: Logged in as 'IceSiked'
+[14:14:41] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51500|IceSiked] -> UpstreamBridge has connected
+[14:14:41] [Netty Worker IO Thread #2/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51500] <-> ServerConnector [lobby] has connected
+[14:15:09] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51365|AHHHHHHHHHHHHHHH] -> UpstreamBridge has disconnected
+[14:15:09] [Netty Worker IO Thread #0/INFO]: [AHHHHHHHHHHHHHHH] disconnected with: Proxy lost connection to server.
+[14:15:09] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51365|AHHHHHHHHHHHHHHH] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:15:10] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51500|IceSiked] -> UpstreamBridge has disconnected
+[14:15:10] [Netty Worker IO Thread #2/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[14:15:10] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51500|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:16:55] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51506]: Connected via websocket
+[14:16:55] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51506]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:16:55] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51506]: Logged in as 'IceSiked'
+[14:16:55] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51506|IceSiked] -> UpstreamBridge has connected
+[14:16:55] [Netty Worker IO Thread #6/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51506] <-> ServerConnector [lobby] has connected
+[14:17:35] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51506|IceSiked] -> UpstreamBridge has disconnected
+[14:17:35] [Netty Worker IO Thread #6/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[14:17:35] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51506|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:18:43] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51510]: Connected via websocket
+[14:18:43] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51510]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:18:43] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51510]: Logged in as 'IceSiked'
+[14:18:43] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51510|IceSiked] -> UpstreamBridge has connected
+[14:18:43] [Netty Worker IO Thread #0/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51510] <-> ServerConnector [lobby] has connected
+[14:19:18] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51510|IceSiked] -> UpstreamBridge has disconnected
+[14:19:18] [Netty Worker IO Thread #0/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[14:19:18] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51510|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:19:21] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51514]: Connected via websocket
+[14:19:21] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51514]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:19:22] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51514]: Logged in as 'AHHHHHHHHHHHHHHH'
+[14:19:22] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51514|AHHHHHHHHHHHHHHH] -> UpstreamBridge has connected
+[14:19:22] [Netty Worker IO Thread #2/INFO]: [AHHHHHHHHHHHHHHH|/0:0:0:0:0:0:0:1:51514] <-> ServerConnector [lobby] has connected
+[14:21:08] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51518]: Connected via websocket
+[14:21:08] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51518]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:21:08] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51518]: Logged in as 'IceSiked'
+[14:21:08] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51518|IceSiked] -> UpstreamBridge has connected
+[14:21:08] [Netty Worker IO Thread #4/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51518] <-> ServerConnector [lobby] has connected
+[14:22:21] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51514|AHHHHHHHHHHHHHHH] -> UpstreamBridge has disconnected
+[14:22:21] [Netty Worker IO Thread #2/INFO]: [AHHHHHHHHHHHHHHH] disconnected with: Proxy lost connection to server.
+[14:22:21] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51514|AHHHHHHHHHHHHHHH] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:25:06] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51452|rizzler] -> UpstreamBridge has disconnected
+[14:25:06] [Netty Worker IO Thread #1/INFO]: [rizzler] disconnected with: Proxy lost connection to server.
+[14:25:06] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51452|rizzler] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:26:46] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51518|IceSiked] -> UpstreamBridge has disconnected
+[14:26:46] [Netty Worker IO Thread #4/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[14:26:46] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51518|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:27:04] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51474|XXR_justHuddo] -> UpstreamBridge has disconnected
+[14:27:04] [Netty Worker IO Thread #1/INFO]: [XXR_justHuddo] disconnected with: Proxy lost connection to server.
+[14:27:04] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51474|XXR_justHuddo] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:27:13] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51534]: Connected via websocket
+[14:27:13] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51534]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:27:14] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51534]: Logged in as 'XXR_justHuddo'
+[14:27:14] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51534|XXR_justHuddo] -> UpstreamBridge has connected
+[14:27:14] [Netty Worker IO Thread #7/INFO]: [XXR_justHuddo|/0:0:0:0:0:0:0:1:51534] <-> ServerConnector [lobby] has connected
+[14:27:17] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51538]: Connected via websocket
+[14:27:17] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51538]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:27:17] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51538]: Logged in as 'rizzler'
+[14:27:17] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51538|rizzler] -> UpstreamBridge has connected
+[14:27:17] [Netty Worker IO Thread #1/INFO]: [rizzler|/0:0:0:0:0:0:0:1:51538] <-> ServerConnector [lobby] has connected
+[14:27:46] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51496|DKing201] -> UpstreamBridge has disconnected
+[14:27:46] [Netty Worker IO Thread #1/INFO]: [DKing201] disconnected with: Proxy lost connection to server.
+[14:27:46] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51496|DKing201] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:29:18] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51542]: Connected via websocket
+[14:29:18] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51542]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:29:18] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51542]: Logged in as 'IceSiked'
+[14:29:18] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51542|IceSiked] -> UpstreamBridge has connected
+[14:29:18] [Netty Worker IO Thread #4/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51542] <-> ServerConnector [lobby] has connected
+[14:32:00] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51471|MrMate] -> UpstreamBridge has disconnected
+[14:32:00] [Netty Worker IO Thread #7/INFO]: [MrMate] disconnected with: Proxy lost connection to server.
+[14:32:00] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51471|MrMate] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:32:02] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51542|IceSiked] -> UpstreamBridge has disconnected
+[14:32:02] [Netty Worker IO Thread #4/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[14:32:02] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51542|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:34:32] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51548]: Connected via websocket
+[14:34:32] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51548]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:34:32] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51548]: Logged in as 'MrMate'
+[14:34:32] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51548|MrMate] -> UpstreamBridge has connected
+[14:34:32] [Netty Worker IO Thread #7/INFO]: [MrMate|/0:0:0:0:0:0:0:1:51548] <-> ServerConnector [lobby] has connected
+[14:35:45] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51534|XXR_justHuddo] -> UpstreamBridge has disconnected
+[14:35:45] [Netty Worker IO Thread #7/INFO]: [XXR_justHuddo] disconnected with: Proxy lost connection to server.
+[14:35:45] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51534|XXR_justHuddo] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:38:22] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51564]: Connected via websocket
+[14:38:22] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51564]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:38:22] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51564]: Logged in as 'IceSiked'
+[14:38:22] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51564|IceSiked] -> UpstreamBridge has connected
+[14:38:22] [Netty Worker IO Thread #4/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51564] <-> ServerConnector [lobby] has connected
+[14:38:56] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51568]: Connected via websocket
+[14:38:56] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51568]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:38:56] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51568]: Logged in as 'YeeYeeish988'
+[14:38:56] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51568|YeeYeeish988] -> UpstreamBridge has connected
+[14:38:56] [Netty Worker IO Thread #6/INFO]: [YeeYeeish988|/0:0:0:0:0:0:0:1:51568] <-> ServerConnector [lobby] has connected
+[14:39:27] [Netty Worker IO Thread #6/INFO]: [YeeYeeish988] disconnected with: Login timed out!
+[14:39:27] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51568|YeeYeeish988] -> UpstreamBridge has disconnected
+[14:39:27] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51568|YeeYeeish988] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:40:00] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51564|IceSiked] -> UpstreamBridge has disconnected
+[14:40:00] [Netty Worker IO Thread #4/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[14:40:00] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51564|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:41:39] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51573]: Connected via websocket
+[14:41:39] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51573]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:41:40] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51573]: Logged in as 'XXR_justHuddo'
+[14:41:40] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51573|XXR_justHuddo] -> UpstreamBridge has connected
+[14:41:40] [Netty Worker IO Thread #1/INFO]: [XXR_justHuddo|/0:0:0:0:0:0:0:1:51573] <-> ServerConnector [lobby] has connected
+[14:41:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51575]: Connected via websocket
+[14:41:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51575]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:41:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51575]: Logged in as 'itsa_me_kyson_'
+[14:41:42] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51575|itsa_me_kyson_] -> UpstreamBridge has connected
+[14:41:42] [Netty Worker IO Thread #2/INFO]: [itsa_me_kyson_|/0:0:0:0:0:0:0:1:51575] <-> ServerConnector [lobby] has connected
+[14:42:13] [Netty Worker IO Thread #2/INFO]: [itsa_me_kyson_] disconnected with: Login timed out!
+[14:42:13] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51575|itsa_me_kyson_] -> UpstreamBridge has disconnected
+[14:42:13] [Netty Worker IO Thread #2/INFO]: [/0:0:0:0:0:0:0:1:51575|itsa_me_kyson_] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:42:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51580]: Connected via websocket
+[14:42:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51580]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:42:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51580]: Logged in as 'itsa_me_kyson_'
+[14:42:19] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51580|itsa_me_kyson_] -> UpstreamBridge has connected
+[14:42:19] [Netty Worker IO Thread #3/INFO]: [itsa_me_kyson_|/0:0:0:0:0:0:0:1:51580] <-> ServerConnector [lobby] has connected
+[14:42:50] [Netty Worker IO Thread #3/INFO]: [itsa_me_kyson_] disconnected with: Login timed out!
+[14:42:50] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51580|itsa_me_kyson_] -> UpstreamBridge has disconnected
+[14:42:50] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51580|itsa_me_kyson_] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:42:54] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51582]: Connected via websocket
+[14:42:54] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51582]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:42:54] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51582]: Logged in as 'itsa_me_kyson_'
+[14:42:54] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51582|itsa_me_kyson_] -> UpstreamBridge has connected
+[14:42:54] [Netty Worker IO Thread #4/INFO]: [itsa_me_kyson_|/0:0:0:0:0:0:0:1:51582] <-> ServerConnector [lobby] has connected
+[14:43:25] [Netty Worker IO Thread #4/INFO]: [itsa_me_kyson_] disconnected with: Login timed out!
+[14:43:25] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51582|itsa_me_kyson_] -> UpstreamBridge has disconnected
+[14:43:25] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:51582|itsa_me_kyson_] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:44:42] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51584]: Connected via websocket
+[14:44:42] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51584]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:44:42] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51584]: Logged in as 'itsa_me_kyson_'
+[14:44:42] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51584|itsa_me_kyson_] -> UpstreamBridge has connected
+[14:44:42] [Netty Worker IO Thread #5/INFO]: [itsa_me_kyson_|/0:0:0:0:0:0:0:1:51584] <-> ServerConnector [lobby] has connected
+[14:45:12] [Netty Worker IO Thread #5/INFO]: [itsa_me_kyson_] disconnected with: Login timed out!
+[14:45:12] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51584|itsa_me_kyson_] -> UpstreamBridge has disconnected
+[14:45:12] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51584|itsa_me_kyson_] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:45:17] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51587]: Connected via websocket
+[14:45:17] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51587]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:45:17] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51587]: Logged in as 'itsa_me_kyson_'
+[14:45:17] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51587|itsa_me_kyson_] -> UpstreamBridge has connected
+[14:45:17] [Netty Worker IO Thread #6/INFO]: [itsa_me_kyson_|/0:0:0:0:0:0:0:1:51587] <-> ServerConnector [lobby] has connected
+[14:45:23] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51538|rizzler] -> UpstreamBridge has disconnected
+[14:45:23] [Netty Worker IO Thread #1/INFO]: [rizzler] disconnected with: Proxy lost connection to server.
+[14:45:23] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51538|rizzler] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:45:33] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51587|itsa_me_kyson_] -> UpstreamBridge has disconnected
+[14:45:33] [Netty Worker IO Thread #6/INFO]: [itsa_me_kyson_] disconnected with: Proxy lost connection to server.
+[14:45:33] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:51587|itsa_me_kyson_] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:45:45] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51589]: Connected via websocket
+[14:45:45] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51589]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:45:45] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51589]: Logged in as 'rizzler'
+[14:45:45] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51589|rizzler] -> UpstreamBridge has connected
+[14:45:45] [Netty Worker IO Thread #7/INFO]: [rizzler|/0:0:0:0:0:0:0:1:51589] <-> ServerConnector [lobby] has connected
+[14:46:11] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51573|XXR_justHuddo] -> UpstreamBridge has disconnected
+[14:46:11] [Netty Worker IO Thread #1/INFO]: [XXR_justHuddo] disconnected with: Proxy lost connection to server.
+[14:46:11] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51573|XXR_justHuddo] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:46:32] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51594]: Connected via websocket
+[14:46:32] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51594]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:46:32] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51594]: Logged in as 'IceSiked'
+[14:46:32] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51594|IceSiked] -> UpstreamBridge has connected
+[14:46:32] [Netty Worker IO Thread #3/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51594] <-> ServerConnector [lobby] has connected
+[14:47:06] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51597]: Connected via websocket
+[14:47:06] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51597]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:47:06] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51597]: Logged in as 'skibidirizzrizz'
+[14:47:06] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51597|skibidirizzrizz] -> UpstreamBridge has connected
+[14:47:06] [Netty Worker IO Thread #5/INFO]: [skibidirizzrizz|/0:0:0:0:0:0:0:1:51597] <-> ServerConnector [lobby] has connected
+[14:47:17] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51597|skibidirizzrizz] -> UpstreamBridge has disconnected
+[14:47:17] [Netty Worker IO Thread #5/INFO]: [skibidirizzrizz] disconnected with: Proxy lost connection to server.
+[14:47:17] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51597|skibidirizzrizz] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:47:19] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51594|IceSiked] -> UpstreamBridge has disconnected
+[14:47:19] [Netty Worker IO Thread #3/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[14:47:19] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:51594|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:49:26] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51548|MrMate] -> UpstreamBridge has disconnected
+[14:49:26] [Netty Worker IO Thread #7/INFO]: [MrMate] disconnected with: Proxy lost connection to server.
+[14:49:26] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51548|MrMate] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:51:01] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51604]: Connected via websocket
+[14:51:01] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51604]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[14:51:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51604]: Logged in as 'MrMate'
+[14:51:02] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51604|MrMate] -> UpstreamBridge has connected
+[14:51:02] [Netty Worker IO Thread #0/INFO]: [MrMate|/0:0:0:0:0:0:0:1:51604] <-> ServerConnector [lobby] has connected
+[14:56:08] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51426|XXR_Just__Azza] -> UpstreamBridge has disconnected
+[14:56:08] [Netty Worker IO Thread #0/INFO]: [XXR_Just__Azza] disconnected with: Proxy lost connection to server.
+[14:56:08] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51426|XXR_Just__Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:56:09] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51436|Dark_stalker33] -> UpstreamBridge has disconnected
+[14:56:09] [Netty Worker IO Thread #0/INFO]: [Dark_stalker33] disconnected with: Proxy lost connection to server.
+[14:56:09] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51436|Dark_stalker33] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:58:16] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51589|rizzler] -> UpstreamBridge has disconnected
+[14:58:16] [Netty Worker IO Thread #7/INFO]: [rizzler] disconnected with: Proxy lost connection to server.
+[14:58:16] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:51589|rizzler] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:59:01] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51604|MrMate] -> UpstreamBridge has disconnected
+[14:59:01] [Netty Worker IO Thread #0/INFO]: [MrMate] disconnected with: Proxy lost connection to server.
+[14:59:01] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:51604|MrMate] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:27:22] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51713]: Connected via websocket
+[15:27:22] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51713]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[15:27:22] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51713]: Logged in as 'DKing201'
+[15:27:22] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51713|DKing201] -> UpstreamBridge has connected
+[15:27:22] [Netty Worker IO Thread #1/INFO]: [DKing201|/0:0:0:0:0:0:0:1:51713] <-> ServerConnector [lobby] has connected
+[15:28:52] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51713|DKing201] -> UpstreamBridge has disconnected
+[15:28:52] [Netty Worker IO Thread #1/INFO]: [DKing201] disconnected with: Proxy lost connection to server.
+[15:28:52] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:51713|DKing201] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:32:34] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51720]: Connected via websocket
+[15:32:34] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51720]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[15:32:34] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:51720]: Logged in as 'IceSiked'
+[15:32:34] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51720|IceSiked] -> UpstreamBridge has connected
+[15:32:34] [Netty Worker IO Thread #5/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:51720] <-> ServerConnector [lobby] has connected
+[15:33:56] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51720|IceSiked] -> UpstreamBridge has disconnected
+[15:33:56] [Netty Worker IO Thread #5/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[15:33:56] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:51720|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:41:24] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:64816]: Connected via websocket
+[15:41:24] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:64816]: Origin header is http://localhost:8081
+[15:41:24] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:64816]: Logged in as 'itsa_me_kyson_'
+[15:41:24] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:64816|itsa_me_kyson_] -> UpstreamBridge has connected
+[15:41:24] [Netty Worker IO Thread #3/INFO]: [itsa_me_kyson_|/0:0:0:0:0:0:0:1:64816] <-> ServerConnector [lobby] has connected
+[15:41:55] [Netty Worker IO Thread #3/INFO]: [itsa_me_kyson_] disconnected with: Login timed out!
+[15:41:55] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:64816|itsa_me_kyson_] -> UpstreamBridge has disconnected
+[15:41:55] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:64816|itsa_me_kyson_] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:42:32] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:64822]: Connected via websocket
+[15:42:32] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:64822]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[15:42:33] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:64822]: Logged in as 'LachlanMSFS'
+[15:42:33] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:64822|LachlanMSFS] -> UpstreamBridge has connected
+[15:42:33] [Netty Worker IO Thread #5/INFO]: [LachlanMSFS|/0:0:0:0:0:0:0:1:64822] <-> ServerConnector [lobby] has connected
+[15:47:37] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65071]: Connected via websocket
+[15:47:37] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65071]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[15:47:37] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65071]: Logged in as 'XXR_Just__Azza'
+[15:47:37] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:65071|XXR_Just__Azza] -> UpstreamBridge has connected
+[15:47:37] [Netty Worker IO Thread #5/INFO]: [XXR_Just__Azza|/0:0:0:0:0:0:0:1:65071] <-> ServerConnector [lobby] has connected
+[15:48:07] [Netty Worker IO Thread #5/INFO]: [XXR_Just__Azza] disconnected with: Login timed out!
+[15:48:07] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:65071|XXR_Just__Azza] -> UpstreamBridge has disconnected
+[15:48:07] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:65071|XXR_Just__Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:48:12] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65073]: Connected via websocket
+[15:48:12] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65073]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[15:48:13] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65073]: Logged in as 'XXR_Just__Azza'
+[15:48:13] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:65073|XXR_Just__Azza] -> UpstreamBridge has connected
+[15:48:13] [Netty Worker IO Thread #6/INFO]: [XXR_Just__Azza|/0:0:0:0:0:0:0:1:65073] <-> ServerConnector [lobby] has connected
+[15:48:43] [Netty Worker IO Thread #6/INFO]: [XXR_Just__Azza] disconnected with: Login timed out!
+[15:48:43] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:65073|XXR_Just__Azza] -> UpstreamBridge has disconnected
+[15:48:43] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:65073|XXR_Just__Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:48:47] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65076]: Connected via websocket
+[15:48:47] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65076]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[15:48:47] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65076]: Logged in as 'XXR_Just__Azza'
+[15:48:47] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:65076|XXR_Just__Azza] -> UpstreamBridge has connected
+[15:48:47] [Netty Worker IO Thread #7/INFO]: [XXR_Just__Azza|/0:0:0:0:0:0:0:1:65076] <-> ServerConnector [lobby] has connected
+[15:49:18] [Netty Worker IO Thread #7/INFO]: [XXR_Just__Azza] disconnected with: Login timed out!
+[15:49:18] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:65076|XXR_Just__Azza] -> UpstreamBridge has disconnected
+[15:49:18] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:65076|XXR_Just__Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:49:21] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65080]: Connected via websocket
+[15:49:21] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65080]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[15:49:22] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65080]: Logged in as 'XXR_Just__Azza'
+[15:49:22] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:65080|XXR_Just__Azza] -> UpstreamBridge has connected
+[15:49:22] [Netty Worker IO Thread #0/INFO]: [XXR_Just__Azza|/0:0:0:0:0:0:0:1:65080] <-> ServerConnector [lobby] has connected
+[15:49:52] [Netty Worker IO Thread #0/INFO]: [XXR_Just__Azza] disconnected with: Login timed out!
+[15:49:52] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:65080|XXR_Just__Azza] -> UpstreamBridge has disconnected
+[15:49:52] [Netty Worker IO Thread #0/INFO]: [/0:0:0:0:0:0:0:1:65080|XXR_Just__Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:49:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65083]: Connected via websocket
+[15:49:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65083]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[15:49:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65083]: Logged in as 'XXR_Just__Azza'
+[15:49:57] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:65083|XXR_Just__Azza] -> UpstreamBridge has connected
+[15:49:57] [Netty Worker IO Thread #1/INFO]: [XXR_Just__Azza|/0:0:0:0:0:0:0:1:65083] <-> ServerConnector [lobby] has connected
+[15:55:01] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65207]: Connected via websocket
+[15:55:01] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65207]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[15:55:01] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65207]: Logged in as 'kyskibidi'
+[15:55:01] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:65207|kyskibidi] -> UpstreamBridge has connected
+[15:55:01] [Netty Worker IO Thread #1/INFO]: [kyskibidi|/0:0:0:0:0:0:0:1:65207] <-> ServerConnector [lobby] has connected
+[16:05:47] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:64822|LachlanMSFS] -> UpstreamBridge has disconnected
+[16:05:47] [Netty Worker IO Thread #5/INFO]: [LachlanMSFS] disconnected with: Proxy lost connection to server.
+[16:05:47] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:64822|LachlanMSFS] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:05:48] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:65083|XXR_Just__Azza] -> UpstreamBridge has disconnected
+[16:05:48] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:65207|kyskibidi] -> UpstreamBridge has disconnected
+[16:05:48] [Netty Worker IO Thread #1/INFO]: [XXR_Just__Azza] disconnected with: Proxy lost connection to server.
+[16:05:48] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:65083|XXR_Just__Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:05:48] [Netty Worker IO Thread #1/INFO]: [kyskibidi] disconnected with: Proxy lost connection to server.
+[16:05:48] [Netty Worker IO Thread #1/INFO]: [/0:0:0:0:0:0:0:1:65207|kyskibidi] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:10:34] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65252]: Connected via websocket
+[16:10:34] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65252]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[16:10:34] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65252]: Logged in as 'lachlanMSFS'
+[16:10:34] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:65252|lachlanMSFS] -> UpstreamBridge has connected
+[16:10:34] [Netty Worker IO Thread #7/INFO]: [lachlanMSFS|/0:0:0:0:0:0:0:1:65252] <-> ServerConnector [lobby] has connected
+[16:10:34] [Netty Worker IO Thread #7/INFO]: [lachlanMSFS] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name LachlanMSFS, please log in as such.
+[16:10:34] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:65252|lachlanMSFS] -> UpstreamBridge has disconnected
+[16:10:34] [Netty Worker IO Thread #7/INFO]: [lachlanMSFS|/0:0:0:0:0:0:0:1:65252] <-> ServerConnector [lobby] has disconnected
+[16:11:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65284]: Connected via websocket
+[16:11:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65284]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[16:11:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65284]: Logged in as 'XXR_Just__Azza'
+[16:11:35] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:65284|XXR_Just__Azza] -> UpstreamBridge has connected
+[16:11:35] [Netty Worker IO Thread #3/INFO]: [XXR_Just__Azza|/0:0:0:0:0:0:0:1:65284] <-> ServerConnector [lobby] has connected
+[16:11:56] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:65284|XXR_Just__Azza] -> UpstreamBridge has disconnected
+[16:11:56] [Netty Worker IO Thread #3/INFO]: [XXR_Just__Azza] disconnected with: Proxy lost connection to server.
+[16:11:56] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:65284|XXR_Just__Azza] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:12:14] [EaglerXBungee: Network Tick Tasks/ERROR] [EaglercraftXBungee]: Failed to download certificate: https://eaglercraft.com/backup.cert
+[16:12:14] [EaglerXBungee: Network Tick Tasks/ERROR] [EaglercraftXBungee]: Reason: java.net.UnknownHostException: eaglercraft.com
+[16:12:14] [EaglerXBungee: Network Tick Tasks/ERROR] [EaglercraftXBungee]: Failed to download certificate: https://deev.is/eagler/backup.cert
+[16:12:14] [EaglerXBungee: Network Tick Tasks/ERROR] [EaglercraftXBungee]: Reason: java.net.UnknownHostException: deev.is
+[16:12:14] [EaglerXBungee: Network Tick Tasks/WARN] [EaglercraftXBungee]: Deleting stale certificate: $dl.11da5ec1e9d8efe3fa0e9998b0c264f5c8cb155f.cert
+[16:12:14] [EaglerXBungee: Network Tick Tasks/WARN] [EaglercraftXBungee]: Certificate was deleted: $dl.11da5ec1e9d8efe3fa0e9998b0c264f5c8cb155f.cert
+[16:17:28] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65281]: Connected via websocket
+[16:17:28] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65281]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[16:17:29] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65281]: Logged in as 'Dking201'
+[16:17:29] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:65281|Dking201] -> UpstreamBridge has connected
+[16:17:29] [Netty Worker IO Thread #5/INFO]: [Dking201|/0:0:0:0:0:0:0:1:65281] <-> ServerConnector [lobby] has connected
+[16:17:29] [Netty Worker IO Thread #5/INFO]: [Dking201] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name DKing201, please log in as such.
+[16:17:29] [Netty Worker IO Thread #5/INFO]: [/0:0:0:0:0:0:0:1:65281|Dking201] -> UpstreamBridge has disconnected
+[16:17:29] [Netty Worker IO Thread #5/INFO]: [Dking201|/0:0:0:0:0:0:0:1:65281] <-> ServerConnector [lobby] has disconnected
+[16:17:54] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65288]: Connected via websocket
+[16:17:54] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65288]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[16:17:54] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:65288]: Logged in as 'Dking201'
+[16:17:54] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:65288|Dking201] -> UpstreamBridge has connected
+[16:17:54] [Netty Worker IO Thread #7/INFO]: [Dking201|/0:0:0:0:0:0:0:1:65288] <-> ServerConnector [lobby] has connected
+[16:17:54] [Netty Worker IO Thread #7/INFO]: [Dking201] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This account is registered under the name DKing201, please log in as such.
+[16:17:54] [Netty Worker IO Thread #7/INFO]: [/0:0:0:0:0:0:0:1:65288|Dking201] -> UpstreamBridge has disconnected
+[16:17:54] [Netty Worker IO Thread #7/INFO]: [Dking201|/0:0:0:0:0:0:0:1:65288] <-> ServerConnector [lobby] has disconnected
+[16:27:15] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Downloading new certificate: https://eaglercraft.com/backup.cert
+[16:27:16] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: D:\BitsAndBobs\EAGLERCRAFT\Eagler-1.8-Docker-Original-Old-World\bungee\plugins\EaglercraftXBungee\eagcert\$dl.11da5ec1e9d8efe3fa0e9998b0c264f5c8cb155f.cert
+[16:39:50] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/192.168.1.103:49795]: Connected via websocket
+[16:39:50] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/192.168.1.103:49795]: Origin header is http://192.168.1.109:8081
+[16:39:50] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/192.168.1.103:49795]: Logged in as 'MrMate'
+[16:39:50] [Netty Worker IO Thread #7/INFO]: [/192.168.1.103:49795|MrMate] -> UpstreamBridge has connected
+[16:39:50] [Netty Worker IO Thread #7/INFO]: [MrMate|/192.168.1.103:49795] <-> ServerConnector [lobby] has connected
+[17:30:40] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50140]: Connected via websocket
+[17:30:40] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50140]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[17:30:41] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50140]: Logged in as 'IceSiked'
+[17:30:41] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:50140|IceSiked] -> UpstreamBridge has connected
+[17:30:41] [Netty Worker IO Thread #4/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:50140] <-> ServerConnector [lobby] has connected
+[18:16:44] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:50140|IceSiked] -> UpstreamBridge has disconnected
+[18:16:44] [Netty Worker IO Thread #4/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[18:16:44] [Netty Worker IO Thread #4/INFO]: [/0:0:0:0:0:0:0:1:50140|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:16:48] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50470]: Connected via websocket
+[18:16:48] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50470]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[18:16:48] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50470]: Logged in as 'IceSiked'
+[18:16:48] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50470|IceSiked] -> UpstreamBridge has connected
+[18:16:48] [Netty Worker IO Thread #3/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:50470] <-> ServerConnector [lobby] has connected
+[18:16:51] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50470|IceSiked] -> UpstreamBridge has disconnected
+[18:16:51] [Netty Worker IO Thread #3/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[18:16:51] [Netty Worker IO Thread #3/INFO]: [/0:0:0:0:0:0:0:1:50470|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:38:04] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50514]: Connected via websocket
+[18:38:04] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50514]: Origin header is https://thorough-spaniel-partly.ngrok-free.app
+[18:38:05] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/0:0:0:0:0:0:0:1:50514]: Logged in as 'IceSiked'
+[18:38:05] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:50514|IceSiked] -> UpstreamBridge has connected
+[18:38:05] [Netty Worker IO Thread #6/INFO]: [IceSiked|/0:0:0:0:0:0:0:1:50514] <-> ServerConnector [lobby] has connected
+[18:38:31] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:50514|IceSiked] -> UpstreamBridge has disconnected
+[18:38:31] [Netty Worker IO Thread #6/INFO]: [IceSiked] disconnected with: Proxy lost connection to server.
+[18:38:31] [Netty Worker IO Thread #6/INFO]: [/0:0:0:0:0:0:0:1:50514|IceSiked] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:07:17] [Netty Worker IO Thread #7/WARN]: [/192.168.1.103:49795|MrMate] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+[19:07:17] [Netty Worker IO Thread #7/INFO]: [MrMate] disconnected with: IOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+[19:07:17] [Netty Worker IO Thread #7/INFO]: [/192.168.1.103:49795|MrMate] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:07:17] [Netty Worker IO Thread #7/INFO]: [/192.168.1.103:49795|MrMate] -> UpstreamBridge has disconnected

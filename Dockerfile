@@ -10,4 +10,4 @@ RUN apt install tmux -y
 EXPOSE 8081
 EXPOSE 25577
 
-CMD [ "sh", "-c", "java -jar server/server.jar; java -jar bungee/bungee.jar"]
+CMD [ "sh", "-c", "docker.sh"]

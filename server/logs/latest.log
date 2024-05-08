@@ -1,198 +1,1642 @@
-[18:00:20] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[18:00:20] [Server thread/INFO]: Loading properties
-[18:00:20] [Server thread/INFO]: Default game type: SURVIVAL
-[18:00:20] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[18:00:20] [Server thread/INFO]: Debug logging is disabled
-[18:00:20] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[18:00:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:00:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:00:20] [Server thread/INFO]: Data value allowed items: 
-[18:00:20] [Server thread/INFO]: Generating keypair
-[18:00:21] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[18:00:21] [Server thread/INFO]: Using default channel type
-[18:00:21] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[18:00:21] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[18:00:21] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[18:00:21] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[18:00:21] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[18:00:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:00:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:00:21] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[18:00:21] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[18:00:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:00:21] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[18:00:21] [Server thread/INFO]: Preparing level "world"
-[18:00:22] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:00:22] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:00:22] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:00:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:00:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:00:22] [Server thread/INFO]: View Distance: 4
-[18:00:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:00:22] [Server thread/INFO]: Max Entity Collisions: 8
-[18:00:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:00:22] [Server thread/INFO]: Mob Spawn Range: 4
-[18:00:22] [Server thread/INFO]: Structure Info Saving: true
-[18:00:22] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:00:22] [Server thread/INFO]: Anti X-Ray: true
-[18:00:22] [Server thread/INFO]: 	Engine Mode: 1
-[18:00:22] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:00:22] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:00:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:00:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:00:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:00:22] [Server thread/INFO]: Random Lighting Updates: false
-[18:00:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:00:22] [Server thread/INFO]: Max TNT Explosions: 100
-[18:00:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:00:22] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:00:22] [Server thread/INFO]: Clear tick list: false
-[18:00:22] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:00:22] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:00:22] [Server thread/INFO]: Water over lava flow speed: 5
-[18:00:22] [Server thread/INFO]: Fix TNT cannons: false
-[18:00:22] [Server thread/INFO]: World async lighting: false
-[18:00:22] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[18:00:22] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[18:00:22] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[18:00:22] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[18:00:22] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[18:00:22] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[18:00:22] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[18:00:22] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[18:00:22] [Server thread/INFO]: Keep spawn chunk loaded: true
-[18:00:22] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:00:22] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:00:22] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:00:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:00:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:00:22] [Server thread/INFO]: View Distance: 4
-[18:00:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:00:22] [Server thread/INFO]: Max Entity Collisions: 8
-[18:00:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:00:22] [Server thread/INFO]: Mob Spawn Range: 4
-[18:00:22] [Server thread/INFO]: Structure Info Saving: true
-[18:00:22] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:00:22] [Server thread/INFO]: Anti X-Ray: true
-[18:00:22] [Server thread/INFO]: 	Engine Mode: 1
-[18:00:22] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:00:22] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:00:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:00:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:00:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:00:22] [Server thread/INFO]: Random Lighting Updates: false
-[18:00:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:00:22] [Server thread/INFO]: Max TNT Explosions: 100
-[18:00:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:00:22] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:00:22] [Server thread/INFO]: Clear tick list: false
-[18:00:22] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:00:22] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:00:22] [Server thread/INFO]: Water over lava flow speed: 5
-[18:00:22] [Server thread/INFO]: Fix TNT cannons: false
-[18:00:22] [Server thread/INFO]: World async lighting: false
-[18:00:22] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[18:00:22] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[18:00:22] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[18:00:22] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[18:00:22] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[18:00:22] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[18:00:22] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[18:00:22] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[18:00:22] [Server thread/INFO]: Keep spawn chunk loaded: true
-[18:00:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:00:22] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:00:22] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:00:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:00:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:00:22] [Server thread/INFO]: View Distance: 4
-[18:00:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:00:22] [Server thread/INFO]: Max Entity Collisions: 8
-[18:00:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:00:22] [Server thread/INFO]: Mob Spawn Range: 4
-[18:00:22] [Server thread/INFO]: Structure Info Saving: true
-[18:00:22] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:00:22] [Server thread/INFO]: Anti X-Ray: true
-[18:00:22] [Server thread/INFO]: 	Engine Mode: 1
-[18:00:22] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:00:22] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:00:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:00:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:00:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:00:22] [Server thread/INFO]: Random Lighting Updates: false
-[18:00:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:00:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:00:22] [Server thread/INFO]: Max TNT Explosions: 100
-[18:00:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:00:22] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:00:22] [Server thread/INFO]: Clear tick list: false
-[18:00:22] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:00:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:00:22] [Server thread/INFO]: Water over lava flow speed: 5
-[18:00:22] [Server thread/INFO]: Fix TNT cannons: false
-[18:00:22] [Server thread/INFO]: World async lighting: false
-[18:00:22] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[18:00:22] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[18:00:22] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[18:00:22] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[18:00:22] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[18:00:22] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[18:00:22] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[18:00:22] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[18:00:22] [Server thread/INFO]: Keep spawn chunk loaded: true
-[18:00:22] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1738667849319662948)
-[18:00:23] [Server thread/INFO]: Preparing spawn area: 20%
-[18:00:24] [Server thread/INFO]: Preparing spawn area: 81%
-[18:00:24] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1738667849319662948)
-[18:00:25] [Server thread/INFO]: Preparing spawn area: 90%
-[18:00:25] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1738667849319662948)
-[18:00:26] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[18:00:26] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-[18:00:26] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-[18:00:26] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[18:00:26] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[18:00:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[18:00:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[18:00:27] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[18:00:27] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[18:00:27] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[18:00:27] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[18:00:27] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[18:00:27] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[18:00:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:00:27] [Server thread/INFO]: Done (5.459s)! For help, type "help" or "?"
-[18:00:27] [Server thread/INFO]: Timings Reset
-[18:00:30] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-[18:00:30] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-[18:00:30] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-[18:02:08] [Thread-8/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[18:02:08] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51317] logged in with entity id 882 at ([world]116.0, 64.0, 256.0)
-[18:02:14] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[18:02:14] [Server thread/INFO]: IceSiked left the game.
-[18:45:28] [Thread-11/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[18:45:28] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:52530] logged in with entity id 1176 at ([world]116.46401742398731, 62.0, 256.45850254070285)
-[18:45:31] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[18:45:31] [Server thread/INFO]: IceSiked left the game.
+[08:12:03] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[08:12:03] [Server thread/INFO]: Loading properties
+[08:12:03] [Server thread/INFO]: Default game type: SURVIVAL
+[08:12:03] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[08:12:03] [Server thread/INFO]: Debug logging is disabled
+[08:12:03] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[08:12:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:12:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:12:03] [Server thread/INFO]: Data value allowed items: 
+[08:12:03] [Server thread/INFO]: Generating keypair
+[08:12:04] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[08:12:04] [Server thread/INFO]: Using default channel type
+[08:12:04] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[08:12:04] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[08:12:04] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[08:12:04] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[08:12:04] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[08:12:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:12:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:12:04] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[08:12:04] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[08:12:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:12:04] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[08:12:04] [Server thread/INFO]: Preparing level "world"
+[08:12:04] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:12:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:12:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:12:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:12:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:12:04] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:12:04] [Server thread/INFO]: Clear tick list: false
+[08:12:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:12:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:12:04] [Server thread/INFO]: View Distance: 4
+[08:12:04] [Server thread/INFO]: Max Entity Collisions: 8
+[08:12:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:12:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:12:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:12:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Anti X-Ray: true
+[08:12:04] [Server thread/INFO]: 	Engine Mode: 1
+[08:12:04] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:12:04] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:12:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:12:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:12:04] [Server thread/INFO]: Random Lighting Updates: false
+[08:12:04] [Server thread/INFO]: Structure Info Saving: true
+[08:12:04] [Server thread/INFO]: Mob Spawn Range: 4
+[08:12:04] [Server thread/INFO]: Max TNT Explosions: 100
+[08:12:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:12:04] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:12:04] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:12:04] [Server thread/INFO]: Fix TNT cannons: false
+[08:12:04] [Server thread/INFO]: Water over lava flow speed: 5
+[08:12:04] [Server thread/INFO]: World async lighting: false
+[08:12:04] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[08:12:04] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[08:12:04] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[08:12:04] [Server thread/INFO]: Keep spawn chunk loaded: true
+[08:12:04] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[08:12:04] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[08:12:04] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[08:12:04] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[08:12:04] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[08:12:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:12:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:12:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:12:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:12:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:12:04] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:12:04] [Server thread/INFO]: Clear tick list: false
+[08:12:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:12:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:12:04] [Server thread/INFO]: View Distance: 4
+[08:12:04] [Server thread/INFO]: Max Entity Collisions: 8
+[08:12:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:12:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:12:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:12:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:12:04] [Server thread/INFO]: Anti X-Ray: true
+[08:12:04] [Server thread/INFO]: 	Engine Mode: 1
+[08:12:04] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:12:04] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:12:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:12:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:12:04] [Server thread/INFO]: Random Lighting Updates: false
+[08:12:04] [Server thread/INFO]: Structure Info Saving: true
+[08:12:04] [Server thread/INFO]: Mob Spawn Range: 4
+[08:12:04] [Server thread/INFO]: Max TNT Explosions: 100
+[08:12:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:12:04] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:12:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:12:04] [Server thread/INFO]: Fix TNT cannons: false
+[08:12:04] [Server thread/INFO]: Water over lava flow speed: 5
+[08:12:04] [Server thread/INFO]: World async lighting: false
+[08:12:04] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[08:12:04] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[08:12:04] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[08:12:04] [Server thread/INFO]: Keep spawn chunk loaded: true
+[08:12:04] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[08:12:04] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[08:12:04] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[08:12:04] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[08:12:04] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[08:12:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:12:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:12:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:12:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:12:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:12:05] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:12:05] [Server thread/INFO]: Clear tick list: false
+[08:12:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:12:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:12:05] [Server thread/INFO]: View Distance: 4
+[08:12:05] [Server thread/INFO]: Max Entity Collisions: 8
+[08:12:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:12:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:12:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:12:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:12:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:12:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:12:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:12:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:12:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:12:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:12:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:12:05] [Server thread/INFO]: Anti X-Ray: true
+[08:12:05] [Server thread/INFO]: 	Engine Mode: 1
+[08:12:05] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:12:05] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:12:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:12:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:12:05] [Server thread/INFO]: Random Lighting Updates: false
+[08:12:05] [Server thread/INFO]: Structure Info Saving: true
+[08:12:05] [Server thread/INFO]: Mob Spawn Range: 4
+[08:12:05] [Server thread/INFO]: Max TNT Explosions: 100
+[08:12:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:12:05] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:12:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:12:05] [Server thread/INFO]: Fix TNT cannons: false
+[08:12:05] [Server thread/INFO]: Water over lava flow speed: 5
+[08:12:05] [Server thread/INFO]: World async lighting: false
+[08:12:05] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[08:12:05] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[08:12:05] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[08:12:05] [Server thread/INFO]: Keep spawn chunk loaded: true
+[08:12:05] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[08:12:05] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[08:12:05] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[08:12:05] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[08:12:05] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[08:12:05] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1738667849319662948)
+[08:12:06] [Server thread/INFO]: Preparing spawn area: 10%
+[08:12:07] [Server thread/INFO]: Preparing spawn area: 38%
+[08:12:07] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1738667849319662948)
+[08:12:08] [Server thread/INFO]: Preparing spawn area: 48%
+[08:12:09] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1738667849319662948)
+[08:12:10] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[08:12:10] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[08:12:10] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[08:12:10] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[08:12:10] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[08:12:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[08:12:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[08:12:11] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[08:12:11] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[08:12:11] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[08:12:11] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[08:12:11] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[08:12:11] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[08:12:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:12:11] [Server thread/INFO]: Done (7.155s)! For help, type "help" or "?"
+[08:12:11] [Server thread/INFO]: Timings Reset
+[08:12:12] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[08:12:12] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[08:12:12] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[08:48:36] [Thread-10/INFO]: UUID of player Taigaa is c525596e-bf2a-3770-b118-79bdda5a83c8
+[08:48:36] [Server thread/INFO]: Taigaa[/0:0:0:0:0:0:0:1:50782] logged in with entity id 939 at ([world]116.0, 64.0, 256.0)
+[08:48:37] [Craft Scheduler Thread - 2/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[08:48:37] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[08:48:48] [Server thread/INFO]: Taigaa lost connection: Disconnected
+[08:48:48] [Server thread/INFO]: Taigaa left the game.
+[08:49:00] [Thread-11/INFO]: UUID of player Forest is 96b39bb0-d5b3-34a9-8406-cb21f583bba6
+[08:49:00] [Server thread/INFO]: Forest[/0:0:0:0:0:0:0:1:50786] logged in with entity id 997 at ([world]116.0, 64.0, 256.0)
+[08:49:01] [Craft Scheduler Thread - 2/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[08:49:01] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[08:49:05] [Server thread/INFO]: Forest lost connection: Disconnected
+[08:49:05] [Server thread/INFO]: Forest left the game.
+[08:49:18] [Thread-12/INFO]: UUID of player MegaTaiga is d52037ff-98bf-3141-8222-ae9b0160fa17
+[08:49:18] [Server thread/INFO]: MegaTaiga[/0:0:0:0:0:0:0:1:50790] logged in with entity id 1007 at ([world]3692.1887232637528, 68.0, -3474.54931353902)
+[08:49:32] [Server thread/INFO]: MegaTaiga has just earned the achievement [Taking Inventory]
+[08:49:41] [Server thread/INFO]: MegaTaiga lost connection: Disconnected
+[08:49:41] [Server thread/INFO]: MegaTaiga left the game.
+[08:49:43] [Thread-13/INFO]: UUID of player MegaTaiga is d52037ff-98bf-3141-8222-ae9b0160fa17
+[08:49:43] [Server thread/INFO]: MegaTaiga[/0:0:0:0:0:0:0:1:50793] logged in with entity id 1192 at ([world]116.0, 64.0, 256.0)
+[08:49:47] [Server thread/INFO]: MegaTaiga lost connection: Disconnected
+[08:49:47] [Server thread/INFO]: MegaTaiga left the game.
+[08:49:58] [Thread-14/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[08:49:58] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50798] logged in with entity id 1194 at ([world]116.49520869453625, 62.0, 256.30000001192093)
+[08:51:53] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[08:51:53] [Server thread/INFO]: IceSiked left the game.
+[08:52:06] [Thread-15/INFO]: Disconnecting com.mojang.authlib.GameProfile@3a76e5c4[id=cefbc7cd-f1a3-3ee8-b299-9f91d925c596,name=Megataiga,properties={textures=[com.mojang.authlib.properties.Property@3f6810c8], isEaglerPlayer=[com.mojang.authlib.properties.Property@7f80557c]},legacy=false] (/0:0:0:0:0:0:0:1:50804): [LoginSecurity] This account is registered under the name MegaTaiga, please log in as such.
+[08:52:06] [Server thread/INFO]: com.mojang.authlib.GameProfile@3a76e5c4[id=cefbc7cd-f1a3-3ee8-b299-9f91d925c596,name=Megataiga,properties={textures=[com.mojang.authlib.properties.Property@3f6810c8], isEaglerPlayer=[com.mojang.authlib.properties.Property@7f80557c]},legacy=false] (/0:0:0:0:0:0:0:1:50804) lost connection: [LoginSecurity] This account is registered under the name MegaTaiga, please log in as such.
+[08:52:22] [Thread-16/INFO]: UUID of player MegaTaiga is d52037ff-98bf-3141-8222-ae9b0160fa17
+[08:52:22] [Server thread/INFO]: MegaTaiga[/0:0:0:0:0:0:0:1:50807] logged in with entity id 1720 at ([world]116.4095760682643, 62.0, 256.564549958114)
+[08:52:57] [Server thread/INFO]: MegaTaiga lost connection: Disconnected
+[08:52:57] [Server thread/INFO]: MegaTaiga left the game.
+[08:53:06] [Thread-17/INFO]: UUID of player Taigaa is c525596e-bf2a-3770-b118-79bdda5a83c8
+[08:53:06] [Server thread/INFO]: Taigaa[/0:0:0:0:0:0:0:1:50811] logged in with entity id 1964 at ([world]116.0, 64.0, 256.0)
+[08:53:07] [Craft Scheduler Thread - 7/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[08:53:07] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[08:53:18] [Server thread/INFO]: Taigaa lost connection: Disconnected
+[08:53:18] [Server thread/INFO]: Taigaa left the game.
+[08:53:41] [Thread-18/INFO]: UUID of player MegaTaigaa is 9a98ad60-8ee0-36a8-98c4-74a2353dd03e
+[08:53:41] [Server thread/INFO]: MegaTaigaa[/0:0:0:0:0:0:0:1:50815] logged in with entity id 1966 at ([world]116.0, 64.0, 256.0)
+[08:53:41] [Craft Scheduler Thread - 7/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[08:53:42] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[08:53:46] [Server thread/INFO]: MegaTaigaa lost connection: Disconnected
+[08:53:46] [Server thread/INFO]: MegaTaigaa left the game.
+[08:54:37] [Thread-19/INFO]: UUID of player Mega_Taiga is 63675164-d6ee-3553-b7ee-3bc7d311465d
+[08:54:38] [Server thread/INFO]: Mega_Taiga[/0:0:0:0:0:0:0:1:50819] logged in with entity id 1970 at ([world]116.0, 64.0, 256.0)
+[08:54:38] [Craft Scheduler Thread - 7/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[08:54:38] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[08:54:41] [Server thread/INFO]: Mega_Taiga lost connection: Disconnected
+[08:54:41] [Server thread/INFO]: Mega_Taiga left the game.
+[08:54:56] [Thread-20/INFO]: UUID of player TheTaiga is 0500c6cc-5903-3869-ab7d-4606227e24cd
+[08:54:57] [Server thread/INFO]: TheTaiga[/0:0:0:0:0:0:0:1:50824] logged in with entity id 1977 at ([world]116.0, 64.0, 256.0)
+[08:54:57] [Craft Scheduler Thread - 7/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[08:54:57] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[08:55:02] [Server thread/INFO]: TheTaiga lost connection: Disconnected
+[08:55:02] [Server thread/INFO]: TheTaiga left the game.
+[08:57:53] [Thread-21/INFO]: UUID of player TheTaiga is 0500c6cc-5903-3869-ab7d-4606227e24cd
+[08:57:53] [Server thread/INFO]: TheTaiga[/0:0:0:0:0:0:0:1:50831] logged in with entity id 2003 at ([world]116.0, 64.0, 256.0)
+[08:57:54] [Craft Scheduler Thread - 8/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[08:57:54] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[08:57:58] [Server thread/INFO]: TheTaiga lost connection: Disconnected
+[08:57:58] [Server thread/INFO]: TheTaiga left the game.
+[08:58:16] [Thread-22/INFO]: UUID of player Podzol is 5c9d594c-66d9-3b2b-b189-dcd14022d021
+[08:58:16] [Server thread/INFO]: Podzol[/0:0:0:0:0:0:0:1:50835] logged in with entity id 2016 at ([world]116.0, 64.0, 256.0)
+[08:58:17] [Craft Scheduler Thread - 8/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[08:58:17] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[08:58:25] [Server thread/INFO]: Podzol lost connection: Disconnected
+[08:58:25] [Server thread/INFO]: Podzol left the game.
+[09:01:28] [Thread-23/INFO]: UUID of player AHHHHHHHHHH is 262fa3da-1838-3dbc-874a-960856c08a85
+[09:01:29] [Server thread/INFO]: AHHHHHHHHHH[/0:0:0:0:0:0:0:1:50847] logged in with entity id 2027 at ([world]116.0, 64.0, 256.0)
+[09:01:29] [Craft Scheduler Thread - 9/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[09:01:29] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[09:05:22] [Server thread/INFO]: AHHHHHHHHHH was slain by Zombie
+[09:06:11] [Thread-24/INFO]: UUID of player XXR_justHuddo is 606148f6-e4c9-3f9e-9e10-ce1285f9add8
+[09:06:11] [Server thread/INFO]: XXR_justHuddo[/0:0:0:0:0:0:0:1:50858] logged in with entity id 2158 at ([world]116.0, 64.0, 256.0)
+[09:06:30] [Server thread/INFO]: XXR_justHuddo suffocated in a wall
+[09:06:37] [Server thread/INFO]: XXR_justHuddo issued server command: /back
+[09:08:49] [Thread-25/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
+[09:08:50] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:50875] logged in with entity id 3012 at ([world]116.0, 64.0, 256.0)
+[09:09:20] [Server thread/INFO]: MrMate lost connection: Login timed out!
+[09:09:20] [Server thread/INFO]: MrMate left the game.
+[09:09:20] [Server thread/WARN]: handleDisconnection() called twice
+[09:09:28] [Thread-26/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
+[09:09:28] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:50879] logged in with entity id 3030 at ([world]116.6896270777007, 64.68903377524002, 256.9928440260411)
+[09:11:17] [Thread-27/INFO]: UUID of player Dark_stalker33 is ad80db31-1448-3ef5-accb-eb9220d5700f
+[09:11:17] [Server thread/INFO]: Dark_stalker33[/0:0:0:0:0:0:0:1:50889] logged in with entity id 3365 at ([world]116.0, 64.0, 256.0)
+[09:11:21] [Server thread/INFO]: MrMate issued server command: /\hi
+[09:11:24] [Async Chat Thread - #0/INFO]: <MrMate> i[m
+[09:11:25] [Async Chat Thread - #0/INFO]: <MrMate> hui[m
+[09:11:28] [Async Chat Thread - #0/INFO]: <MrMate> hi[m
+[09:11:37] [Server thread/INFO]: Dark_stalker33 issued server command: /tpa MrMate
+[09:11:42] [Server thread/INFO]: MrMate issued server command: /tpaccept
+[09:18:08] [Async Chat Thread - #1/INFO]: <MrMate> i shared it with jax[m
+[09:18:29] [Thread-29/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
+[09:18:29] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:50903] logged in with entity id 5026 at ([world]116.0, 64.0, 256.0)
+[09:18:29] [Craft Scheduler Thread - 19/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[09:18:30] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[09:18:34] [Async Chat Thread - #1/INFO]: <MrMate> and lachy and aaron dennis and oscar s[m
+[09:19:03] [Server thread/INFO]: MrMate issued server command: /tpa rizzler
+[09:19:07] [Async Chat Thread - #1/INFO]: <Dark_stalker33> who is rizzler[m
+[09:19:07] [Server thread/INFO]: rizzler issued server command: /tpaccept
+[09:19:09] [Server thread/INFO]: rizzler issued server command: /tpaccept
+[09:19:11] [Async Chat Thread - #1/INFO]: <MrMate> jax[m
+[09:19:17] [Server thread/INFO]: MrMate has just earned the achievement [We Need to Go Deeper]
+[09:19:57] [Server thread/INFO]: AHHHHHHHHHH was slain by MrMate
+[09:20:15] [Server thread/INFO]: Dark_stalker33 issued server command: /tpa MrMate
+[09:20:19] [Thread-30/INFO]: UUID of player DKing201 is 9d859d2d-73c4-3a8d-9f9d-2c9de25e13d7
+[09:20:19] [Server thread/INFO]: DKing201[/0:0:0:0:0:0:0:1:50915] logged in with entity id 6278 at ([world]116.0, 64.0, 256.0)
+[09:20:19] [Craft Scheduler Thread - 20/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[09:20:19] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[09:20:53] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
+[09:21:00] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[09:21:20] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
+[09:21:21] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[09:21:22] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[09:21:23] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[09:21:31] [Server thread/INFO]: rizzler issued server command: /tpa XXR_justHuddo
+[09:21:33] [Server thread/INFO]: XXR_justHuddo issued server command: /tpaccept
+[09:22:05] [Server thread/INFO]: rizzler has just earned the achievement [Taking Inventory]
+[09:22:55] [Async Chat Thread - #2/INFO]: <XXR_justHuddo> who dat[m
+[09:23:01] [Async Chat Thread - #2/INFO]: <DKing201> dennis[m
+[09:23:04] [Async Chat Thread - #2/INFO]: <XXR_justHuddo> o[m
+[09:23:05] [Async Chat Thread - #2/INFO]: <DKing201> hi[m
+[09:23:07] [Async Chat Thread - #2/INFO]: <XXR_justHuddo> ok[m
+[09:23:18] [Async Chat Thread - #2/INFO]: <XXR_justHuddo> rizzler id jax[m
+[09:23:20] [Server thread/INFO]: DKing201 has just earned the achievement [Taking Inventory]
+[09:23:25] [Async Chat Thread - #2/INFO]: <Dark_stalker33> stepan give me cobble stone[m
+[09:23:44] [Async Chat Thread - #2/INFO]: <Dark_stalker33> huddo do you have cobble stone[m
+[09:23:54] [Async Chat Thread - #2/INFO]: <rizzler> e[m
+[09:24:16] [Async Chat Thread - #2/INFO]: <Dark_stalker33> huudo give me cobble stone[m
+[09:24:18] [Server thread/INFO]: MrMate lost connection: Disconnected
+[09:24:18] [Server thread/INFO]: MrMate left the game.
+[09:24:32] [Async Chat Thread - #2/INFO]: <XXR_justHuddo> enuf?[m
+[09:24:54] [Async Chat Thread - #2/INFO]: <XXR_justHuddo> what the skib you din to jax[m
+[09:25:14] [Async Chat Thread - #2/INFO]: <Dark_stalker33> he took my cobble[m
+[09:25:38] [Async Chat Thread - #2/INFO]: <rizzler> i gave it back[m
+[09:25:49] [Async Chat Thread - #2/INFO]: <XXR_justHuddo> we need more bed[m
+[09:26:32] [Async Chat Thread - #2/INFO]: <XXR_justHuddo> gtg[m
+[09:26:36] [Server thread/INFO]: XXR_justHuddo lost connection: Disconnected
+[09:26:36] [Server thread/INFO]: XXR_justHuddo left the game.
+[09:26:41] [Server thread/INFO]: rizzler lost connection: Disconnected
+[09:26:41] [Server thread/INFO]: rizzler left the game.
+[09:27:11] [Async Chat Thread - #2/INFO]: <DKing201> bye[m
+[09:27:37] [Server thread/INFO]: Dark_stalker33 lost connection: Disconnected
+[09:27:37] [Server thread/INFO]: Dark_stalker33 left the game.
+[09:27:37] [Server thread/INFO]: DKing201 lost connection: Disconnected
+[09:27:37] [Server thread/INFO]: DKing201 left the game.
+[09:30:05] [Server thread/INFO]: AHHHHHHHHHH issued server command: /back
+[09:39:45] [Thread-31/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[09:39:46] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50941] logged in with entity id 8556 at ([world]116.0, 64.0, 256.0)
+[09:41:43] [Thread-32/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
+[09:41:43] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:50944] logged in with entity id 9401 at ([world]116.0, 64.0, 256.0)
+[09:42:45] [Async Chat Thread - #3/INFO]: <MrMate> sorry ahhh[m
+[09:43:36] [Thread-33/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
+[09:43:36] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:50950] logged in with entity id 10145 at ([world]235.5907406957114, 58.0, -120.46293278480485)
+[09:43:48] [Server thread/INFO]: MrMate issued server command: /tpa rizzler
+[09:44:26] [Server thread/INFO]: MrMate issued server command: /tpa rizzler
+[09:44:34] [Server thread/INFO]: rizzler issued server command: /tpaccept
+[09:44:37] [Server thread/INFO]: rizzler issued server command: /
+[09:45:25] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[09:45:25] [Server thread/INFO]: IceSiked left the game.
+[09:45:45] [Server thread/INFO]: rizzler was shot by Skeleton
+[09:46:11] [Server thread/INFO]: rizzler issued server command: /tpa MrMate
+[09:46:12] [Thread-34/INFO]: UUID of player XXR_justHuddo is 606148f6-e4c9-3f9e-9e10-ce1285f9add8
+[09:46:12] [Server thread/INFO]: XXR_justHuddo[/0:0:0:0:0:0:0:1:50955] logged in with entity id 10946 at ([world]116.0, 64.0, 256.0)
+[09:46:18] [Server thread/INFO]: MrMate issued server command: /tpaccept
+[09:47:54] [Server thread/INFO]: XXR_justHuddo lost connection: Disconnected
+[09:47:54] [Server thread/INFO]: XXR_justHuddo left the game.
+[09:49:07] [Thread-36/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[09:49:07] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50960] logged in with entity id 11156 at ([world]116.0, 64.0, 256.0)
+[09:49:50] [Server thread/INFO]: rizzler tried to swim in lava to escape MrMate
+[09:50:04] [Server thread/INFO]: rizzler issued server command: /tpa mrmate
+[09:50:11] [Server thread/INFO]: MrMate issued server command: /tpaccept
+[09:50:40] [Async Chat Thread - #4/INFO]: <rizzler> hi[m
+[09:50:53] [Async Chat Thread - #4/INFO]: <IceSiked> are you madder?[m
+[09:50:56] [Async Chat Thread - #4/INFO]: <IceSiked> hello[m
+[09:51:03] [Async Chat Thread - #4/INFO]: <rizzler> im stepans firend[m
+[09:51:06] [Async Chat Thread - #4/INFO]: <IceSiked> ok[m
+[09:51:21] [Server thread/INFO]: rizzler issued server command: /tpa MrMate
+[09:51:24] [Server thread/INFO]: MrMate issued server command: /tpaccept
+[09:53:00] [Server thread/INFO]: rizzler tried to swim in lava
+[09:53:10] [Server thread/INFO]: rizzler issued server command: /tpa MrMate
+[09:53:14] [Thread-37/INFO]: UUID of player XXR_justHuddo is 606148f6-e4c9-3f9e-9e10-ce1285f9add8
+[09:53:14] [Server thread/INFO]: XXR_justHuddo[/0:0:0:0:0:0:0:1:50965] logged in with entity id 12381 at ([world]116.0, 64.0, 256.0)
+[09:53:19] [Server thread/INFO]: MrMate issued server command: /tpaccept
+[09:54:41] [Async Chat Thread - #5/INFO]: <AHHHHHHHHHH> boris I don't have my stuff from the previous link[m
+[09:55:13] [Server thread/INFO]: AHHHHHHHHHH has just earned the achievement [Taking Inventory]
+[09:55:15] [Async Chat Thread - #5/INFO]: <IceSiked> do you have the correct amount oh H's in ur name as last time>[m
+[09:55:18] [Async Chat Thread - #5/INFO]: <IceSiked> ?[m
+[09:55:37] [Async Chat Thread - #5/INFO]: <AHHHHHHHHHH> idfk[m
+[09:55:53] [Async Chat Thread - #5/INFO]: <IceSiked> do you want me to check[m
+[09:56:02] [Async Chat Thread - #5/INFO]: <AHHHHHHHHHH> how can you check?[m
+[09:56:07] [Async Chat Thread - #5/INFO]: <IceSiked> screenshots[m
+[09:56:10] [Async Chat Thread - #5/INFO]: <AHHHHHHHHHH> ok[m
+[09:56:14] [Async Chat Thread - #5/INFO]: <AHHHHHHHHHH> do it[m
+[09:56:21] [Async Chat Thread - #5/INFO]: <IceSiked> ill leave then join back[m
+[09:56:23] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[09:56:23] [Server thread/INFO]: IceSiked left the game.
+[09:57:03] [Thread-38/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[09:57:03] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50981] logged in with entity id 13486 at ([world]116.0, 64.0, 256.0)
+[09:57:23] [Async Chat Thread - #6/INFO]: <IceSiked> you had 15 H's[m
+[09:57:37] [Async Chat Thread - #6/INFO]: <IceSiked> you have less now[m
+[09:57:49] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[09:57:49] [Server thread/INFO]: IceSiked left the game.
+[10:03:13] [Async Chat Thread - #7/INFO]: <XXR_justHuddo> go sleepy mode[m
+[10:04:47] [Server thread/INFO]: rizzler has just earned the achievement [Getting Wood]
+[10:05:44] [Server thread/INFO]: XXR_justHuddo lost connection: Disconnected
+[10:05:44] [Server thread/INFO]: XXR_justHuddo left the game.
+[10:05:48] [Server thread/INFO]: AHHHHHHHHHH lost connection: Disconnected
+[10:05:48] [Server thread/INFO]: AHHHHHHHHHH left the game.
+[10:06:05] [Thread-39/INFO]: UUID of player AHHHHHHHHHHHHHHH is cbe77070-fed8-3c8e-be8b-f5e231de5613
+[10:06:05] [Server thread/INFO]: AHHHHHHHHHHHHHHH[/0:0:0:0:0:0:0:1:50991] logged in with entity id 15202 at ([world]116.0, 64.0, 256.0)
+[10:10:13] [Thread-40/INFO]: UUID of player XXR_justHuddo is 606148f6-e4c9-3f9e-9e10-ce1285f9add8
+[10:10:13] [Server thread/INFO]: XXR_justHuddo[/0:0:0:0:0:0:0:1:51004] logged in with entity id 15763 at ([world]116.0, 64.0, 256.0)
+[10:10:45] [Server thread/INFO]: XXR_justHuddo lost connection: Disconnected
+[10:10:45] [Server thread/INFO]: XXR_justHuddo left the game.
+[10:11:14] [Server thread/INFO]: rizzler lost connection: Disconnected
+[10:11:14] [Server thread/INFO]: rizzler left the game.
+[10:11:39] [Server thread/INFO]: MrMate lost connection: Disconnected
+[10:11:39] [Server thread/INFO]: MrMate left the game.
+[10:22:57] [Thread-42/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[10:22:57] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51019] logged in with entity id 17673 at ([world]116.0, 64.0, 256.0)
+[10:24:16] [Async Chat Thread - #8/INFO]: <IceSiked> oliver[m
+[10:27:30] [Thread-43/INFO]: UUID of player Dark_stalker33 is ad80db31-1448-3ef5-accb-eb9220d5700f
+[10:27:30] [Server thread/INFO]: Dark_stalker33[/0:0:0:0:0:0:0:1:51049] logged in with entity id 18587 at ([world]116.0, 64.0, 256.0)
+[10:27:52] [Server thread/INFO]: Dark_stalker33 suffocated in a wall
+[10:27:55] [Thread-44/INFO]: UUID of player DKing201 is 9d859d2d-73c4-3a8d-9f9d-2c9de25e13d7
+[10:27:55] [Server thread/INFO]: DKing201[/0:0:0:0:0:0:0:1:51053] logged in with entity id 19048 at ([world]233.366622282447, 58.0, -119.82021840367976)
+[10:27:55] [Server thread/INFO]: DKing201 has just earned the achievement [Getting Wood]
+[10:28:02] [Thread-45/INFO]: Disconnecting com.mojang.authlib.GameProfile@1a086d9[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@2c8952b5], isEaglerPlayer=[com.mojang.authlib.properties.Property@3b9753b7]},legacy=false] (/0:0:0:0:0:0:0:1:51058): [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:02] [Server thread/INFO]: com.mojang.authlib.GameProfile@1a086d9[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@2c8952b5], isEaglerPlayer=[com.mojang.authlib.properties.Property@3b9753b7]},legacy=false] (/0:0:0:0:0:0:0:1:51058) lost connection: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:02] [Thread-46/INFO]: UUID of player LachlanMSFS is 4b39a554-46ba-360b-85de-0d380f4c50e7
+[10:28:02] [Server thread/INFO]: LachlanMSFS[/0:0:0:0:0:0:0:1:51059] logged in with entity id 19170 at ([world]116.0, 64.0, 256.0)
+[10:28:02] [Craft Scheduler Thread - 54/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[10:28:02] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[10:28:10] [Thread-47/INFO]: Disconnecting com.mojang.authlib.GameProfile@4047adee[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@535073e6], isEaglerPlayer=[com.mojang.authlib.properties.Property@69275d73]},legacy=false] (/0:0:0:0:0:0:0:1:51061): [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@4047adee[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@535073e6], isEaglerPlayer=[com.mojang.authlib.properties.Property@69275d73]},legacy=false] (/0:0:0:0:0:0:0:1:51061) lost connection: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:14] [Server thread/INFO]: Dark_stalker33 issued server command: /back
+[10:28:17] [Thread-48/INFO]: Disconnecting com.mojang.authlib.GameProfile@6aaa1b09[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@248cb792], isEaglerPlayer=[com.mojang.authlib.properties.Property@20313632]},legacy=false] (/0:0:0:0:0:0:0:1:51063): [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@6aaa1b09[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@248cb792], isEaglerPlayer=[com.mojang.authlib.properties.Property@20313632]},legacy=false] (/0:0:0:0:0:0:0:1:51063) lost connection: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:23] [Thread-49/INFO]: Disconnecting com.mojang.authlib.GameProfile@4c5861bb[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@6075f29a], isEaglerPlayer=[com.mojang.authlib.properties.Property@68f18db]},legacy=false] (/0:0:0:0:0:0:0:1:51065): [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@4c5861bb[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@6075f29a], isEaglerPlayer=[com.mojang.authlib.properties.Property@68f18db]},legacy=false] (/0:0:0:0:0:0:0:1:51065) lost connection: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:30] [Server thread/INFO]: Dark_stalker33 suffocated in a wall
+[10:28:33] [Server thread/INFO]: LachlanMSFS lost connection: Login timed out!
+[10:28:33] [Server thread/INFO]: LachlanMSFS left the game.
+[10:28:33] [Server thread/WARN]: handleDisconnection() called twice
+[10:28:43] [Thread-50/INFO]: UUID of player LachlanMSFS is 4b39a554-46ba-360b-85de-0d380f4c50e7
+[10:28:43] [Server thread/INFO]: LachlanMSFS[/0:0:0:0:0:0:0:1:51067] logged in with entity id 19561 at ([world]116.0, 64.0, 256.0)
+[10:28:43] [Craft Scheduler Thread - 52/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[10:28:43] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[10:28:50] [Thread-51/INFO]: Disconnecting com.mojang.authlib.GameProfile@1c06e5c0[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@5f1f96ea], isEaglerPlayer=[com.mojang.authlib.properties.Property@f0001ac]},legacy=false] (/0:0:0:0:0:0:0:1:51069): [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:28:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@1c06e5c0[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@5f1f96ea], isEaglerPlayer=[com.mojang.authlib.properties.Property@f0001ac]},legacy=false] (/0:0:0:0:0:0:0:1:51069) lost connection: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:29:02] [Thread-52/INFO]: Disconnecting com.mojang.authlib.GameProfile@382cad60[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@68b86c40], isEaglerPlayer=[com.mojang.authlib.properties.Property@29c976e2]},legacy=false] (/0:0:0:0:0:0:0:1:51071): [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:29:02] [Server thread/INFO]: com.mojang.authlib.GameProfile@382cad60[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@68b86c40], isEaglerPlayer=[com.mojang.authlib.properties.Property@29c976e2]},legacy=false] (/0:0:0:0:0:0:0:1:51071) lost connection: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:29:14] [Server thread/INFO]: LachlanMSFS lost connection: Login timed out!
+[10:29:14] [Server thread/INFO]: LachlanMSFS left the game.
+[10:29:14] [Server thread/WARN]: handleDisconnection() called twice
+[10:29:17] [Thread-53/INFO]: Disconnecting com.mojang.authlib.GameProfile@3f4868c7[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@3ba9e8d2], isEaglerPlayer=[com.mojang.authlib.properties.Property@74872c1f]},legacy=false] (/0:0:0:0:0:0:0:1:51074): [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:29:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@3f4868c7[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@3ba9e8d2], isEaglerPlayer=[com.mojang.authlib.properties.Property@74872c1f]},legacy=false] (/0:0:0:0:0:0:0:1:51074) lost connection: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:29:30] [Thread-54/INFO]: Disconnecting com.mojang.authlib.GameProfile@164c74c6[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@dea040f], isEaglerPlayer=[com.mojang.authlib.properties.Property@645ab24f]},legacy=false] (/0:0:0:0:0:0:0:1:51076): [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:29:31] [Server thread/INFO]: com.mojang.authlib.GameProfile@164c74c6[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@dea040f], isEaglerPlayer=[com.mojang.authlib.properties.Property@645ab24f]},legacy=false] (/0:0:0:0:0:0:0:1:51076) lost connection: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:29:34] [Thread-55/INFO]: UUID of player LachlanMSFS is 4b39a554-46ba-360b-85de-0d380f4c50e7
+[10:29:34] [Server thread/INFO]: LachlanMSFS[/0:0:0:0:0:0:0:1:51078] logged in with entity id 19656 at ([world]116.0, 64.0, 256.0)
+[10:29:34] [Craft Scheduler Thread - 52/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[10:29:34] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[10:29:36] [Server thread/INFO]: Dark_stalker33 issued server command: /back
+[10:29:49] [Server thread/INFO]: Dark_stalker33 issued server command: /tpa d king
+[10:29:52] [Server thread/INFO]: Dark_stalker33 suffocated in a wall
+[10:30:05] [Server thread/INFO]: LachlanMSFS lost connection: Login timed out!
+[10:30:05] [Server thread/INFO]: LachlanMSFS left the game.
+[10:30:05] [Server thread/WARN]: handleDisconnection() called twice
+[10:30:22] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[10:30:22] [Server thread/INFO]: IceSiked left the game.
+[10:30:30] [Server thread/INFO]: Dark_stalker33 lost connection: Disconnected
+[10:30:30] [Server thread/INFO]: Dark_stalker33 left the game.
+[10:30:33] [Thread-56/INFO]: UUID of player LachlanMSFS is 4b39a554-46ba-360b-85de-0d380f4c50e7
+[10:30:33] [Server thread/INFO]: LachlanMSFS[/0:0:0:0:0:0:0:1:51082] logged in with entity id 20219 at ([world]116.0, 64.0, 256.0)
+[10:30:33] [Craft Scheduler Thread - 52/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[10:30:33] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[10:31:08] [Thread-57/INFO]: UUID of player Dark_stalker33 is ad80db31-1448-3ef5-accb-eb9220d5700f
+[10:31:08] [Server thread/INFO]: Dark_stalker33[/0:0:0:0:0:0:0:1:51085] logged in with entity id 20234 at ([world]116.0, 64.0, 256.0)
+[10:31:13] [Thread-58/INFO]: Disconnecting com.mojang.authlib.GameProfile@195c493a[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@26cac49b], isEaglerPlayer=[com.mojang.authlib.properties.Property@7bdd6631]},legacy=false] (/0:0:0:0:0:0:0:1:51088): [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:31:13] [Server thread/INFO]: com.mojang.authlib.GameProfile@195c493a[id=b82ed52a-9377-3152-aebb-846c87a5a6e6,name=XXR_JustAZZA,properties={textures=[com.mojang.authlib.properties.Property@26cac49b], isEaglerPlayer=[com.mojang.authlib.properties.Property@7bdd6631]},legacy=false] (/0:0:0:0:0:0:0:1:51088) lost connection: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[10:31:16] [Async Chat Thread - #9/INFO]: <DKing201> hi is anyone else on[m
+[10:31:30] [Async Chat Thread - #9/INFO]: <LachlanMSFS> tpa DKing201[m
+[10:31:31] [Server thread/INFO]: Dark_stalker33 suffocated in a wall
+[10:31:46] [Thread-59/INFO]: UUID of player XXR_Just_Azza is 69ff6cbf-3e47-3283-b36e-d7a5a7f67ab4
+[10:31:46] [Server thread/INFO]: XXR_Just_Azza[/0:0:0:0:0:0:0:1:51093] logged in with entity id 20463 at ([world]116.0, 64.0, 256.0)
+[10:31:46] [Craft Scheduler Thread - 56/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[10:31:46] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[10:31:53] [Server thread/INFO]: LachlanMSFS issued server command: /tpa DKing201
+[10:31:58] [Server thread/INFO]: DKing201 issued server command: /tpaccept
+[10:32:07] [Async Chat Thread - #9/INFO]: <DKing201> w[m
+[10:32:19] [Async Chat Thread - #9/INFO]: <Dark_stalker33> give me lave[m
+[10:32:25] [Server thread/INFO]: LachlanMSFS issued server command: /tpa Dark_stalker33
+[10:33:29] [Server thread/INFO]: LachlanMSFS has just earned the achievement [Taking Inventory]
+[10:34:04] [Server thread/INFO]: LachlanMSFS has just earned the achievement [Getting Wood]
+[10:35:19] [Server thread/INFO]: XXR_Just_Azza has just earned the achievement [Taking Inventory]
+[10:35:27] [Server thread/INFO]: LachlanMSFS has just earned the achievement [Benchmarking]
+[10:39:04] [Server thread/INFO]: AHHHHHHHHHHHHHHH lost connection: Disconnected
+[10:39:04] [Server thread/INFO]: AHHHHHHHHHHHHHHH left the game.
+[10:39:55] [Server thread/WARN]: Dark_stalker33 moved wrongly!
+[10:40:31] [Server thread/INFO]: XXR_Just_Azza has just earned the achievement [Getting Wood]
+[10:41:12] [Server thread/WARN]: XXR_Just_Azza moved wrongly!
+[10:41:29] [Server thread/INFO]: Dark_stalker33 has just earned the achievement [Benchmarking]
+[10:43:30] [Server thread/INFO]: Dark_stalker33 was slain by Zombie
+[10:43:37] [Server thread/INFO]: Dark_stalker33 issued server command: /back
+[10:44:56] [Async Chat Thread - #10/INFO]: <DKing201> yeet[m
+[10:46:18] [Server thread/INFO]: Dark_stalker33 issued server command: /tpa DKing201
+[10:46:18] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
+[10:46:26] [Server thread/INFO]: DKing201 issued server command: /tpaccept
+[10:46:28] [Server thread/INFO]: DKing201 issued server command: /tpaccept
+[10:46:29] [Server thread/INFO]: DKing201 issued server command: /tpaccept
+[10:46:30] [Server thread/INFO]: DKing201 issued server command: /tpaccept
+[10:46:38] [Async Chat Thread - #11/INFO]: <DKing201> t[m
+[10:47:33] [Server thread/INFO]: Dark_stalker33 lost connection: Disconnected
+[10:47:33] [Server thread/INFO]: Dark_stalker33 left the game.
+[10:49:36] [Thread-61/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[10:49:36] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51111] logged in with entity id 23787 at ([world]116.0, 64.0, 256.0)
+[10:51:26] [Server thread/INFO]: LachlanMSFS was shot by IceSiked
+[10:51:57] [Server thread/INFO]: XXR_Just_Azza issued server command: /tpa LachlanMSFS
+[10:54:36] [Server thread/INFO]: DKing201 issued server command: /tpa DKing201
+[10:54:54] [Server thread/INFO]: DKing201 issued server command: /tpa XXR_Just_Azza
+[10:54:59] [Server thread/INFO]: DKing201 lost connection: Disconnected
+[10:54:59] [Server thread/INFO]: DKing201 left the game.
+[10:55:02] [Server thread/INFO]: XXR_Just_Azza lost connection: Disconnected
+[10:55:02] [Server thread/INFO]: XXR_Just_Azza left the game.
+[10:55:16] [Server thread/INFO]: LachlanMSFS lost connection: Disconnected
+[10:55:16] [Server thread/INFO]: LachlanMSFS left the game.
+[10:55:29] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[10:55:29] [Server thread/INFO]: IceSiked left the game.
+[10:57:07] [Thread-62/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[10:57:07] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51119] logged in with entity id 26042 at ([world]116.0, 64.0, 256.0)
+[11:01:09] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[11:01:09] [Server thread/INFO]: IceSiked left the game.
+[11:01:29] [Thread-63/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[11:01:29] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51125] logged in with entity id 26724 at ([world]116.0, 64.0, 256.0)
+[11:04:10] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[11:04:10] [Server thread/INFO]: IceSiked left the game.
+[11:08:23] [Thread-64/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[11:08:23] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51134] logged in with entity id 27264 at ([world]116.0, 64.0, 256.0)
+[11:19:04] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[11:19:04] [Server thread/INFO]: IceSiked left the game.
+[11:19:36] [Thread-66/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[11:19:36] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51152] logged in with entity id 31500 at ([world]116.0, 64.0, 256.0)
+[11:43:12] [Thread-67/INFO]: UUID of player FentDealer is 8a71003a-ccad-3053-bea2-69d9548f7d72
+[11:43:12] [Server thread/INFO]: FentDealer[/0:0:0:0:0:0:0:1:51176] logged in with entity id 36902 at ([world]116.0, 64.0, 256.0)
+[11:44:18] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[11:44:18] [Server thread/INFO]: IceSiked left the game.
+[11:44:41] [Thread-68/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[11:44:41] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51196] logged in with entity id 37311 at ([world]116.0, 64.0, 256.0)
+[11:44:49] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[11:44:49] [Server thread/INFO]: IceSiked left the game.
+[11:44:55] [Server thread/INFO]: FentDealer lost connection: Disconnected
+[11:44:55] [Server thread/INFO]: FentDealer left the game.
+[11:45:52] [Thread-69/INFO]: UUID of player FentDealer is 8a71003a-ccad-3053-bea2-69d9548f7d72
+[11:45:52] [Server thread/INFO]: FentDealer[/0:0:0:0:0:0:0:1:51201] logged in with entity id 37536 at ([world]116.0, 64.0, 256.0)
+[11:47:46] [Server thread/WARN]: FentDealer moved too quickly! -28.019701181503024,0.02959078835495177,-5.81634787941266 (-28.019701181503024, 0.02959078835495177, -5.81634787941266)
+[11:58:49] [Thread-71/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[11:58:49] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51226] logged in with entity id 43023 at ([world]116.0, 64.0, 256.0)
+[12:00:22] [Server thread/INFO]: FentDealer lost connection: Disconnected
+[12:00:22] [Server thread/INFO]: FentDealer left the game.
+[12:20:15] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[12:20:15] [Server thread/INFO]: IceSiked left the game.
+[12:22:26] [Thread-73/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[12:22:26] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51260] logged in with entity id 46136 at ([world]116.0, 64.0, 256.0)
+[12:24:53] [Thread-74/INFO]: UUID of player XXR_Just_Azza is 69ff6cbf-3e47-3283-b36e-d7a5a7f67ab4
+[12:24:53] [Server thread/INFO]: XXR_Just_Azza[/0:0:0:0:0:0:0:1:51264] logged in with entity id 46497 at ([world]80.5, 66.0, 79.69999998807907)
+[12:25:23] [Server thread/INFO]: XXR_Just_Azza lost connection: Login timed out!
+[12:25:23] [Server thread/INFO]: XXR_Just_Azza left the game.
+[12:25:23] [Server thread/WARN]: handleDisconnection() called twice
+[12:25:28] [Thread-75/INFO]: UUID of player XXR_Just_Azza is 69ff6cbf-3e47-3283-b36e-d7a5a7f67ab4
+[12:25:28] [Server thread/INFO]: XXR_Just_Azza[/0:0:0:0:0:0:0:1:51266] logged in with entity id 46593 at ([world]80.0132765214953, 66.0, 79.18006022423215)
+[12:25:51] [Server thread/INFO]: XXR_Just_Azza lost connection: Disconnected
+[12:25:51] [Server thread/INFO]: XXR_Just_Azza left the game.
+[12:30:12] [Thread-76/INFO]: UUID of player rizzler_ is f37d6096-e609-343e-951f-2e47cfba030c
+[12:30:12] [Server thread/INFO]: rizzler_[/0:0:0:0:0:0:0:1:51279] logged in with entity id 56551 at ([world]116.0, 64.0, 256.0)
+[12:30:13] [Craft Scheduler Thread - 91/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[12:30:13] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[12:30:23] [Thread-77/INFO]: Disconnecting com.mojang.authlib.GameProfile@485baa8f[id=b2bd9725-076b-3174-aef2-25891d56f367,name=XXR_JustAzza,properties={textures=[com.mojang.authlib.properties.Property@765c31a5], isEaglerPlayer=[com.mojang.authlib.properties.Property@4a5e0e54]},legacy=false] (/0:0:0:0:0:0:0:1:51282): [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[12:30:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@485baa8f[id=b2bd9725-076b-3174-aef2-25891d56f367,name=XXR_JustAzza,properties={textures=[com.mojang.authlib.properties.Property@765c31a5], isEaglerPlayer=[com.mojang.authlib.properties.Property@4a5e0e54]},legacy=false] (/0:0:0:0:0:0:0:1:51282) lost connection: [LoginSecurity] This account is registered under the name XXR_justAzza, please log in as such.
+[12:30:43] [Server thread/INFO]: rizzler_ lost connection: Login timed out!
+[12:30:43] [Server thread/INFO]: rizzler_ left the game.
+[12:30:43] [Server thread/WARN]: handleDisconnection() called twice
+[12:30:44] [Thread-78/INFO]: UUID of player XXR_Just__Azza is 7f16f1b9-022e-3fb5-b00b-5842bca86a69
+[12:30:44] [Server thread/INFO]: XXR_Just__Azza[/0:0:0:0:0:0:0:1:51285] logged in with entity id 62085 at ([world]116.0, 64.0, 256.0)
+[12:30:44] [Craft Scheduler Thread - 91/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[12:30:44] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[12:31:03] [Thread-79/INFO]: UUID of player rizzler_ is f37d6096-e609-343e-951f-2e47cfba030c
+[12:31:03] [Server thread/INFO]: rizzler_[/0:0:0:0:0:0:0:1:51288] logged in with entity id 65712 at ([world]116.0, 64.0, 256.0)
+[12:31:03] [Craft Scheduler Thread - 91/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[12:31:03] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[12:31:14] [Server thread/INFO]: XXR_Just__Azza lost connection: Login timed out!
+[12:31:14] [Server thread/INFO]: XXR_Just__Azza left the game.
+[12:31:14] [Server thread/WARN]: handleDisconnection() called twice
+[12:31:19] [Thread-80/INFO]: UUID of player XXR_Just__Azza is 7f16f1b9-022e-3fb5-b00b-5842bca86a69
+[12:31:19] [Server thread/INFO]: XXR_Just__Azza[/0:0:0:0:0:0:0:1:51290] logged in with entity id 68368 at ([world]116.0, 64.0, 256.0)
+[12:31:19] [Craft Scheduler Thread - 91/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[12:31:19] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[12:31:34] [Server thread/INFO]: rizzler_ lost connection: Login timed out!
+[12:31:34] [Server thread/INFO]: rizzler_ left the game.
+[12:31:34] [Server thread/WARN]: handleDisconnection() called twice
+[12:31:40] [Thread-81/INFO]: UUID of player rizzler_ is f37d6096-e609-343e-951f-2e47cfba030c
+[12:31:40] [Server thread/INFO]: rizzler_[/0:0:0:0:0:0:0:1:51292] logged in with entity id 71809 at ([world]116.0, 64.0, 256.0)
+[12:31:40] [Craft Scheduler Thread - 91/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[12:31:40] [Server thread/INFO]: XXR_Just__Azza has just earned the achievement [Taking Inventory]
+[12:31:40] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[12:32:11] [Server thread/INFO]: rizzler_ lost connection: Login timed out!
+[12:32:11] [Server thread/INFO]: rizzler_ left the game.
+[12:32:11] [Server thread/WARN]: handleDisconnection() called twice
+[12:32:17] [Server thread/INFO]: XXR_Just__Azza has just earned the achievement [Getting Wood]
+[12:32:19] [Thread-82/INFO]: UUID of player rizzler_ is f37d6096-e609-343e-951f-2e47cfba030c
+[12:32:19] [Server thread/INFO]: rizzler_[/0:0:0:0:0:0:0:1:51295] logged in with entity id 78365 at ([world]116.0, 64.0, 256.0)
+[12:32:20] [Craft Scheduler Thread - 91/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[12:32:20] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[12:32:50] [Server thread/INFO]: rizzler_ lost connection: Login timed out!
+[12:32:50] [Server thread/INFO]: rizzler_ left the game.
+[12:32:50] [Server thread/WARN]: handleDisconnection() called twice
+[12:32:56] [Thread-83/INFO]: UUID of player rizzler_ is f37d6096-e609-343e-951f-2e47cfba030c
+[12:32:56] [Server thread/INFO]: rizzler_[/0:0:0:0:0:0:0:1:51297] logged in with entity id 84388 at ([world]116.0, 64.0, 256.0)
+[12:32:56] [Craft Scheduler Thread - 91/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[12:32:56] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[12:33:26] [Server thread/INFO]: rizzler_ lost connection: Login timed out!
+[12:33:26] [Server thread/INFO]: rizzler_ left the game.
+[12:33:26] [Server thread/WARN]: handleDisconnection() called twice
+[12:33:40] [Thread-84/INFO]: UUID of player rizzler_ is f37d6096-e609-343e-951f-2e47cfba030c
+[12:33:40] [Server thread/INFO]: rizzler_[/0:0:0:0:0:0:0:1:51299] logged in with entity id 91629 at ([world]116.0, 64.0, 256.0)
+[12:33:40] [Craft Scheduler Thread - 91/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[12:33:40] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[12:34:03] [Server thread/INFO]: rizzler_ issued server command: /eee
+[12:34:11] [Server thread/INFO]: rizzler_ lost connection: Login timed out!
+[12:34:11] [Server thread/INFO]: rizzler_ left the game.
+[12:34:11] [Server thread/WARN]: handleDisconnection() called twice
+[12:34:22] [Thread-85/INFO]: UUID of player rizzler_ is f37d6096-e609-343e-951f-2e47cfba030c
+[12:34:22] [Server thread/INFO]: rizzler_[/0:0:0:0:0:0:0:1:51301] logged in with entity id 98435 at ([world]116.0, 64.0, 256.0)
+[12:34:23] [Craft Scheduler Thread - 91/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[12:34:23] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[12:34:53] [Server thread/INFO]: rizzler_ lost connection: Login timed out!
+[12:34:53] [Server thread/INFO]: rizzler_ left the game.
+[12:34:53] [Server thread/WARN]: handleDisconnection() called twice
+[12:35:24] [Server thread/INFO]: XXR_Just__Azza has just earned the achievement [Benchmarking]
+[12:36:37] [Thread-86/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
+[12:36:37] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:51305] logged in with entity id 121014 at ([world]116.0, 64.0, 256.0)
+[12:37:08] [Server thread/INFO]: rizzler lost connection: Login timed out!
+[12:37:08] [Server thread/INFO]: rizzler left the game.
+[12:37:08] [Server thread/WARN]: handleDisconnection() called twice
+[12:37:13] [Thread-87/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
+[12:37:13] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:51309] logged in with entity id 126947 at ([world]116.69999998807907, 63.0, 256.9561325420733)
+[12:37:49] [Async Chat Thread - #13/INFO]: <rizzler> hudson[m
+[12:38:10] [Async Chat Thread - #13/INFO]: <XXR_Just__Azza> I am arron[m
+[12:38:21] [Async Chat Thread - #13/INFO]: <rizzler> ohh where are you[m
+[12:38:39] [Async Chat Thread - #13/INFO]: <rizzler> i think you are in a nother clan[m
+[12:39:02] [Server thread/INFO]: XXR_Just__Azza has just earned the achievement [Time to Mine!]
+[12:39:28] [Async Chat Thread - #13/INFO]: <rizzler> do you know if hudson is going to login[m
+[12:39:38] [Server thread/INFO]: XXR_Just__Azza lost connection: Disconnected
+[12:39:38] [Server thread/INFO]: XXR_Just__Azza left the game.
+[12:39:55] [Server thread/INFO]: rizzler lost connection: Disconnected
+[12:39:55] [Server thread/INFO]: rizzler left the game.
+[12:40:20] [Thread-88/INFO]: UUID of player XXR_Just__Azza is 7f16f1b9-022e-3fb5-b00b-5842bca86a69
+[12:40:20] [Server thread/INFO]: XXR_Just__Azza[/0:0:0:0:0:0:0:1:51314] logged in with entity id 157659 at ([world]116.33670798868579, 61.0, 233.6568062645461)
+[12:40:36] [Server thread/INFO]: XXR_Just__Azza lost connection: Disconnected
+[12:40:36] [Server thread/INFO]: XXR_Just__Azza left the game.
+[12:45:12] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[12:45:12] [Server thread/INFO]: IceSiked left the game.
+[12:48:22] [Thread-90/INFO]: UUID of player AHHHHHHHHHHHHHHH is cbe77070-fed8-3c8e-be8b-f5e231de5613
+[12:48:22] [Server thread/INFO]: AHHHHHHHHHHHHHHH[/0:0:0:0:0:0:0:1:51322] logged in with entity id 197929 at ([world]116.0, 64.0, 256.0)
+[12:53:43] [Thread-91/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[12:53:44] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51330] logged in with entity id 199165 at ([world]116.0, 64.0, 256.0)
+[13:20:54] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[13:20:54] [Server thread/INFO]: IceSiked left the game.
+[13:21:04] [Server thread/INFO]: AHHHHHHHHHHHHHHH lost connection: Disconnected
+[13:21:04] [Server thread/INFO]: AHHHHHHHHHHHHHHH left the game.
+[13:23:09] [Thread-93/INFO]: UUID of player FentDealer is 8a71003a-ccad-3053-bea2-69d9548f7d72
+[13:23:09] [Server thread/INFO]: FentDealer[/0:0:0:0:0:0:0:1:51359] logged in with entity id 227078 at ([world]116.0, 64.0, 256.0)
+[13:23:42] [Thread-94/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[13:23:42] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51362] logged in with entity id 227320 at ([world]116.0, 64.0, 256.0)
+[13:25:06] [Server thread/INFO]: FentDealer lost connection: Disconnected
+[13:25:06] [Server thread/INFO]: FentDealer left the game.
+[13:25:39] [Thread-95/INFO]: UUID of player AHHHHHHHHHHHHHHH is cbe77070-fed8-3c8e-be8b-f5e231de5613
+[13:25:39] [Server thread/INFO]: AHHHHHHHHHHHHHHH[/0:0:0:0:0:0:0:1:51366] logged in with entity id 227629 at ([world]116.0, 64.0, 256.0)
+[13:26:09] [Thread-96/INFO]: UUID of player FentDealer is 8a71003a-ccad-3053-bea2-69d9548f7d72
+[13:26:09] [Server thread/INFO]: FentDealer[/0:0:0:0:0:0:0:1:51368] logged in with entity id 227839 at ([world]116.0, 64.0, 256.0)
+[13:28:35] [Server thread/INFO]: FentDealer lost connection: Disconnected
+[13:28:35] [Server thread/INFO]: FentDealer left the game.
+[13:51:51] [Thread-98/INFO]: UUID of player XXR_Just__Azza is 7f16f1b9-022e-3fb5-b00b-5842bca86a69
+[13:51:51] [Server thread/INFO]: XXR_Just__Azza[/0:0:0:0:0:0:0:1:51427] logged in with entity id 233586 at ([world]116.95351235301064, 61.0, 233.69999998807907)
+[13:53:58] [Thread-99/INFO]: UUID of player Dark_stalker33 is ad80db31-1448-3ef5-accb-eb9220d5700f
+[13:53:58] [Server thread/INFO]: Dark_stalker33[/0:0:0:0:0:0:0:1:51437] logged in with entity id 235669 at ([world]116.0, 64.0, 256.0)
+[13:54:25] [Server thread/INFO]: XXR_Just__Azza issued server command: /tpa Dark_stalker33
+[13:54:32] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[13:54:33] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[13:55:16] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[13:55:16] [Server thread/INFO]: IceSiked left the game.
+[13:59:00] [Server thread/INFO]: XXR_Just__Azza issued server command: /tpa Dark_stalker33
+[13:59:01] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[13:59:03] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:00:50] [Server thread/INFO]: XXR_Just__Azza issued server command: /tpa Dark_stalker33
+[14:00:52] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:04:18] [Thread-100/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
+[14:04:18] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:51453] logged in with entity id 238107 at ([world]116.0, 64.0, 256.0)
+[14:06:35] [Async Chat Thread - #14/INFO]: <Dark_stalker33> sup[m
+[14:06:45] [Async Chat Thread - #14/INFO]: <rizzler> alex[m
+[14:06:53] [Server thread/INFO]: Dark_stalker33 issued server command: /tpa rizzler
+[14:07:02] [Server thread/INFO]: rizzler issued server command: /tpaccept
+[14:07:06] [Thread-101/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
+[14:07:06] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:51472] logged in with entity id 239129 at ([world]116.0, 64.0, 256.0)
+[14:07:09] [Async Chat Thread - #14/INFO]: <rizzler> i have your stuff[m
+[14:07:13] [Server thread/WARN]: Dark_stalker33 moved wrongly!
+[14:07:21] [Async Chat Thread - #14/INFO]: <rizzler> alex come[m
+[14:07:37] [Server thread/INFO]: XXR_Just__Azza issued server command: /tpa Dark_stalker33
+[14:08:02] [Thread-102/INFO]: UUID of player XXR_justHuddo is 606148f6-e4c9-3f9e-9e10-ce1285f9add8
+[14:08:02] [Server thread/INFO]: XXR_justHuddo[/0:0:0:0:0:0:0:1:51475] logged in with entity id 239657 at ([world]116.0, 64.0, 256.0)
+[14:08:08] [Async Chat Thread - #14/INFO]: <MrMate> come[m
+[14:08:13] [Async Chat Thread - #14/INFO]: <MrMate> here[m
+[14:08:27] [Async Chat Thread - #14/INFO]: <rizzler> poen it[m
+[14:08:37] [Async Chat Thread - #14/INFO]: <rizzler> it is all your stuff in there[m
+[14:09:18] [Server thread/INFO]: XXR_Just__Azza issued server command: /tpa Dark
+[14:09:24] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:09:26] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:09:27] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:09:27] [Async Chat Thread - #14/INFO]: <MrMate> alex[m
+[14:09:39] [Async Chat Thread - #14/INFO]: <MrMate> come here[m
+[14:09:54] [Async Chat Thread - #14/INFO]: <rizzler> hi arron[m
+[14:10:02] [Async Chat Thread - #14/INFO]: <XXR_Just__Azza> sup[m
+[14:10:05] [Async Chat Thread - #14/INFO]: <MrMate> is lachy logging on for the war[m
+[14:10:26] [Async Chat Thread - #14/INFO]: <XXR_Just__Azza> bro I only have a wooden pick axe[m
+[14:10:47] [Async Chat Thread - #14/INFO]: <XXR_Just__Azza> i am still gonna get them tho\[m
+[14:10:52] [Async Chat Thread - #14/INFO]: <XXR_justHuddo> should we start the war?[m
+[14:11:48] [Server thread/INFO]: Dark_stalker33 has just earned the achievement [Time to Mine!]
+[14:11:48] [Server thread/INFO]: Dark_stalker33 has just earned the achievement [Getting an Upgrade]
+[14:12:12] [Thread-103/INFO]: UUID of player DKing201 is 9d859d2d-73c4-3a8d-9f9d-2c9de25e13d7
+[14:12:12] [Server thread/INFO]: DKing201[/0:0:0:0:0:0:0:1:51497] logged in with entity id 241088 at ([world]116.0, 64.0, 256.0)
+[14:12:33] [Async Chat Thread - #15/INFO]: <DKing201> hello[m
+[14:12:44] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
+[14:13:00] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
+[14:13:02] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
+[14:13:04] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
+[14:13:40] [Server thread/INFO]: DKing201 issued server command: /tpa XXR_Just__Azza
+[14:14:31] [Async Chat Thread - #16/INFO]: <DKing201> someone accept my tpa pls pls[m
+[14:14:40] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
+[14:14:41] [Thread-104/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[14:14:41] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51501] logged in with entity id 242628 at ([world]116.0, 64.0, 256.0)
+[14:14:49] [Async Chat Thread - #16/INFO]: <MrMate> hi[m
+[14:14:54] [Async Chat Thread - #16/INFO]: <DKing201> alex pls[m
+[14:14:54] [Async Chat Thread - #16/INFO]: <IceSiked> hi[m
+[14:15:09] [Server thread/INFO]: AHHHHHHHHHHHHHHH lost connection: Disconnected
+[14:15:09] [Server thread/INFO]: AHHHHHHHHHHHHHHH left the game.
+[14:15:10] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[14:15:10] [Server thread/INFO]: IceSiked left the game.
+[14:15:19] [Async Chat Thread - #16/INFO]: <DKing201> alex you on[m
+[14:15:30] [Async Chat Thread - #16/INFO]: <DKing201> jax[m
+[14:15:37] [Async Chat Thread - #16/INFO]: <rizzler> what[m
+[14:15:46] [Server thread/INFO]: DKing201 issued server command: /tpa rizzler
+[14:15:59] [Async Chat Thread - #16/INFO]: <Dark_stalker33> has the war started[m
+[14:16:04] [Async Chat Thread - #16/INFO]: <MrMate> NAH[m
+[14:16:09] [Async Chat Thread - #16/INFO]: <XXR_justHuddo> NO[m
+[14:16:09] [Async Chat Thread - #16/INFO]: <MrMate> nah[m
+[14:16:12] [Async Chat Thread - #16/INFO]: <DKing201> what are you on about[m
+[14:16:22] [Async Chat Thread - #16/INFO]: <Dark_stalker33> why are you killing aaron then[m
+[14:16:33] [Async Chat Thread - #16/INFO]: <DKing201> alex accept my tpa[m
+[14:16:33] [Async Chat Thread - #16/INFO]: <XXR_Just__Azza> STTUUPIIDD!!!!!!!!!![m
+[14:16:33] [Async Chat Thread - #16/INFO]: <rizzler> alex[m
+[14:16:37] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
+[14:16:41] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:16:49] [Async Chat Thread - #16/INFO]: <DKing201> thx[m
+[14:16:51] [Async Chat Thread - #16/INFO]: <XXR_justHuddo> send one 2 me[m
+[14:16:54] [Async Chat Thread - #16/INFO]: <rizzler> tpa den[m
+[14:16:55] [Thread-105/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[14:16:55] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51507] logged in with entity id 243829 at ([world]116.0, 64.0, 256.0)
+[14:16:58] [Async Chat Thread - #16/INFO]: <XXR_justHuddo> nvm[m
+[14:17:35] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[14:17:35] [Server thread/INFO]: IceSiked left the game.
+[14:18:43] [Thread-107/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[14:18:43] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51511] logged in with entity id 244936 at ([world]116.0, 64.0, 256.0)
+[14:19:01] [Async Chat Thread - #17/INFO]: <XXR_justHuddo> where you get the enchanted chestplate dking?[m
+[14:19:15] [Async Chat Thread - #17/INFO]: <DKing201> oh yea i give it back[m
+[14:19:18] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[14:19:18] [Server thread/INFO]: IceSiked left the game.
+[14:19:22] [Thread-108/INFO]: UUID of player AHHHHHHHHHHHHHHH is cbe77070-fed8-3c8e-be8b-f5e231de5613
+[14:19:22] [Server thread/INFO]: AHHHHHHHHHHHHHHH[/0:0:0:0:0:0:0:1:51515] logged in with entity id 245321 at ([world]116.0, 64.0, 256.0)
+[14:19:24] [Async Chat Thread - #17/INFO]: <rizzler> did alex give[m
+[14:19:54] [Server thread/INFO]: rizzler was slain by DKing201
+[14:20:09] [Async Chat Thread - #17/INFO]: <rizzler> deniss killed me[m
+[14:20:10] [Server thread/INFO]: DKing201 was slain by XXR_justHuddo
+[14:20:22] [Async Chat Thread - #17/INFO]: <DKing201> sorry[m
+[14:20:29] [Server thread/INFO]: rizzler issued server command: /tpa MrMate
+[14:20:32] [Server thread/INFO]: MrMate issued server command: /tpaccept
+[14:20:34] [Async Chat Thread - #17/INFO]: <DKing201> sorry[m
+[14:20:35] [Async Chat Thread - #17/INFO]: <XXR_justHuddo> it da punishment[m
+[14:20:40] [Server thread/INFO]: rizzler issued server command: /back
+[14:20:41] [Async Chat Thread - #17/INFO]: <DKing201> i know[m
+[14:21:08] [Thread-109/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[14:21:08] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51519] logged in with entity id 246132 at ([world]116.0, 64.0, 256.0)
+[14:21:09] [Server thread/INFO]: DKing201 issued server command: /gamemode creative
+[14:21:23] [Async Chat Thread - #17/INFO]: <AHHHHHHHHHHHHHHH> boris you at base[m
+[14:21:25] [Async Chat Thread - #17/INFO]: <AHHHHHHHHHHHHHHH> ?[m
+[14:21:31] [Async Chat Thread - #17/INFO]: <IceSiked> yes[m
+[14:21:32] [Async Chat Thread - #17/INFO]: <Dark_stalker33> nah bro[m
+[14:21:42] [Async Chat Thread - #17/INFO]: <AHHHHHHHHHHHHHHH> let me tp[m
+[14:21:46] [Server thread/INFO]: DKing201 issued server command: /give @s diamond_sword
+[14:21:48] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /tpa IceSiked
+[14:21:51] [Server thread/INFO]: IceSiked issued server command: /tpaccept
+[14:22:03] [Server thread/INFO]: DKing201 issued server command: /tpa AHHHHHHHHHHHHHHH
+[14:22:09] [Async Chat Thread - #17/INFO]: <Dark_stalker33> who has food[m
+[14:22:14] [Async Chat Thread - #17/INFO]: <DKing201> not me[m
+[14:22:14] [Async Chat Thread - #17/INFO]: <MrMate> famr[m
+[14:22:16] [Async Chat Thread - #17/INFO]: <MrMate> farm[m
+[14:22:21] [Server thread/INFO]: AHHHHHHHHHHHHHHH lost connection: Disconnected
+[14:22:21] [Server thread/INFO]: AHHHHHHHHHHHHHHH left the game.
+[14:22:23] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
+[14:22:24] [Async Chat Thread - #17/INFO]: <Dark_stalker33> i need meat[m
+[14:22:30] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:22:34] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:22:39] [Async Chat Thread - #17/INFO]: <DKing201> thx[m
+[14:22:54] [Async Chat Thread - #17/INFO]: <DKing201> what da dog doing hudson[m
+[14:23:17] [Async Chat Thread - #17/INFO]: <rizzler> dennis stop trying to kill me[m
+[14:23:27] [Async Chat Thread - #17/INFO]: <DKing201> im not you egg[m
+[14:23:39] [Async Chat Thread - #17/INFO]: <rizzler> yeah rite[m
+[14:23:54] [Async Chat Thread - #17/INFO]: <DKing201> dude i was looking for stuff[m
+[14:25:06] [Server thread/INFO]: rizzler lost connection: Disconnected
+[14:25:06] [Server thread/INFO]: rizzler left the game.
+[14:26:46] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[14:26:46] [Server thread/INFO]: IceSiked left the game.
+[14:27:04] [Server thread/INFO]: XXR_justHuddo lost connection: Disconnected
+[14:27:04] [Server thread/INFO]: XXR_justHuddo left the game.
+[14:27:14] [Thread-110/INFO]: UUID of player XXR_justHuddo is 606148f6-e4c9-3f9e-9e10-ce1285f9add8
+[14:27:14] [Server thread/INFO]: XXR_justHuddo[/0:0:0:0:0:0:0:1:51536] logged in with entity id 247046 at ([world]116.0, 64.0, 256.0)
+[14:27:17] [Thread-111/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
+[14:27:17] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:51539] logged in with entity id 247121 at ([world]116.0, 64.0, 256.0)
+[14:27:26] [Async Chat Thread - #18/INFO]: <XXR_justHuddo> jax got caught[m
+[14:27:31] [Async Chat Thread - #18/INFO]: <DKing201> oh no[m
+[14:27:43] [Async Chat Thread - #18/INFO]: <DKing201> were screwed[m
+[14:27:46] [Server thread/INFO]: DKing201 lost connection: Disconnected
+[14:27:46] [Server thread/INFO]: DKing201 left the game.
+[14:27:48] [Async Chat Thread - #18/INFO]: <rizzler> im back boys[m
+[14:29:16] [Async Chat Thread - #19/INFO]: <rizzler> all he said was close "minecraft" haha[m
+[14:29:18] [Thread-112/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[14:29:18] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51543] logged in with entity id 247458 at ([world]116.0, 64.0, 256.0)
+[14:29:44] [Async Chat Thread - #19/INFO]: <rizzler> huddo im back[m
+[14:29:57] [Async Chat Thread - #19/INFO]: <XXR_justHuddo> where is everyone[m
+[14:30:02] [Async Chat Thread - #19/INFO]: <rizzler> idk'[m
+[14:30:17] [Async Chat Thread - #19/INFO]: <rizzler> peoble made a nother base[m
+[14:30:34] [Server thread/INFO]: MrMate issued server command: /tpa Dark_stalker33
+[14:31:02] [Server thread/INFO]: MrMate issued server command: /tpa Dark_stalker33
+[14:31:04] [Async Chat Thread - #19/INFO]: <rizzler> i found a gold block[m
+[14:31:06] [Server thread/INFO]: Dark_stalker33 has just earned the achievement [Hot Topic]
+[14:31:11] [Async Chat Thread - #19/INFO]: <rizzler> im mineing[m
+[14:32:00] [Server thread/INFO]: MrMate lost connection: Disconnected
+[14:32:00] [Server thread/INFO]: MrMate left the game.
+[14:32:02] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[14:32:02] [Server thread/INFO]: IceSiked left the game.
+[14:32:14] [Async Chat Thread - #20/INFO]: <rizzler> stepan left the game[m
+[14:34:19] [Server thread/INFO]: rizzler was burnt to a crisp whilst fighting XXR_justHuddo
+[14:34:30] [Async Chat Thread - #21/INFO]: <XXR_justHuddo> do / back[m
+[14:34:32] [Thread-113/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
+[14:34:32] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:51549] logged in with entity id 249347 at ([world]116.0, 64.0, 256.0)
+[14:34:34] [Server thread/INFO]: rizzler issued server command: /back
+[14:34:54] [Async Chat Thread - #21/INFO]: <rizzler> what the sikb[m
+[14:35:00] [Async Chat Thread - #21/INFO]: <XXR_justHuddo> your falt[m
+[14:35:19] [Server thread/INFO]: MrMate issued server command: /tpa XXR_Just__Azza
+[14:35:19] [Async Chat Thread - #21/INFO]: <rizzler> where wer you?[m
+[14:35:23] [Async Chat Thread - #21/INFO]: <XXR_justHuddo> i thought we were on the same clan[m
+[14:35:33] [Async Chat Thread - #21/INFO]: <XXR_justHuddo> i gave you iron[m
+[14:35:45] [Server thread/INFO]: XXR_justHuddo lost connection: Disconnected
+[14:35:45] [Server thread/INFO]: XXR_justHuddo left the game.
+[14:36:05] [Async Chat Thread - #21/INFO]: <rizzler> you stoped moving for like 5minuets[m
+[14:36:14] [Server thread/INFO]: MrMate issued server command: /tpa Dark_stalker33
+[14:36:16] [Async Chat Thread - #21/INFO]: <MrMate> accept[m
+[14:36:20] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:36:22] [Async Chat Thread - #21/INFO]: <rizzler> i was seaing where you where[m
+[14:36:25] [Server thread/INFO]: MrMate issued server command: /tpa Dark_stalker33
+[14:36:30] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:36:32] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:36:37] [Async Chat Thread - #21/INFO]: <rizzler> steapan tpa you[m
+[14:36:56] [Async Chat Thread - #21/INFO]: <MrMate> what u doi ng[m
+[14:36:58] [Async Chat Thread - #21/INFO]: <Dark_stalker33> stepan give me 6 wool[m
+[14:37:04] [Async Chat Thread - #21/INFO]: <rizzler> hudson where are you[m
+[14:37:10] [Async Chat Thread - #21/INFO]: <MrMate> for ur clane[m
+[14:37:29] [Async Chat Thread - #21/INFO]: <Dark_stalker33> STEAPN SIX WOOL PLS[m
+[14:37:43] [Async Chat Thread - #21/INFO]: <rizzler> alex where are you[m
+[14:38:22] [Thread-114/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[14:38:22] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51565] logged in with entity id 250384 at ([world]116.0, 64.0, 256.0)
+[14:38:41] [Async Chat Thread - #21/INFO]: <rizzler> alex[m
+[14:38:56] [Thread-115/INFO]: UUID of player YeeYeeish988 is 99502867-4bc5-305f-baba-e24e2354a92e
+[14:38:56] [Server thread/INFO]: YeeYeeish988[/0:0:0:0:0:0:0:1:51569] logged in with entity id 250856 at ([world]116.0, 64.0, 256.0)
+[14:38:57] [Craft Scheduler Thread - 148/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[14:38:57] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[14:39:00] [Server thread/INFO]: rizzler issued server command: /tpa w
+[14:39:06] [Async Chat Thread - #21/INFO]: <MrMate> who dat[m
+[14:39:19] [Async Chat Thread - #21/INFO]: <rizzler> how is yeeyeeish?[m
+[14:39:27] [Server thread/INFO]: YeeYeeish988 lost connection: Login timed out!
+[14:39:27] [Server thread/INFO]: YeeYeeish988 left the game.
+[14:39:27] [Server thread/WARN]: handleDisconnection() called twice
+[14:39:28] [Async Chat Thread - #21/INFO]: <Dark_stalker33> ITS KYSON[m
+[14:39:41] [Async Chat Thread - #21/INFO]: <rizzler> DID YOU TELL HIM[m
+[14:39:47] [Async Chat Thread - #21/INFO]: <Dark_stalker33> HE WOULD TELL IF WE EDIDNT GET IT[m
+[14:40:00] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[14:40:00] [Server thread/INFO]: IceSiked left the game.
+[14:40:02] [Async Chat Thread - #21/INFO]: <rizzler> how do you know tho[m
+[14:40:09] [Server thread/INFO]: MrMate issued server command: /tpa XXR_Just__Azza
+[14:40:11] [Async Chat Thread - #21/INFO]: <MrMate> accep[m
+[14:40:15] [Async Chat Thread - #21/INFO]: <rizzler> he could tell erick[m
+[14:40:18] [Async Chat Thread - #21/INFO]: <MrMate> pls[m
+[14:40:26] [Async Chat Thread - #21/INFO]: <rizzler> stepan[m
+[14:40:34] [Async Chat Thread - #21/INFO]: <rizzler> i will tpa you[m
+[14:40:56] [Async Chat Thread - #21/INFO]: <rizzler> hudson where are you[m
+[14:41:40] [Thread-116/INFO]: UUID of player XXR_justHuddo is 606148f6-e4c9-3f9e-9e10-ce1285f9add8
+[14:41:40] [Server thread/INFO]: XXR_justHuddo[/0:0:0:0:0:0:0:1:51574] logged in with entity id 251827 at ([world]116.0, 64.0, 256.0)
+[14:41:42] [Thread-117/INFO]: UUID of player itsa_me_kyson_ is 9c6b388c-dac0-3662-80f8-caa20c50a23f
+[14:41:42] [Server thread/INFO]: itsa_me_kyson_[/0:0:0:0:0:0:0:1:51576] logged in with entity id 251980 at ([world]116.0, 64.0, 256.0)
+[14:41:43] [Craft Scheduler Thread - 149/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[14:41:43] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[14:41:55] [Server thread/INFO]: MrMate issued server command: /tpa itsa_me_kyson_
+[14:41:56] [Async Chat Thread - #22/INFO]: <XXR_justHuddo> kyson kyson kyson[m
+[14:42:06] [Server thread/INFO]: itsa_me_kyson_ issued server command: ////////////////huddo\
+[14:42:10] [Async Chat Thread - #22/INFO]: <XXR_justHuddo> just dont tell ANYONE[m
+[14:42:13] [Server thread/INFO]: itsa_me_kyson_ lost connection: Login timed out!
+[14:42:13] [Server thread/INFO]: itsa_me_kyson_ left the game.
+[14:42:13] [Server thread/WARN]: handleDisconnection() called twice
+[14:42:15] [Async Chat Thread - #22/INFO]: <MrMate> and dont yap[m
+[14:42:18] [Async Chat Thread - #22/INFO]: <rizzler> do you swear you wont tell erick[m
+[14:42:19] [Thread-118/INFO]: UUID of player itsa_me_kyson_ is 9c6b388c-dac0-3662-80f8-caa20c50a23f
+[14:42:19] [Server thread/INFO]: itsa_me_kyson_[/0:0:0:0:0:0:0:1:51581] logged in with entity id 252327 at ([world]116.0, 64.0, 256.0)
+[14:42:20] [Craft Scheduler Thread - 151/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[14:42:20] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[14:42:35] [Async Chat Thread - #22/INFO]: <MrMate> do u swear u wont tel anyone[m
+[14:42:48] [Async Chat Thread - #22/INFO]: <Dark_stalker33> \\food[m
+[14:42:50] [Server thread/INFO]: itsa_me_kyson_ lost connection: Login timed out!
+[14:42:50] [Server thread/INFO]: itsa_me_kyson_ left the game.
+[14:42:50] [Server thread/WARN]: handleDisconnection() called twice
+[14:42:54] [Thread-119/INFO]: UUID of player itsa_me_kyson_ is 9c6b388c-dac0-3662-80f8-caa20c50a23f
+[14:42:54] [Server thread/INFO]: itsa_me_kyson_[/0:0:0:0:0:0:0:1:51583] logged in with entity id 252576 at ([world]116.0, 64.0, 256.0)
+[14:42:55] [Craft Scheduler Thread - 151/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[14:42:55] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[14:42:57] [Async Chat Thread - #22/INFO]: <Dark_stalker33> food[m
+[14:43:00] [Async Chat Thread - #22/INFO]: <rizzler> kyson left XD[m
+[14:43:05] [Async Chat Thread - #22/INFO]: <Dark_stalker33> huddo food[m
+[14:43:23] [Async Chat Thread - #22/INFO]: <MrMate> dark[m
+[14:43:24] [Async Chat Thread - #22/INFO]: <Dark_stalker33> huudo get out[m
+[14:43:25] [Server thread/INFO]: itsa_me_kyson_ lost connection: Login timed out!
+[14:43:25] [Server thread/INFO]: itsa_me_kyson_ left the game.
+[14:43:25] [Server thread/WARN]: handleDisconnection() called twice
+[14:43:36] [Async Chat Thread - #22/INFO]: <rizzler> is this you base[m
+[14:43:41] [Async Chat Thread - #22/INFO]: <rizzler> alex[m
+[14:43:48] [Server thread/INFO]: XXR_Just__Azza was slain by Spider
+[14:44:02] [Server thread/INFO]: XXR_Just__Azza issued server command: /back
+[14:44:07] [Async Chat Thread - #22/INFO]: <MrMate> alex i gave u food[m
+[14:44:15] [Async Chat Thread - #22/INFO]: <rizzler> some one was slane by a spider[m
+[14:44:18] [Server thread/INFO]: XXR_Just__Azza issued server command: /backk
+[14:44:21] [Server thread/INFO]: XXR_Just__Azza issued server command: /back
+[14:44:22] [Async Chat Thread - #22/INFO]: <MrMate> aaron[m
+[14:44:42] [Thread-120/INFO]: UUID of player itsa_me_kyson_ is 9c6b388c-dac0-3662-80f8-caa20c50a23f
+[14:44:42] [Server thread/INFO]: itsa_me_kyson_[/0:0:0:0:0:0:0:1:51585] logged in with entity id 253127 at ([world]116.0, 64.0, 256.0)
+[14:44:42] [Craft Scheduler Thread - 152/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[14:44:42] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[14:44:45] [Server thread/INFO]: itsa_me_kyson_ has just earned the achievement [Taking Inventory]
+[14:45:01] [Server thread/INFO]: itsa_me_kyson_ issued server command: /regester skibidi
+[14:45:12] [Async Chat Thread - #22/INFO]: <rizzler> kyson dont use your real name online bro[m
+[14:45:12] [Server thread/INFO]: itsa_me_kyson_ lost connection: Login timed out!
+[14:45:12] [Server thread/INFO]: itsa_me_kyson_ left the game.
+[14:45:12] [Server thread/WARN]: handleDisconnection() called twice
+[14:45:17] [Thread-121/INFO]: UUID of player itsa_me_kyson_ is 9c6b388c-dac0-3662-80f8-caa20c50a23f
+[14:45:17] [Server thread/INFO]: itsa_me_kyson_[/0:0:0:0:0:0:0:1:51588] logged in with entity id 253228 at ([world]116.0, 64.0, 256.0)
+[14:45:18] [Craft Scheduler Thread - 152/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[14:45:18] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[14:45:20] [Server thread/INFO]: XXR_Just__Azza issued server command: /tpa Dark_stalker33
+[14:45:23] [Server thread/INFO]: rizzler lost connection: Disconnected
+[14:45:23] [Server thread/INFO]: rizzler left the game.
+[14:45:31] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:45:32] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
+[14:45:33] [Server thread/INFO]: itsa_me_kyson_ lost connection: Disconnected
+[14:45:33] [Server thread/INFO]: itsa_me_kyson_ left the game.
+[14:45:45] [Thread-122/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
+[14:45:45] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:51590] logged in with entity id 253372 at ([world]116.0, 64.0, 256.0)
+[14:46:11] [Server thread/INFO]: XXR_justHuddo lost connection: Disconnected
+[14:46:11] [Server thread/INFO]: XXR_justHuddo left the game.
+[14:46:12] [Async Chat Thread - #22/INFO]: <rizzler> im back[m
+[14:46:32] [Thread-123/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[14:46:32] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51595] logged in with entity id 253454 at ([world]116.0, 64.0, 256.0)
+[14:46:48] [Async Chat Thread - #22/INFO]: <rizzler> arron what are you doing[m
+[14:47:06] [Thread-124/INFO]: UUID of player skibidirizzrizz is e709ce5a-7928-355c-9970-50cf5ec84dde
+[14:47:06] [Server thread/INFO]: skibidirizzrizz[/0:0:0:0:0:0:0:1:51598] logged in with entity id 253623 at ([world]116.0, 64.0, 256.0)
+[14:47:07] [Craft Scheduler Thread - 154/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[14:47:07] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[14:47:07] [Async Chat Thread - #22/INFO]: <rizzler> e[m
+[14:47:17] [Server thread/INFO]: skibidirizzrizz lost connection: Disconnected
+[14:47:17] [Server thread/INFO]: skibidirizzrizz left the game.
+[14:47:19] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[14:47:19] [Server thread/INFO]: IceSiked left the game.
+[14:47:22] [Async Chat Thread - #22/INFO]: <XXR_Just__Azza> get out Jax[m
+[14:47:32] [Async Chat Thread - #22/INFO]: <XXR_Just__Azza> this is for me and Alex[m
+[14:48:34] [Async Chat Thread - #23/INFO]: <rizzler> stepan where are you[m
+[14:49:26] [Server thread/INFO]: MrMate lost connection: Disconnected
+[14:49:26] [Server thread/INFO]: MrMate left the game.
+[14:49:53] [Server thread/INFO]: Dark_stalker33 was slain by Zombie
+[14:49:59] [Server thread/INFO]: Dark_stalker33 issued server command: /back
+[14:50:16] [Server thread/INFO]: XXR_Just__Azza was slain by Zombie
+[14:50:27] [Server thread/INFO]: XXR_Just__Azza issued server command: /back
+[14:51:02] [Thread-126/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
+[14:51:02] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:51605] logged in with entity id 254242 at ([world]116.0, 64.0, 256.0)
+[14:51:27] [Async Chat Thread - #24/INFO]: <MrMate> alex ur sitting with azza on the couch[m
+[14:51:31] [Server thread/INFO]: Dark_stalker33 was slain by Zombie
+[14:51:32] [Async Chat Thread - #24/INFO]: <rizzler> alex you should be siting rite next to a open dorr you know that rite[m
+[14:51:35] [Server thread/INFO]: Dark_stalker33 issued server command: /back
+[14:53:42] [Async Chat Thread - #25/INFO]: <rizzler> alex[m
+[14:53:55] [Async Chat Thread - #25/INFO]: <rizzler> where is everone[m
+[14:56:08] [Server thread/INFO]: XXR_Just__Azza lost connection: Disconnected
+[14:56:08] [Server thread/INFO]: XXR_Just__Azza left the game.
+[14:56:09] [Server thread/INFO]: Dark_stalker33 lost connection: Disconnected
+[14:56:09] [Server thread/INFO]: Dark_stalker33 left the game.
+[14:58:16] [Server thread/INFO]: rizzler lost connection: Disconnected
+[14:58:16] [Server thread/INFO]: rizzler left the game.
+[14:59:01] [Server thread/INFO]: MrMate lost connection: Disconnected
+[14:59:01] [Server thread/INFO]: MrMate left the game.
+[15:27:22] [Thread-128/INFO]: UUID of player DKing201 is 9d859d2d-73c4-3a8d-9f9d-2c9de25e13d7
+[15:27:22] [Server thread/INFO]: DKing201[/0:0:0:0:0:0:0:1:51714] logged in with entity id 259163 at ([world]116.0, 64.0, 256.0)
+[15:27:36] [Server thread/INFO]: DKing201 was slain by Spider
+[15:28:52] [Server thread/INFO]: DKing201 lost connection: Disconnected
+[15:28:52] [Server thread/INFO]: DKing201 left the game.
+[15:32:34] [Thread-129/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[15:32:34] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51721] logged in with entity id 259777 at ([world]116.0, 64.0, 256.0)
+[15:33:56] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[15:33:56] [Server thread/INFO]: IceSiked left the game.
+[15:41:24] [Thread-130/INFO]: UUID of player itsa_me_kyson_ is 9c6b388c-dac0-3662-80f8-caa20c50a23f
+[15:41:25] [Server thread/INFO]: itsa_me_kyson_[/0:0:0:0:0:0:0:1:64817] logged in with entity id 260366 at ([world]116.0, 64.0, 256.0)
+[15:41:25] [Craft Scheduler Thread - 165/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[15:41:25] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[15:41:55] [Server thread/INFO]: itsa_me_kyson_ lost connection: Login timed out!
+[15:41:55] [Server thread/INFO]: itsa_me_kyson_ left the game.
+[15:41:55] [Server thread/WARN]: handleDisconnection() called twice
+[15:42:33] [Thread-131/INFO]: UUID of player LachlanMSFS is 4b39a554-46ba-360b-85de-0d380f4c50e7
+[15:42:33] [Server thread/INFO]: LachlanMSFS[/0:0:0:0:0:0:0:1:64823] logged in with entity id 260369 at ([world]130.64988347872315, 63.0, 220.36895311850856)
+[15:47:37] [Thread-133/INFO]: UUID of player XXR_Just__Azza is 7f16f1b9-022e-3fb5-b00b-5842bca86a69
+[15:47:37] [Server thread/INFO]: XXR_Just__Azza[/0:0:0:0:0:0:0:1:65072] logged in with entity id 260791 at ([world]116.0, 64.0, 256.0)
+[15:47:43] [Server thread/INFO]: XXR_Just__Azza issued server command: /back
+[15:47:53] [Server thread/INFO]: XXR_Just__Azza issued server command: /Ilovemsfs
+[15:48:05] [Server thread/INFO]: XXR_Just__Azza issued server command: / Ilovemsfs
+[15:48:07] [Server thread/INFO]: XXR_Just__Azza lost connection: Login timed out!
+[15:48:07] [Server thread/INFO]: XXR_Just__Azza left the game.
+[15:48:07] [Server thread/WARN]: handleDisconnection() called twice
+[15:48:13] [Thread-134/INFO]: UUID of player XXR_Just__Azza is 7f16f1b9-022e-3fb5-b00b-5842bca86a69
+[15:48:13] [Server thread/INFO]: XXR_Just__Azza[/0:0:0:0:0:0:0:1:65074] logged in with entity id 260869 at ([world]116.46401742398731, 62.0, 256.45850254070285)
+[15:48:29] [Server thread/INFO]: XXR_Just__Azza issued server command: / Ilovemsfs
+[15:48:40] [Server thread/INFO]: XXR_Just__Azza issued server command: / Iloveplayinfmsfs
+[15:48:43] [Server thread/INFO]: XXR_Just__Azza lost connection: Login timed out!
+[15:48:43] [Server thread/INFO]: XXR_Just__Azza left the game.
+[15:48:43] [Server thread/WARN]: handleDisconnection() called twice
+[15:48:47] [Thread-135/INFO]: UUID of player XXR_Just__Azza is 7f16f1b9-022e-3fb5-b00b-5842bca86a69
+[15:48:47] [Server thread/INFO]: XXR_Just__Azza[/0:0:0:0:0:0:0:1:65077] logged in with entity id 260928 at ([world]116.46401742398731, 62.0, 256.45850254070285)
+[15:49:18] [Server thread/INFO]: XXR_Just__Azza lost connection: Login timed out!
+[15:49:18] [Server thread/INFO]: XXR_Just__Azza left the game.
+[15:49:18] [Server thread/WARN]: handleDisconnection() called twice
+[15:49:22] [Thread-136/INFO]: UUID of player XXR_Just__Azza is 7f16f1b9-022e-3fb5-b00b-5842bca86a69
+[15:49:22] [Server thread/INFO]: XXR_Just__Azza[/0:0:0:0:0:0:0:1:65081] logged in with entity id 260983 at ([world]116.46401742398731, 62.0, 256.45850254070285)
+[15:49:31] [Server thread/INFO]: XXR_Just__Azza issued server command: / login Ilovemsfs
+[15:49:42] [Server thread/INFO]: XXR_Just__Azza issued server command: / login Ilovemsfs
+[15:49:52] [Server thread/INFO]: XXR_Just__Azza lost connection: Login timed out!
+[15:49:52] [Server thread/INFO]: XXR_Just__Azza left the game.
+[15:49:52] [Server thread/WARN]: handleDisconnection() called twice
+[15:49:57] [Thread-137/INFO]: UUID of player XXR_Just__Azza is 7f16f1b9-022e-3fb5-b00b-5842bca86a69
+[15:49:57] [Server thread/INFO]: XXR_Just__Azza[/0:0:0:0:0:0:0:1:65084] logged in with entity id 261055 at ([world]116.46401742398731, 62.0, 256.45850254070285)
+[15:50:17] [Server thread/INFO]: LachlanMSFS issued server command: /tpa XXR_Just__Azza
+[15:50:26] [Server thread/INFO]: XXR_Just__Azza issued server command: /tpaccept
+[15:50:28] [Server thread/INFO]: XXR_Just__Azza issued server command: /tpaccept
+[15:55:01] [Thread-138/INFO]: UUID of player kyskibidi is f3f0acd3-e4f7-3a46-a244-18275f91035e
+[15:55:01] [Server thread/INFO]: kyskibidi[/0:0:0:0:0:0:0:1:65208] logged in with entity id 261689 at ([world]116.0, 64.0, 256.0)
+[15:55:01] [Craft Scheduler Thread - 172/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[15:55:01] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[15:56:04] [Server thread/INFO]: LachlanMSFS was blown up by Creeper
+[15:56:19] [Server thread/INFO]: kyskibidi has just earned the achievement [Taking Inventory]
+[15:56:25] [Server thread/INFO]: kyskibidi has just earned the achievement [Getting Wood]
+[15:58:07] [Server thread/INFO]: LachlanMSFS issued server command: /back
+[15:58:40] [Server thread/INFO]: kyskibidi issued server command: /tp lachlanmsfs
+[16:00:25] [Server thread/INFO]: kyskibidi has just earned the achievement [Benchmarking]
+[16:03:20] [Server thread/INFO]: XXR_Just__Azza issued server command: /hello
+[16:03:27] [Async Chat Thread - #26/INFO]: <XXR_Just__Azza> helllo[m
+[16:03:30] [Server thread/INFO]: kyskibidi issued server command: /lachy wazzup
+[16:03:46] [Async Chat Thread - #26/INFO]: <kyskibidi> hellloooo[m
+[16:04:09] [Async Chat Thread - #26/INFO]: <kyskibidi> who is azza ?[m
+[16:04:16] [Async Chat Thread - #26/INFO]: <XXR_Just__Azza> Aaron[m
+[16:04:28] [Async Chat Thread - #26/INFO]: <kyskibidi> oh hi araron[m
+[16:04:39] [Async Chat Thread - #26/INFO]: <kyskibidi> pls help me i am lost[m
+[16:05:11] [Async Chat Thread - #26/INFO]: <LachlanMSFS> who is kyskibidi[m
+[16:05:28] [Async Chat Thread - #26/INFO]: <kyskibidi> its me kyson obviously[m
+[16:05:47] [Server thread/INFO]: LachlanMSFS lost connection: Disconnected
+[16:05:47] [Server thread/INFO]: LachlanMSFS left the game.
+[16:05:48] [Server thread/INFO]: XXR_Just__Azza lost connection: Disconnected
+[16:05:48] [Server thread/INFO]: XXR_Just__Azza left the game.
+[16:05:48] [Server thread/INFO]: kyskibidi lost connection: Disconnected
+[16:05:48] [Server thread/INFO]: kyskibidi left the game.
+[16:10:34] [Thread-139/INFO]: Disconnecting com.mojang.authlib.GameProfile@1e3630a4[id=fa019428-5b31-365a-ba9e-c9c17d5c8767,name=lachlanMSFS,properties={textures=[com.mojang.authlib.properties.Property@5f17ce], isEaglerPlayer=[com.mojang.authlib.properties.Property@3f1f051e]},legacy=false] (/0:0:0:0:0:0:0:1:65253): [LoginSecurity] This account is registered under the name LachlanMSFS, please log in as such.
+[16:10:35] [Server thread/INFO]: com.mojang.authlib.GameProfile@1e3630a4[id=fa019428-5b31-365a-ba9e-c9c17d5c8767,name=lachlanMSFS,properties={textures=[com.mojang.authlib.properties.Property@5f17ce], isEaglerPlayer=[com.mojang.authlib.properties.Property@3f1f051e]},legacy=false] (/0:0:0:0:0:0:0:1:65253) lost connection: [LoginSecurity] This account is registered under the name LachlanMSFS, please log in as such.
+[16:11:35] [Thread-140/INFO]: UUID of player XXR_Just__Azza is 7f16f1b9-022e-3fb5-b00b-5842bca86a69
+[16:11:35] [Server thread/INFO]: XXR_Just__Azza[/0:0:0:0:0:0:0:1:65285] logged in with entity id 264833 at ([world]116.0, 64.0, 256.0)
+[16:11:56] [Server thread/INFO]: XXR_Just__Azza lost connection: Disconnected
+[16:11:56] [Server thread/INFO]: XXR_Just__Azza left the game.
+[16:17:29] [Thread-142/INFO]: Disconnecting com.mojang.authlib.GameProfile@3111cca5[id=9f6f9d00-66f9-3982-bc6e-15d1767cbbb4,name=Dking201,properties={textures=[com.mojang.authlib.properties.Property@4b7634c3], isEaglerPlayer=[com.mojang.authlib.properties.Property@1666b1a7]},legacy=false] (/0:0:0:0:0:0:0:1:65282): [LoginSecurity] This account is registered under the name DKing201, please log in as such.
+[16:17:29] [Server thread/INFO]: com.mojang.authlib.GameProfile@3111cca5[id=9f6f9d00-66f9-3982-bc6e-15d1767cbbb4,name=Dking201,properties={textures=[com.mojang.authlib.properties.Property@4b7634c3], isEaglerPlayer=[com.mojang.authlib.properties.Property@1666b1a7]},legacy=false] (/0:0:0:0:0:0:0:1:65282) lost connection: [LoginSecurity] This account is registered under the name DKing201, please log in as such.
+[16:17:54] [Thread-143/INFO]: Disconnecting com.mojang.authlib.GameProfile@1ebbbb0c[id=9f6f9d00-66f9-3982-bc6e-15d1767cbbb4,name=Dking201,properties={textures=[com.mojang.authlib.properties.Property@1eed6296], isEaglerPlayer=[com.mojang.authlib.properties.Property@1c4a5dd]},legacy=false] (/0:0:0:0:0:0:0:1:65289): [LoginSecurity] This account is registered under the name DKing201, please log in as such.
+[16:17:54] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ebbbb0c[id=9f6f9d00-66f9-3982-bc6e-15d1767cbbb4,name=Dking201,properties={textures=[com.mojang.authlib.properties.Property@1eed6296], isEaglerPlayer=[com.mojang.authlib.properties.Property@1c4a5dd]},legacy=false] (/0:0:0:0:0:0:0:1:65289) lost connection: [LoginSecurity] This account is registered under the name DKing201, please log in as such.
+[16:39:50] [Thread-144/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
+[16:39:50] [Server thread/INFO]: MrMate[/192.168.1.103:49454] logged in with entity id 265000 at ([world]116.0, 64.0, 256.0)
+[17:11:38] [Server thread/INFO]: Set MrMate's game mode to Survival Mode
+[17:16:21] [Server thread/INFO]: There are 1/20 players online:
+[17:16:21] [Server thread/INFO]: MrMate
+[17:17:18] [Server thread/INFO]: Usage: /ban <name> [reason ...]
+[17:17:59] [Server thread/INFO]: Banned player kyskibidi
+[17:20:23] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+[17:20:23] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+[17:20:23] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+[17:20:23] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+[17:20:23] [Server thread/INFO]: [0;33;22mLoginSecurity: [0;37;1mAll commands for LoginSecurity[m
+[17:20:23] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+[17:20:23] [Server thread/INFO]: [0;33;22mSimpleHomes: [0;37;1mAll commands for SimpleHomes[m
+[17:20:23] [Server thread/INFO]: [0;33;22mSimpleTpa: [0;37;1mAll commands for SimpleTpa[m
+[17:20:23] [Server thread/INFO]: [0;33;22mWorldEdit: [0;37;1mAll commands for WorldEdit[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/.s: [0;37;1mExecute last CraftScript[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//: [0;37;1mToggle the super pickaxe function[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//calc: [0;37;1mEvaluate a mathematical expression[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//center: [0;37;1mSet the center block(s)[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//chunk: [0;37;1mSet the selection to your current chunk.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//clearhistory: [0;37;1mClear your history[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//contract: [0;37;1mContract the selection area[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//copy: [0;37;1mCopy the selection to the clipboard[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//count: [0;37;1mCounts the number of a certain type of block[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//curve: [0;37;1mDraws a spline through selected points[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//cut: [0;37;1mCut the selection to the clipboard[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//cyl: [0;37;1mGenerates a cylinder.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//deform: [0;37;1mDeforms a selected region with an expression[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//distr: [0;37;1mGet the distribution of blocks in the selection[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//drain: [0;37;1mDrain a pool[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//ex: [0;37;1mExtinguish nearby fire[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//expand: [0;37;1mExpand the selection area[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//faces: [0;37;1mBuild the walls, ceiling, and floor of a selection[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//fast: [0;37;1mToggle fast mode[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//fill: [0;37;1mFill a hole[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//fillr: [0;37;1mFill a hole recursively[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//fixlava: [0;37;1mFix lava to be stationary[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//fixwater: [0;37;1mFix water to be stationary[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//flip: [0;37;1mFlip the contents of the clipboard[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//flora: [0;37;1mMake flora within the region[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//forest: [0;37;1mMake a forest within the region[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//generate: [0;37;1mGenerates a shape according to a formula.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//generatebiome: [0;37;1mSets biome according to a formula.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//gmask: [0;37;1mSet the global mask[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//green: [0;37;1mGreens the area[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//hcyl: [0;37;1mGenerates a hollow cylinder.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//help: [0;37;1mDisplays help for WorldEdit commands[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//hollow: [0;37;1mHollows out the object contained in this selection[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//hpos1: [0;37;1mSet position 1 to targeted block[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//hpos2: [0;37;1mSet position 2 to targeted block[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//hpyramid: [0;37;1mGenerate a hollow pyramid[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//hsphere: [0;37;1mGenerates a hollow sphere.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//inset: [0;37;1mInset the selection area[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//limit: [0;37;1mModify block change limit[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//line: [0;37;1mDraws a line segment between cuboid selection corners[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//load: [0;37;1mLoad a schematic into your clipboard[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//move: [0;37;1mMove the contents of the selection[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//naturalize: [0;37;1m3 layers of dirt on top then rock below[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//outset: [0;37;1mOutset the selection area[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//overlay: [0;37;1mSet a block on top of blocks in the region[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//paste: [0;37;1mPaste the clipboard's contents[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//pos1: [0;37;1mSet position 1[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//pos2: [0;37;1mSet position 2[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//pyramid: [0;37;1mGenerate a filled pyramid[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//redo: [0;37;1mRedoes the last action (from history)[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//regen: [0;37;1mRegenerates the contents of the selection[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//removeabove: [0;37;1mRemove blocks above your head.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//removebelow: [0;37;1mRemove blocks below you.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//removenear: [0;37;1mRemove blocks near you.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//replace: [0;37;1mReplace all blocks in the selection with another[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//replacenear: [0;37;1mReplace nearby blocks[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//rotate: [0;37;1mRotate the contents of the clipboard[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//save: [0;37;1mSave a schematic into your clipboard[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//searchitem: [0;37;1mSearch for an item[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//sel: [0;37;1mChoose a region selector[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//set: [0;37;1mSet all the blocks inside the selection to a block[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//setbiome: [0;37;1mSets the biome of the player's current block or region.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//shift: [0;37;1mShift the selection area[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//size: [0;37;1mGet information about the selection[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//smooth: [0;37;1mSmooth the elevation in the selection[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//snow: [0;37;1mSimulates snow[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//sphere: [0;37;1mGenerates a filled sphere.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//stack: [0;37;1mRepeat the contents of the selection[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//thaw: [0;37;1mThaws the area[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//toggleplace: [0;37;1mSwitch between your position and pos1 for placement[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//undo: [0;37;1mUndoes the last action[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//walls: [0;37;1mBuild the four sides of the selection[m
+[17:20:23] [Server thread/INFO]: [0;33;22m//wand: [0;37;1mGet the wand object[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/achievement: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/ascend: [0;37;1mGo up a floor[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/back: [0;37;1mTeleports you to the previous location.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/biomeinfo: [0;37;1mGet the biome of the targeted block.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/biomelist: [0;37;1mGets all biomes available.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/blockdata: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/brush: [0;37;1mBrushing commands[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/butcher: [0;37;1mKill all or nearby mobs[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/ceil: [0;37;1mGo to the celing[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/changepassword: [0;37;1mChange your account password.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/chunkinfo: [0;37;1mGet information about the chunk that you are inside[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/clearclipboard: [0;37;1mClear your clipboard[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/cs: [0;37;1mExecute a CraftScript[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/cycler: [0;37;1mBlock data cycler tool[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/delchunks: [0;37;1mDelete chunks that your selection includes[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/delhome: [0;37;1mDelete a home[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/deltree: [0;37;1mFloating tree remover tool[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/descend: [0;37;1mGo down a floor[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/entitydata: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/farwand: [0;37;1mWand at a distance tool[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/floodfill: [0;37;1mFlood fill tool[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/forestgen: [0;37;1mGenerate a forest[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/give: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/home: [0;37;1mTeleport to a home[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/homes: [0;37;1mDisplays your currently set homes[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/info: [0;37;1mBlock information tool[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/jumpto: [0;37;1mTeleport to a location[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/lac: [0;37;1mLoginSecurity Admin command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/list: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/listchunks: [0;37;1mList chunks that your selection includes[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/login: [0;37;1mLogin with your account.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/logout: [0;37;1mLog out of your account.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/lrbuild: [0;37;1mLong-range building tool[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/mask: [0;37;1mSet the brush mask[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/mat: [0;37;1mSet the brush material[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/me: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/none: [0;37;1mUnbind a bound tool from your current item[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/op: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/pumpkins: [0;37;1mGenerate pumpkin patches[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/range: [0;37;1mSet the brush range[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/register: [0;37;1mSet a password for your account.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/remove: [0;37;1mRemove all entities of a type[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/repl: [0;37;1mBlock replacer tool[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/replaceitem: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/restart: [0;37;1mRestarts the server[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/restore: [0;37;1mRestore the selection from a snapshot[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/say: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/schematic: [0;37;1mSchematic commands for saving/loading areas[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/sethome: [0;37;1mSet a new home at your current location[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/simpletpa: [0;37;1mOpens the help menu of the plugin.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/size: [0;37;1mSet the brush size[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/snapshot: [0;37;1mSchematic commands for saving/loading areas[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/stats: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/superpickaxe: [0;37;1mSuper-pickaxe commands[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/testforblocks: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/thru: [0;37;1mPassthrough walls[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/time: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/toggleeditwand: [0;37;1mToggle functionality of the edit wand[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tool: [0;37;1mBind functions to held items[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tpa: [0;37;1mSends a teleportation request to someone.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tpaccept: [0;37;1mAccepts the teleportation request.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tpahere: [0;37;1mSends a teleport here request to someone.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tpahereall: [0;37;1mSends a teleport request to everyone[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tpatoggle: [0;37;1mTurns on and off the teleportation mode.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tpcancel: [0;37;1mCacenls the teleportation request.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tpdeny: [0;37;1mDenies the teleportation request.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/tree: [0;37;1mTree generator tool[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/unregister: [0;37;1mUnregister your account.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/unstuck: [0;37;1mEscape from being stuck inside a block[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/up: [0;37;1mGo upwards some distance[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/worldedit: [0;37;1mWorldEdit commands[m
+[17:20:23] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mA Mojang provided command.[m
+[17:21:25] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[17:21:28] [Server thread/INFO]: Plugins (4): [0;32;1mSimpleTpa[0;37;1m, [0;32;1mSimpleHomes[0;37;1m, [0;32;1mWorldEdit[0;37;1m, [0;32;1mLoginSecurity[m
+[17:22:44] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[17:22:52] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: LoginSecurity [0;33;1m-------------------[m
+[17:22:52] [Server thread/INFO]: [0;37;22mBelow is a list of all LoginSecurity commands:[m
+[17:22:52] [Server thread/INFO]: [0;33;22m/changepassword: [0;37;1mChange your account password.[m
+[17:22:52] [Server thread/INFO]: [0;33;22m/lac: [0;37;1mLoginSecurity Admin command.[m
+[17:22:52] [Server thread/INFO]: [0;33;22m/login: [0;37;1mLogin with your account.[m
+[17:22:52] [Server thread/INFO]: [0;33;22m/logout: [0;37;1mLog out of your account.[m
+[17:22:52] [Server thread/INFO]: [0;33;22m/register: [0;37;1mSet a password for your account.[m
+[17:22:52] [Server thread/INFO]: [0;33;22m/unregister: [0;37;1mUnregister your account.[m
+[17:22:58] [Server thread/INFO]: [0;32;1m[0;36;22m[21mL[0;36;1m[21moginSecurity [0;36;22m[21mA[0;36;1m[21mdmin [0;36;22m[21mC[0;36;1m[21mommand:[m
+[17:22:58] [Server thread/INFO]: [0;32;1m[0;36;1m/lac update [0;37;22m- [0;37;1mDownload update from bukkit/spigot[m
+[17:22:58] [Server thread/INFO]: [0;32;1m[0;36;1m/lac help [0;37;22m- [0;37;1mDisplay command help[m
+[17:22:58] [Server thread/INFO]: [0;32;1m[0;36;1m/lac reload [0;37;22m- [0;37;1mReload configuration[m
+[17:22:58] [Server thread/INFO]: [0;32;1m[0;36;1m/lac changepass <username> <new password> [0;37;22m- [0;37;1mChange a user's password[m
+[17:22:58] [Server thread/INFO]: [0;32;1m[0;36;1m/lac rmpass <username> [0;37;22m- [0;37;1mRemove a user's password[m
+[17:22:58] [Server thread/INFO]: [0;32;1m[0;36;1m/lac import loginsecurity [0;37;22m- [0;37;1mImport profiles into LoginSecurity[m
+[17:30:41] [Thread-147/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[17:30:41] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50141] logged in with entity id 268240 at ([world]116.0, 64.0, 256.0)
+[18:16:44] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[18:16:44] [Server thread/INFO]: IceSiked left the game.
+[18:16:48] [Thread-149/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[18:16:48] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50471] logged in with entity id 277603 at ([world]116.0, 64.0, 256.0)
+[18:16:51] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[18:16:51] [Server thread/INFO]: IceSiked left the game.
+[18:38:05] [Thread-151/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
+[18:38:05] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50515] logged in with entity id 278401 at ([world]116.66401742696755, 62.0, 256.45850254070285)
+[18:38:31] [Server thread/INFO]: IceSiked lost connection: Disconnected
+[18:38:31] [Server thread/INFO]: IceSiked left the game.
+[19:07:17] [Server thread/INFO]: MrMate lost connection: Disconnected
+[19:07:17] [Server thread/INFO]: MrMate left the game.
+[20:54:28] [Server thread/INFO]: There are 0/20 players online:
+[20:54:28] [Server thread/INFO]: 

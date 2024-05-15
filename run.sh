@@ -1,6 +1,4 @@
 #!/bin/bash
 
-tmux \
-    new-session  'java -jar server/server.jar' \; \
-    split-window 'java -jar bungee/bungee.jar' \; \
-    detach-client
+java -jar bungee/bungee.jar & 
+java -jar server/server.jar &

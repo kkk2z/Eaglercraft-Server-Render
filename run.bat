@@ -3,4 +3,4 @@ title EAGLERCRAFT v1.8
 start .\bungeeserver.bat
 start .\mcserver.bat
 
-ngrok http --domain=thorough-spaniel-partly.ngrok-free.app 8081
+ngrok http --domain=casual-mouse-main.ngrok-free.app 8081

@@ -1,1078 +1,215 @@
-[08:24:26] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[08:24:26] [Server thread/INFO]: Loading properties
-[08:24:26] [Server thread/INFO]: Default game type: SURVIVAL
-[08:24:26] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[08:24:26] [Server thread/INFO]: Debug logging is disabled
-[08:24:26] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[08:24:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[08:24:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[08:24:26] [Server thread/INFO]: Data value allowed items: 
-[08:24:27] [Server thread/INFO]: Generating keypair
-[08:24:27] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[08:24:27] [Server thread/INFO]: Using default channel type
-[08:24:27] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[08:24:27] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[08:24:27] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[08:24:27] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[08:24:27] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[08:24:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08:24:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[08:24:27] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[08:24:27] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[08:24:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[08:24:27] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[08:24:27] [Server thread/INFO]: Preparing level "world"
-[08:24:27] [Server thread/INFO]: -------- World Settings For [world] --------
-[08:24:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[08:24:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[08:24:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[08:24:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[08:24:27] [Server thread/INFO]: View Distance: 4
-[08:24:27] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[08:24:27] [Server thread/INFO]: Clear tick list: false
-[08:24:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[08:24:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[08:24:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[08:24:27] [Server thread/INFO]: Max Entity Collisions: 8
-[08:24:27] [Server thread/INFO]: Anti X-Ray: true
-[08:24:27] [Server thread/INFO]: 	Engine Mode: 1
-[08:24:27] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[08:24:27] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[08:24:27] [Server thread/INFO]: Mob Spawn Range: 4
-[08:24:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[08:24:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[08:24:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[08:24:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[08:24:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[08:24:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[08:24:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[08:24:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[08:24:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[08:24:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[08:24:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[08:24:27] [Server thread/INFO]: Max TNT Explosions: 100
-[08:24:27] [Server thread/INFO]: Structure Info Saving: true
-[08:24:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[08:24:27] [Server thread/INFO]: Sending up to 10 chunks per packet
-[08:24:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[08:24:27] [Server thread/INFO]: Random Lighting Updates: false
-[08:24:27] [Server thread/INFO]: -------- World Settings For [world] --------
-[08:24:27] [Server thread/INFO]: Fix TNT cannons: false
-[08:24:27] [Server thread/INFO]: Water over lava flow speed: 5
-[08:24:27] [Server thread/INFO]: World async lighting: false
-[08:24:27] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[08:24:27] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[08:24:27] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[08:24:27] [Server thread/INFO]: Keep spawn chunk loaded: true
-[08:24:27] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[08:24:27] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[08:24:27] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[08:24:27] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[08:24:27] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[08:24:28] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[08:24:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[08:24:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[08:24:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[08:24:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[08:24:28] [Server thread/INFO]: View Distance: 4
-[08:24:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[08:24:28] [Server thread/INFO]: Clear tick list: false
-[08:24:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[08:24:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[08:24:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[08:24:28] [Server thread/INFO]: Max Entity Collisions: 8
-[08:24:28] [Server thread/INFO]: Anti X-Ray: true
-[08:24:28] [Server thread/INFO]: 	Engine Mode: 1
-[08:24:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[08:24:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[08:24:28] [Server thread/INFO]: Mob Spawn Range: 4
-[08:24:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[08:24:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[08:24:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[08:24:28] [Server thread/INFO]: Max TNT Explosions: 100
-[08:24:28] [Server thread/INFO]: Structure Info Saving: true
-[08:24:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[08:24:28] [Server thread/INFO]: Sending up to 10 chunks per packet
-[08:24:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[08:24:28] [Server thread/INFO]: Random Lighting Updates: false
-[08:24:28] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[08:24:28] [Server thread/INFO]: Fix TNT cannons: false
-[08:24:28] [Server thread/INFO]: Water over lava flow speed: 5
-[08:24:28] [Server thread/INFO]: World async lighting: false
-[08:24:28] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[08:24:28] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[08:24:28] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[08:24:28] [Server thread/INFO]: Keep spawn chunk loaded: true
-[08:24:28] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[08:24:28] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[08:24:28] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[08:24:28] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[08:24:28] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[08:24:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[08:24:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[08:24:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[08:24:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[08:24:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[08:24:28] [Server thread/INFO]: View Distance: 4
-[08:24:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[08:24:28] [Server thread/INFO]: Clear tick list: false
-[08:24:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[08:24:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[08:24:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[08:24:28] [Server thread/INFO]: Max Entity Collisions: 8
-[08:24:28] [Server thread/INFO]: Anti X-Ray: true
-[08:24:28] [Server thread/INFO]: 	Engine Mode: 1
-[08:24:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[08:24:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[08:24:28] [Server thread/INFO]: Mob Spawn Range: 4
-[08:24:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[08:24:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[08:24:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[08:24:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[08:24:28] [Server thread/INFO]: Max TNT Explosions: 100
-[08:24:28] [Server thread/INFO]: Structure Info Saving: true
-[08:24:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[08:24:28] [Server thread/INFO]: Sending up to 10 chunks per packet
-[08:24:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[08:24:28] [Server thread/INFO]: Random Lighting Updates: false
-[08:24:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[08:24:28] [Server thread/INFO]: Fix TNT cannons: false
-[08:24:28] [Server thread/INFO]: Water over lava flow speed: 5
-[08:24:28] [Server thread/INFO]: World async lighting: false
-[08:24:28] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[08:24:28] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[08:24:28] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[08:24:28] [Server thread/INFO]: Keep spawn chunk loaded: true
-[08:24:28] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[08:24:28] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[08:24:28] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[08:24:28] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[08:24:28] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[08:24:28] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1738667849319662948)
-[08:24:29] [Server thread/INFO]: Preparing spawn area: 20%
-[08:24:30] [Server thread/INFO]: Preparing spawn area: 54%
-[08:24:30] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1738667849319662948)
-[08:24:31] [Server thread/INFO]: Preparing spawn area: 75%
-[08:24:31] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1738667849319662948)
-[08:24:32] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[08:24:32] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-[08:24:32] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-[08:24:32] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[08:24:32] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[08:24:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[08:24:32] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[08:24:32] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[08:24:32] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[08:24:32] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[08:24:32] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[08:24:33] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[08:24:33] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[08:24:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[08:24:33] [Server thread/INFO]: Done (5.524s)! For help, type "help" or "?"
-[08:24:33] [Server thread/INFO]: Timings Reset
-[08:24:35] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-[08:24:35] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-[08:24:35] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-[08:49:31] [Thread-9/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[08:49:31] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50574] logged in with entity id 832 at ([world]116.0, 64.0, 256.0)
-[08:55:11] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[08:55:11] [Server thread/INFO]: IceSiked left the game.
-[09:00:12] [Thread-11/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[09:00:12] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50602] logged in with entity id 2475 at ([world]116.0, 64.0, 256.0)
-[09:04:17] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[09:04:17] [Server thread/INFO]: IceSiked left the game.
-[09:04:56] [Thread-12/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[09:04:56] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50623] logged in with entity id 3169 at ([world]116.0, 64.0, 256.0)
-[09:05:07] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[09:05:07] [Server thread/INFO]: IceSiked left the game.
-[09:11:24] [Thread-13/INFO]: UUID of player Dark_stalker33 is ad80db31-1448-3ef5-accb-eb9220d5700f
-[09:11:24] [Server thread/INFO]: Dark_stalker33[/0:0:0:0:0:0:0:1:50638] logged in with entity id 3470 at ([world]116.0, 64.0, 256.0)
-[09:25:05] [Thread-14/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[09:25:05] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50659] logged in with entity id 5756 at ([world]116.0, 64.0, 256.0)
-[09:26:05] [Thread-15/INFO]: UUID of player DKing201 is 9d859d2d-73c4-3a8d-9f9d-2c9de25e13d7
-[09:26:06] [Server thread/INFO]: DKing201[/0:0:0:0:0:0:0:1:50664] logged in with entity id 6501 at ([world]116.0, 64.0, 256.0)
-[09:26:16] [Async Chat Thread - #0/INFO]: <DKing201> hi[m
-[09:26:28] [Async Chat Thread - #0/INFO]: <Dark_stalker33> dennis there is a base near ours[m
-[09:26:42] [Async Chat Thread - #0/INFO]: <DKing201> uuh i dont know[m
-[09:27:16] [Async Chat Thread - #0/INFO]: <Dark_stalker33> come to me[m
-[09:27:19] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[09:27:19] [Server thread/INFO]: IceSiked left the game.
-[09:27:22] [Async Chat Thread - #0/INFO]: <Dark_stalker33> p[m
-[09:27:27] [Async Chat Thread - #0/INFO]: <Dark_stalker33> tpa[m
-[09:27:34] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
-[09:27:38] [Server thread/INFO]: Dark_stalker33 issued server command: /tpaccept
-[09:27:52] [Server thread/INFO]: DKing201 lost connection: Disconnected
-[09:27:52] [Server thread/INFO]: DKing201 left the game.
-[09:27:56] [Thread-16/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[09:27:56] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50672] logged in with entity id 7269 at ([world]116.0, 64.0, 256.0)
-[09:28:14] [Server thread/INFO]: Dark_stalker33 lost connection: Disconnected
-[09:28:14] [Server thread/INFO]: Dark_stalker33 left the game.
-[09:28:18] [Thread-17/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
-[09:28:19] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:50675] logged in with entity id 7873 at ([world]116.0, 64.0, 256.0)
-[09:28:26] [Server thread/INFO]: MrMate lost connection: Disconnected
-[09:28:26] [Server thread/INFO]: MrMate left the game.
-[09:46:21] [Thread-19/INFO]: UUID of player FentDealer is 8a71003a-ccad-3053-bea2-69d9548f7d72
-[09:46:21] [Server thread/INFO]: FentDealer[/0:0:0:0:0:0:0:1:50705] logged in with entity id 12469 at ([world]116.0, 64.0, 256.0)
-[09:50:30] [Async Chat Thread - #1/INFO]: <IceSiked> oliver[m
-[09:50:35] [Async Chat Thread - #1/INFO]: <FentDealer> what[m
-[09:50:40] [Async Chat Thread - #1/INFO]: <IceSiked> where are you[m
-[09:50:52] [Async Chat Thread - #1/INFO]: <FentDealer> im not oliver[m
-[09:50:55] [Thread-20/INFO]: UUID of player AHHHHHHHHHHHHHHH is cbe77070-fed8-3c8e-be8b-f5e231de5613
-[09:50:55] [Server thread/INFO]: AHHHHHHHHHHHHHHH[/0:0:0:0:0:0:0:1:50710] logged in with entity id 14346 at ([world]116.0, 64.0, 256.0)
-[09:50:59] [Async Chat Thread - #1/INFO]: <FentDealer> there he is[m
-[09:51:00] [Async Chat Thread - #1/INFO]: <IceSiked> ah yes[m
-[09:51:13] [Async Chat Thread - #1/INFO]: <AHHHHHHHHHHHHHHH> ?[m
-[09:51:15] [Async Chat Thread - #1/INFO]: <IceSiked> i be back soon[m
-[09:51:17] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[09:51:17] [Server thread/INFO]: IceSiked left the game.
-[09:51:59] [Async Chat Thread - #1/INFO]: <AHHHHHHHHHHHHHHH> IceSiked joined the game[m
-[09:52:12] [Thread-21/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[09:52:13] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50714] logged in with entity id 15041 at ([world]116.0, 64.0, 256.0)
-[09:52:16] [Async Chat Thread - #1/INFO]: <AHHHHHHHHHHHHHHH> .[m
-[09:52:35] [Async Chat Thread - #1/INFO]: <IceSiked> ahhhh[m
-[09:52:45] [Async Chat Thread - #1/INFO]: <AHHHHHHHHHHHHHHH> aint no way I said you joined the game and then you joined the game[m
-[09:53:04] [Async Chat Thread - #1/INFO]: <AHHHHHHHHHHHHHHH> ?[m
-[09:53:05] [Async Chat Thread - #1/INFO]: <IceSiked> give me a copy of ur diary[m
-[09:53:38] [Async Chat Thread - #1/INFO]: <IceSiked> ow wait[m
-[09:53:47] [Async Chat Thread - #1/INFO]: <IceSiked> it needs to be signed to be copied[m
-[09:53:55] [Async Chat Thread - #1/INFO]: <AHHHHHHHHHHHHHHH> yeah[m
-[09:54:01] [Async Chat Thread - #1/INFO]: <IceSiked> nvm the[m
-[09:54:05] [Async Chat Thread - #1/INFO]: <IceSiked> *then[m
-[09:55:54] [Async Chat Thread - #2/INFO]: <FentDealer> where tf do you find horses[m
-[09:56:00] [Async Chat Thread - #2/INFO]: <IceSiked> idk[m
-[09:56:07] [Async Chat Thread - #2/INFO]: <IceSiked> must be a bug that they don't spawn[m
-[09:56:27] [Async Chat Thread - #2/INFO]: <FentDealer> real?[m
-[09:56:49] [Async Chat Thread - #2/INFO]: <AHHHHHHHHHHHHHHH> find a village[m
-[09:57:39] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[09:57:39] [Server thread/INFO]: IceSiked left the game.
-[09:57:56] [Thread-22/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[09:57:57] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50734] logged in with entity id 16335 at ([world]116.0, 64.0, 256.0)
-[09:58:09] [Async Chat Thread - #3/INFO]: <AHHHHHHHHHHHHHHH> secret room[m
-[09:58:49] [Async Chat Thread - #3/INFO]: <AHHHHHHHHHHHHHHH> try find my secret room boris[m
-[10:05:01] [Thread-24/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
-[10:05:01] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:50740] logged in with entity id 20311 at ([world]116.0, 64.0, 256.0)
-[10:07:34] [Server thread/INFO]: rizzler lost connection: Disconnected
-[10:07:34] [Server thread/INFO]: rizzler left the game.
-[10:07:56] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[10:07:56] [Server thread/INFO]: IceSiked left the game.
-[10:08:58] [Server thread/INFO]: FentDealer fell from a high place
-[10:09:07] [Async Chat Thread - #4/INFO]: <FentDealer> that was planned[m
-[10:09:09] [Server thread/INFO]: FentDealer issued server command: /back
-[10:09:13] [Async Chat Thread - #4/INFO]: <AHHHHHHHHHHHHHHH> :|[m
-[10:09:22] [Thread-25/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[10:09:22] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50745] logged in with entity id 21968 at ([world]116.0, 64.0, 256.0)
-[10:11:02] [Async Chat Thread - #5/INFO]: <AHHHHHHHHHHHHHHH> boris I need 2 signs[m
-[10:12:14] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home PenisHouse
-[10:16:13] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home XP
-[10:17:49] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home PenisHouse
-[10:23:01] [Async Chat Thread - #6/INFO]: <AHHHHHHHHHHHHHHH> I got liam from fishing[m
-[10:25:16] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home base
-[10:25:21] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home House
-[10:25:26] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Base
-[10:30:37] [Async Chat Thread - #7/INFO]: <AHHHHHHHHHHHHHHH> I caught a big one[m
-[10:30:43] [Server thread/WARN]: Wrong location for EntityChicken['Chicken'/36604, l='world', x=31.97, y=41.00, z=94.97] in world 'world'!
-[10:30:43] [Server thread/WARN]: Entity is at 31.970779533631486,94.96583604453653 (chunk 1,5) but was stored in chunk 2,5
-[10:30:55] [Async Chat Thread - #7/INFO]: <FentDealer> y are you fishing[m
-[10:31:02] [Async Chat Thread - #7/INFO]: <AHHHHHHHHHHHHHHH> cause yes[m
-[10:31:15] [Async Chat Thread - #7/INFO]: <IceSiked> u better write about it[m
-[10:31:25] [Async Chat Thread - #7/INFO]: <AHHHHHHHHHHHHHHH> where are you matthew[m
-[10:31:29] [Async Chat Thread - #7/INFO]: <FentDealer> far out[m
-[10:31:40] [Async Chat Thread - #7/INFO]: <AHHHHHHHHHHHHHHH> wheres that[m
-[10:31:49] [Async Chat Thread - #7/INFO]: <FentDealer> -5888 -2407[m
-[10:32:11] [Async Chat Thread - #7/INFO]: <FentDealer> i dont think horses spawn in eaglercraaft[m
-[10:32:16] [Async Chat Thread - #7/INFO]: <FentDealer> i searched like 2000 blocks[m
-[10:32:30] [Async Chat Thread - #7/INFO]: <AHHHHHHHHHHHHHHH> where is your new house[m
-[10:32:30] [Async Chat Thread - #7/INFO]: <IceSiked> i found a village[m
-[10:32:40] [Async Chat Thread - #7/INFO]: <AHHHHHHHHHHHHHHH> I wanna visit for the diary[m
-[10:32:46] [Async Chat Thread - #7/INFO]: <FentDealer> im moving houses[m
-[10:32:54] [Async Chat Thread - #7/INFO]: <AHHHHHHHHHHHHHHH> aGain[m
-[10:32:57] [Async Chat Thread - #7/INFO]: <FentDealer> yeah[m
-[10:32:58] [Async Chat Thread - #7/INFO]: <IceSiked> u can set home and then tpa to me then back to home[m
-[10:33:03] [Async Chat Thread - #7/INFO]: <FentDealer> i dont like this house[m
-[10:33:13] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /tpa FentDealer
-[10:33:26] [Server thread/INFO]: FentDealer issued server command: /tpaccept
-[10:33:40] [Async Chat Thread - #7/INFO]: <AHHHHHHHHHHHHHHH> bruh I moved on accident[m
-[10:33:43] [Async Chat Thread - #7/INFO]: <AHHHHHHHHHHHHHHH> lol[m
-[10:33:46] [Async Chat Thread - #7/INFO]: <FentDealer> dumb dumb[m
-[10:33:51] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /tpa FentDealer
-[10:33:56] [Server thread/INFO]: FentDealer issued server command: /tpaccept
-[10:34:04] [Async Chat Thread - #7/INFO]: <FentDealer> hi[m
-[10:34:08] [Async Chat Thread - #7/INFO]: <AHHHHHHHHHHHHHHH> hello there[m
-[10:34:24] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /sethome Matthewlake
-[10:34:38] [Async Chat Thread - #7/INFO]: <AHHHHHHHHHHHHHHH> the Matthew lake house[m
-[10:34:42] [Async Chat Thread - #7/INFO]: <FentDealer> yes[m
-[10:35:13] [Async Chat Thread - #7/INFO]: <FentDealer> do you guys have ender peals[m
-[10:35:20] [Async Chat Thread - #7/INFO]: <IceSiked> yes 32[m
-[10:35:24] [Async Chat Thread - #7/INFO]: <FentDealer> damn[m
-[10:35:52] [Thread-27/INFO]: UUID of player DKing201 is 9d859d2d-73c4-3a8d-9f9d-2c9de25e13d7
-[10:35:52] [Server thread/INFO]: DKing201[/0:0:0:0:0:0:0:1:50782] logged in with entity id 38049 at ([world]116.0, 64.0, 256.0)
-[10:36:42] [Async Chat Thread - #8/INFO]: <AHHHHHHHHHHHHHHH> I will leave liam at your house matthew[m
-[10:36:46] [Async Chat Thread - #8/INFO]: <FentDealer> ok[m
-[10:37:03] [Async Chat Thread - #8/INFO]: <AHHHHHHHHHHHHHHH> he is in the bottom right corner of your chest[m
-[10:37:06] [Server thread/INFO]: FentDealer issued server command: /\yes
-[10:37:09] [Async Chat Thread - #8/INFO]: <FentDealer> yes[m
-[10:37:12] [Server thread/INFO]: FentDealer issued server command: /help
-[10:37:15] [Async Chat Thread - #8/INFO]: <AHHHHHHHHHHHHHHH> actually wait I need to name him and come back[m
-[10:37:24] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Base
-[10:37:54] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Matthewlake
-[10:38:14] [Async Chat Thread - #8/INFO]: <AHHHHHHHHHHHHHHH> here take him[m
-[10:38:20] [Async Chat Thread - #8/INFO]: <FentDealer> thyank you[m
-[10:38:30] [Async Chat Thread - #8/INFO]: <AHHHHHHHHHHHHHHH> dont eat him[m
-[10:38:34] [Async Chat Thread - #8/INFO]: <FentDealer> it will be my lucky charm[m
-[10:39:09] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Base
-[10:39:24] [Server thread/INFO]: FentDealer lost connection: Disconnected
-[10:39:24] [Server thread/INFO]: FentDealer left the game.
-[10:39:31] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Matthewlake
-[10:39:58] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Base
-[10:40:07] [Server thread/INFO]: AHHHHHHHHHHHHHHH lost connection: Disconnected
-[10:40:07] [Server thread/INFO]: AHHHHHHHHHHHHHHH left the game.
-[10:40:17] [Async Chat Thread - #9/INFO]: <DKing201> hi who are you guys'[m
-[10:40:18] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[10:40:18] [Server thread/INFO]: IceSiked left the game.
-[10:40:36] [Async Chat Thread - #9/INFO]: <DKing201> oh[m
-[10:42:44] [Server thread/INFO]: DKing201 has just earned the achievement [Hot Topic]
-[10:46:23] [Thread-28/INFO]: UUID of player Dark_stalker33 is ad80db31-1448-3ef5-accb-eb9220d5700f
-[10:46:23] [Server thread/INFO]: Dark_stalker33[/0:0:0:0:0:0:0:1:50805] logged in with entity id 40515 at ([world]116.0, 64.0, 256.0)
-[10:53:13] [Thread-29/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[10:53:13] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50812] logged in with entity id 41430 at ([world]116.0, 64.0, 256.0)
-[10:53:53] [Server thread/INFO]: IceSiked issued server command: /home Base
-[10:55:35] [Server thread/INFO]: Dark_stalker33 lost connection: Disconnected
-[10:55:35] [Server thread/INFO]: Dark_stalker33 left the game.
-[10:55:37] [Server thread/INFO]: DKing201 lost connection: Disconnected
-[10:55:37] [Server thread/INFO]: DKing201 left the game.
-[10:55:40] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[10:55:40] [Server thread/INFO]: IceSiked left the game.
-[10:57:41] [Thread-30/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[10:57:41] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50821] logged in with entity id 42214 at ([world]116.0, 64.0, 256.0)
-[10:57:45] [Server thread/INFO]: IceSiked issued server command: /home Base
-[11:01:09] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[11:01:09] [Server thread/INFO]: IceSiked left the game.
-[11:02:02] [Thread-32/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[11:02:02] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50831] logged in with entity id 42900 at ([world]116.0, 64.0, 256.0)
-[11:02:05] [Thread-33/INFO]: UUID of player FentDealer is 8a71003a-ccad-3053-bea2-69d9548f7d72
-[11:02:05] [Server thread/INFO]: FentDealer[/0:0:0:0:0:0:0:1:50834] logged in with entity id 43026 at ([world]116.0, 64.0, 256.0)
-[11:04:00] [Server thread/INFO]: FentDealer issued server command: /tpa icesiiked
-[11:04:13] [Server thread/INFO]: FentDealer issued server command: /tpa icesiked
-[11:04:19] [Server thread/INFO]: IceSiked issued server command: /tpaccept
-[11:12:18] [Server thread/INFO]: FentDealer lost connection: Disconnected
-[11:12:18] [Server thread/INFO]: FentDealer left the game.
-[11:12:21] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[11:12:21] [Server thread/INFO]: IceSiked left the game.
-[11:12:37] [Thread-34/INFO]: UUID of player FentDealer is 8a71003a-ccad-3053-bea2-69d9548f7d72
-[11:12:37] [Server thread/INFO]: FentDealer[/0:0:0:0:0:0:0:1:50845] logged in with entity id 47439 at ([world]116.0, 64.0, 256.0)
-[11:12:40] [Thread-35/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[11:12:40] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50848] logged in with entity id 47659 at ([world]116.0, 64.0, 256.0)
-[11:22:49] [Server thread/INFO]: FentDealer has just earned the achievement [The End?]
-[11:23:09] [Server thread/INFO]: IceSiked has just earned the achievement [The End?]
-[11:27:29] [Server thread/INFO]: IceSiked fell from a high place
-[11:27:33] [Server thread/INFO]: IceSiked issued server command: /back
-[11:33:08] [Server thread/INFO]: FentDealer fell from a high place
-[11:33:12] [Server thread/INFO]: FentDealer issued server command: /back
-[11:43:33] [Server thread/INFO]: FentDealer has just earned the achievement [The End.]
-[11:43:37] [Server thread/INFO]: IceSiked has just earned the achievement [The End.]
-[11:43:44] [Server thread/WARN]: IceSiked moved wrongly!
-[11:43:45] [Server thread/WARN]: FentDealer moved wrongly!
-[11:44:34] [Server thread/INFO]: IceSiked issued server command: /home Base
-[11:44:47] [Server thread/INFO]: FentDealer issued server command: /tpa icesiked
-[11:44:50] [Server thread/INFO]: IceSiked issued server command: /tpaccept
-[11:54:09] [Server thread/INFO]: IceSiked issued server command: /sethome Spawner
-[11:54:15] [Server thread/WARN]: FentDealer moved too quickly! -1.8315475132062602,-0.051315634975367175,28.60118610311929 (-1.8315475132062602, -0.051315634975367175, 28.60118610311929)
-[11:55:04] [Server thread/INFO]: IceSiked issued server command: /home Base
-[11:58:01] [Server thread/INFO]: IceSiked issued server command: /home Spawner
-[11:58:34] [Server thread/INFO]: IceSiked issued server command: /home Base
-[11:59:58] [Server thread/INFO]: IceSiked issued server command: /home Spawner
-[12:06:45] [Server thread/INFO]: IceSiked issued server command: /home Base
-[12:07:26] [Server thread/INFO]: IceSiked issued server command: /tpa FentDealer
-[12:07:29] [Server thread/INFO]: FentDealer issued server command: /tpaccept
-[12:08:18] [Server thread/INFO]: IceSiked issued server command: /home Base
-[12:12:40] [Server thread/INFO]: IceSiked issued server command: /tpa FentDealer
-[12:12:45] [Server thread/INFO]: FentDealer issued server command: /tpaccept
-[12:12:58] [Server thread/INFO]: IceSiked issued server command: /home Monument
-[12:13:04] [Server thread/INFO]: IceSiked issued server command: /sethome Monument
-[12:21:34] [Thread-38/INFO]: UUID of player TheUnamedDream is bc8be78b-9bf1-3459-9b07-2d01135e45c0
-[12:21:34] [Server thread/INFO]: TheUnamedDream[/0:0:0:0:0:0:0:1:50910] logged in with entity id 60293 at ([world]116.0, 64.0, 256.0)
-[12:21:35] [Craft Scheduler Thread - 63/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[12:21:35] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
-[12:21:49] [Async Chat Thread - #10/INFO]: <TheUnamedDream> yooooooooooo[m
-[12:21:52] [Server thread/INFO]: FentDealer issued server command: /tpa theunameddream
-[12:21:54] [Async Chat Thread - #10/INFO]: <FentDealer> tp to us[m
-[12:21:59] [Server thread/INFO]: TheUnamedDream issued server command: /tpaccept
-[12:22:01] [Async Chat Thread - #10/INFO]: <TheUnamedDream> k[m
-[12:22:11] [Async Chat Thread - #10/INFO]: <FentDealer> oh[m
-[12:22:23] [Async Chat Thread - #10/INFO]: <FentDealer> i want you to tp to me[m
-[12:22:31] [Async Chat Thread - #10/INFO]: <TheUnamedDream> ok[m
-[12:22:31] [Server thread/INFO]: FentDealer issued server command: /tpa icesiked
-[12:22:36] [Server thread/INFO]: TheUnamedDream issued server command: /help4
-[12:22:38] [Server thread/INFO]: TheUnamedDream issued server command: /help 4
-[12:22:44] [Server thread/INFO]: IceSiked issued server command: /tpaccept
-[12:22:50] [Server thread/INFO]: TheUnamedDream issued server command: /tpa FentDealer
-[12:22:59] [Server thread/INFO]: TheUnamedDream has just earned the achievement [Taking Inventory]
-[12:23:00] [Server thread/INFO]: FentDealer issued server command: /tpaccept
-[12:23:02] [Server thread/INFO]: FentDealer issued server command: /tpaccept
-[12:23:35] [Async Chat Thread - #11/INFO]: <TheUnamedDream> i am running at 1 fps[m
-[12:23:50] [Async Chat Thread - #11/INFO]: <IceSiked> turn ur paticles off[m
-[12:23:55] [Async Chat Thread - #11/INFO]: <IceSiked> particles in video settings[m
-[12:24:47] [Async Chat Thread - #11/INFO]: <TheUnamedDream> now what[m
-[12:25:55] [Async Chat Thread - #12/INFO]: <TheUnamedDream> where are you guys[m
-[12:26:00] [Server thread/INFO]: TheUnamedDream issued server command: /tpa FentDealer
-[12:27:43] [Async Chat Thread - #13/INFO]: <TheUnamedDream> there's gold in here[m
-[12:27:51] [Async Chat Thread - #13/INFO]: <TheUnamedDream> ice[m
-[12:28:59] [Server thread/INFO]: TheUnamedDream was slain by FentDealer using [feltching]
-[12:29:08] [Server thread/INFO]: TheUnamedDream issued server command: /back
-[12:29:13] [Async Chat Thread - #14/INFO]: <TheUnamedDream> why'd you kill me[m
-[12:29:29] [Async Chat Thread - #14/INFO]: <TheUnamedDream> FENT[m
-[12:29:44] [Async Chat Thread - #14/INFO]: <FentDealer> force of habit[m
-[12:29:54] [Async Chat Thread - #14/INFO]: <TheUnamedDream> can we go back to your base yet[m
-[12:30:05] [Async Chat Thread - #14/INFO]: <TheUnamedDream> i am kinda undergeared[m
-[12:30:17] [Async Chat Thread - #14/INFO]: <TheUnamedDream> guardian[m
-[12:31:14] [Server thread/INFO]: IceSiked issued server command: /home Monument
-[12:31:19] [Server thread/INFO]: IceSiked issued server command: /home Monument
-[12:31:21] [Async Chat Thread - #15/INFO]: <TheUnamedDream> cani have the stuff in the topchest[m
-[12:31:24] [Async Chat Thread - #15/INFO]: <FentDealer> no[m
-[12:31:27] [Async Chat Thread - #15/INFO]: <TheUnamedDream> ok[m
-[12:31:38] [Async Chat Thread - #15/INFO]: <IceSiked> here[m
-[12:31:47] [Server thread/INFO]: TheUnamedDream has just earned the achievement [Getting Wood]
-[12:31:49] [Async Chat Thread - #15/INFO]: <FentDealer> dream u can have the 2 diamond pickaxes[m
-[12:31:59] [Server thread/INFO]: TheUnamedDream has just earned the achievement [Benchmarking]
-[12:32:02] [Async Chat Thread - #15/INFO]: <FentDealer> in the top chest[m
-[12:32:32] [Async Chat Thread - #15/INFO]: <TheUnamedDream> waiiiiiittttt[m
-[12:32:36] [Async Chat Thread - #15/INFO]: <TheUnamedDream> noooooooooo[m
-[12:32:38] [Async Chat Thread - #15/INFO]: <FentDealer> youll be fine[m
-[12:32:47] [Async Chat Thread - #15/INFO]: <TheUnamedDream> tell me when you reach land please[m
-[12:34:53] [Async Chat Thread - #16/INFO]: <TheUnamedDream> why'd you kill me[m
-[12:35:01] [Server thread/INFO]: TheUnamedDream issued server command: /tpa FentDealer
-[12:35:22] [Async Chat Thread - #16/INFO]: <TheUnamedDream> please i am not a griefer[m
-[12:35:29] [Async Chat Thread - #16/INFO]: <FentDealer> who are you[m
-[12:35:39] [Async Chat Thread - #16/INFO]: <TheUnamedDream> the guy who[m
-[12:35:47] [Async Chat Thread - #16/INFO]: <TheUnamedDream> played on the server last time[m
-[12:36:02] [Async Chat Thread - #16/INFO]: <TheUnamedDream> i sat with you that one time in front of the library[m
-[12:36:13] [Async Chat Thread - #16/INFO]: <FentDealer> what[m
-[12:36:30] [Async Chat Thread - #16/INFO]: <TheUnamedDream> before the deputy principal came up and said we couldn't sit there anymore[m
-[12:36:41] [Async Chat Thread - #16/INFO]: <TheUnamedDream> i plsyed with icesiked[m
-[12:36:53] [Async Chat Thread - #16/INFO]: <TheUnamedDream> remember[m
-[12:37:00] [Async Chat Thread - #16/INFO]: <TheUnamedDream> ICEEEEEEEEE[m
-[12:37:02] [Async Chat Thread - #16/INFO]: <FentDealer> we are draining the monument its gonna become my base[m
-[12:37:15] [Server thread/INFO]: TheUnamedDream issued server command: /tpa FentDealer
-[12:37:19] [Server thread/INFO]: FentDealer issued server command: /tpaccept
-[12:37:21] [Server thread/INFO]: FentDealer issued server command: /e
-[12:37:25] [Server thread/INFO]: TheUnamedDream issued server command: /tpa FentDealer
-[12:37:35] [Server thread/INFO]: FentDealer issued server command: /tpaccept
-[12:37:36] [Server thread/INFO]: FentDealer issued server command: //
-[12:38:02] [Async Chat Thread - #17/INFO]: <TheUnamedDream> take me to current base[m
-[12:38:09] [Async Chat Thread - #17/INFO]: <TheUnamedDream> i need gear[m
-[12:38:11] [Async Chat Thread - #17/INFO]: <FentDealer> dont have one[m
-[12:38:17] [Async Chat Thread - #17/INFO]: <TheUnamedDream> the tree one[m
-[12:38:26] [Async Chat Thread - #17/INFO]: <TheUnamedDream> what happened to that[m
-[12:38:35] [Async Chat Thread - #17/INFO]: <FentDealer> no idea what ur talking abty[m
-[12:38:38] [Async Chat Thread - #17/INFO]: <TheUnamedDream> spider[m
-[12:39:33] [Async Chat Thread - #17/INFO]: <TheUnamedDream> i need more gear[m
-[12:39:45] [Async Chat Thread - #17/INFO]: <FentDealer> you dont[m
-[12:39:53] [Async Chat Thread - #17/INFO]: <TheUnamedDream> i need diamonds[m
-[12:40:03] [Server thread/INFO]: FentDealer issued server command: /tpa icesiked
-[12:40:14] [Server thread/INFO]: IceSiked issued server command: /tpaccept
-[12:40:14] [Server thread/INFO]: IceSiked issued server command: /
-[12:40:17] [Async Chat Thread - #17/INFO]: <TheUnamedDream> i know you have spare[m
-[12:40:26] [Server thread/INFO]: TheUnamedDream issued server command: /tpa FentDealer
-[12:41:37] [Server thread/INFO]: IceSiked issued server command: /home Base
-[12:41:47] [Server thread/INFO]: FentDealer issued server command: /sethome monument
-[12:43:41] [Server thread/INFO]: FentDealer lost connection: Disconnected
-[12:43:41] [Server thread/INFO]: FentDealer left the game.
-[12:45:15] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[12:45:15] [Server thread/INFO]: IceSiked left the game.
-[12:45:52] [Server thread/INFO]: TheUnamedDream issued server command: /back
-[12:46:11] [Server thread/INFO]: TheUnamedDream lost connection: Disconnected
-[12:46:11] [Server thread/INFO]: TheUnamedDream left the game.
-[12:51:37] [Thread-40/INFO]: UUID of player AHHHHHHHHHHHHHHH is cbe77070-fed8-3c8e-be8b-f5e231de5613
-[12:51:37] [Server thread/INFO]: AHHHHHHHHHHHHHHH[/0:0:0:0:0:0:0:1:50938] logged in with entity id 71349 at ([world]116.0, 64.0, 256.0)
-[12:51:47] [Thread-41/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[12:51:47] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:50941] logged in with entity id 72048 at ([world]116.0, 64.0, 256.0)
-[12:52:51] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Matthewlake
-[12:53:20] [Server thread/INFO]: IceSiked issued server command: /home Base
-[12:57:14] [Server thread/INFO]: IceSiked issued server command: /tpa AHHHHHHHHHHHHHHH
-[12:57:23] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /tpaccept
-[13:03:58] [Server thread/INFO]: IceSiked issued server command: /homes
-[13:04:15] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Matthewlake
-[13:05:29] [Server thread/INFO]: AHHHHHHHHHHHHHHH fell from a high place
-[13:05:37] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /back
-[13:06:42] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Matthewlake
-[13:06:49] [Server thread/INFO]: IceSiked issued server command: /sethome Madder
-[13:07:02] [Server thread/INFO]: IceSiked issued server command: /home Base
-[13:08:25] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home XP
-[13:08:43] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Basew
-[13:08:47] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Base
-[13:08:55] [Server thread/INFO]: IceSiked issued server command: /home Monument
-[13:13:53] [Server thread/INFO]: IceSiked issued server command: /home Base
-[13:15:14] [Server thread/INFO]: IceSiked issued server command: /home Spawner
-[13:16:07] [Server thread/WARN]: AHHHHHHHHHHHHHHH moved wrongly!
-[13:16:11] [Server thread/INFO]: IceSiked issued server command: /home Base
-[13:17:45] [Server thread/INFO]: IceSiked issued server command: /home Spawner
-[13:18:42] [Server thread/INFO]: IceSiked issued server command: /home Base
-[13:18:55] [Server thread/INFO]: IceSiked issued server command: /home Base
-[13:21:02] [Server thread/INFO]: AHHHHHHHHHHHHHHH lost connection: Disconnected
-[13:21:02] [Server thread/INFO]: AHHHHHHHHHHHHHHH left the game.
-[13:21:38] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[13:21:38] [Server thread/INFO]: IceSiked left the game.
-[13:25:34] [Thread-43/INFO]: UUID of player FentDealer is 8a71003a-ccad-3053-bea2-69d9548f7d72
-[13:25:34] [Server thread/INFO]: FentDealer[/0:0:0:0:0:0:0:1:50983] logged in with entity id 79011 at ([world]116.0, 64.0, 256.0)
-[13:25:53] [Server thread/INFO]: FentDealer lost connection: Disconnected
-[13:25:53] [Server thread/INFO]: FentDealer left the game.
-[13:27:26] [Thread-44/INFO]: UUID of player AHHHHHHHHHHHHHHH is cbe77070-fed8-3c8e-be8b-f5e231de5613
-[13:27:26] [Server thread/INFO]: AHHHHHHHHHHHHHHH[/0:0:0:0:0:0:0:1:50991] logged in with entity id 79272 at ([world]116.0, 64.0, 256.0)
-[13:27:44] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Matthewlake
-[13:28:48] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home PenisHouse
-[13:30:20] [Thread-46/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[13:30:20] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51004] logged in with entity id 80374 at ([world]116.0, 64.0, 256.0)
-[13:30:21] [Server thread/INFO]: AHHHHHHHHHHHHHHH lost connection: Disconnected
-[13:30:21] [Server thread/INFO]: AHHHHHHHHHHHHHHH left the game.
-[13:33:15] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[13:33:15] [Server thread/INFO]: IceSiked left the game.
-[13:36:20] [Thread-47/INFO]: UUID of player TheUnamedDream is bc8be78b-9bf1-3459-9b07-2d01135e45c0
-[13:36:20] [Server thread/INFO]: TheUnamedDream[/0:0:0:0:0:0:0:1:51017] logged in with entity id 81149 at ([world]315.2705049030563, 64.0, -5672.512080203368)
-[13:36:31] [Server thread/INFO]: TheUnamedDream issued server command: /bacl
-[13:36:33] [Server thread/INFO]: TheUnamedDream issued server command: /back
-[13:37:32] [Thread-48/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
-[13:37:32] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:51027] logged in with entity id 81538 at ([world]116.63174047320283, 62.0, 256.6317404732028)
-[13:37:51] [Server thread/INFO]: MrMate lost connection: Disconnected
-[13:37:51] [Server thread/INFO]: MrMate left the game.
-[13:37:56] [Thread-49/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[13:37:57] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51032] logged in with entity id 81589 at ([world]116.0, 64.0, 256.0)
-[13:38:30] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[13:38:30] [Server thread/INFO]: IceSiked left the game.
-[13:41:11] [Thread-50/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[13:41:11] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51041] logged in with entity id 82105 at ([world]116.0, 64.0, 256.0)
-[13:41:47] [Server thread/INFO]: IceSiked issued server command: /home Spawner
-[13:42:11] [Server thread/INFO]: IceSiked issued server command: /home Base
-[13:42:22] [Async Chat Thread - #18/INFO]: <TheUnamedDream> ice[m
-[13:42:27] [Async Chat Thread - #18/INFO]: <IceSiked> what[m
-[13:42:33] [Async Chat Thread - #18/INFO]: <TheUnamedDream> do you have spare cobble[m
-[13:42:38] [Async Chat Thread - #18/INFO]: <IceSiked> lots[m
-[13:42:46] [Async Chat Thread - #18/INFO]: <TheUnamedDream> can i have it[m
-[13:42:58] [Async Chat Thread - #18/INFO]: <IceSiked> yes[m
-[13:43:34] [Async Chat Thread - #18/INFO]: <TheUnamedDream> i also need food[m
-[13:45:17] [Server thread/INFO]: IceSiked issued server command: /home Base
-[13:46:08] [Async Chat Thread - #19/INFO]: <IceSiked> k where are you[m
-[13:46:37] [Server thread/INFO]: TheUnamedDream hit the ground too hard
-[13:46:42] [Server thread/INFO]: TheUnamedDream issued server command: /back
-[13:47:12] [Server thread/INFO]: IceSiked issued server command: /tpa TheUnamedDream
-[13:47:16] [Async Chat Thread - #20/INFO]: <TheUnamedDream> accept[m
-[13:47:20] [Server thread/INFO]: TheUnamedDream issued server command: /accept
-[13:47:36] [Async Chat Thread - #20/INFO]: <TheUnamedDream> and woood[m
-[13:48:05] [Async Chat Thread - #20/INFO]: <TheUnamedDream> mine more wood fromthis forest[m
-[13:48:14] [Async Chat Thread - #20/INFO]: <TheUnamedDream> 64[m
-[13:48:16] [Async Chat Thread - #20/INFO]: <IceSiked> ill get my axe[m
-[13:48:21] [Server thread/INFO]: IceSiked issued server command: /home Base
-[13:48:48] [Server thread/INFO]: IceSiked issued server command: /tpa TheUnamedDream
-[13:48:53] [Server thread/INFO]: TheUnamedDream issued server command: /accept
-[13:49:14] [Async Chat Thread - #20/INFO]: <TheUnamedDream> wanna help[m
-[13:49:15] [Async Chat Thread - #20/INFO]: <IceSiked> any tree[m
-[13:49:18] [Async Chat Thread - #20/INFO]: <IceSiked> ?[m
-[13:49:20] [Async Chat Thread - #20/INFO]: <TheUnamedDream> yes[m
-[13:50:24] [Thread-51/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
-[13:50:24] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:51055] logged in with entity id 87261 at ([world]116.30000001192093, 63.0, 256.9517696728735)
-[13:50:27] [Server thread/INFO]: MrMate lost connection: Disconnected
-[13:50:27] [Server thread/INFO]: MrMate left the game.
-[13:51:02] [Server thread/INFO]: IceSiked issued server command: /home Spawner
-[13:51:44] [Thread-52/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
-[13:51:44] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:51059] logged in with entity id 87787 at ([world]116.30000001192093, 63.0, 256.9517696728735)
-[13:51:55] [Async Chat Thread - #21/INFO]: <TheUnamedDream> once done can you help me build my base guys[m
-[13:52:17] [Async Chat Thread - #21/INFO]: <TheUnamedDream> is FentBender an enemy[m
-[13:52:33] [Server thread/INFO]: IceSiked issued server command: /tpa TheUnamedDream
-[13:52:37] [Server thread/INFO]: TheUnamedDream issued server command: /accept
-[13:52:52] [Async Chat Thread - #21/INFO]: <IceSiked> sry don't have time[m
-[13:52:55] [Async Chat Thread - #21/INFO]: <IceSiked> but[m
-[13:53:13] [Async Chat Thread - #21/INFO]: <IceSiked> there[m
-[13:53:17] [Async Chat Thread - #21/INFO]: <TheUnamedDream> thanks[m
-[13:53:23] [Async Chat Thread - #21/INFO]: <IceSiked> ye gtg[m
-[13:53:23] [Async Chat Thread - #21/INFO]: <TheUnamedDream> how bout torches[m
-[13:53:52] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[13:53:52] [Server thread/INFO]: IceSiked left the game.
-[13:54:09] [Async Chat Thread - #21/INFO]: <TheUnamedDream> MRMATEEEEEEEEEEEEEEE[m
-[13:54:14] [Async Chat Thread - #21/INFO]: <MrMate> dream[m
-[13:54:21] [Async Chat Thread - #21/INFO]: <TheUnamedDream> do you have shears[m
-[13:54:26] [Async Chat Thread - #21/INFO]: <MrMate> nope[m
-[13:54:35] [Async Chat Thread - #21/INFO]: <TheUnamedDream> oh wanna help me build my base?[m
-[13:54:41] [Async Chat Thread - #21/INFO]: <MrMate> nah ssrry[m
-[13:54:46] [Async Chat Thread - #21/INFO]: <MrMate> dont have time[m
-[13:54:52] [Async Chat Thread - #21/INFO]: <TheUnamedDream> is FentBender an enemy[m
-[13:54:56] [Async Chat Thread - #21/INFO]: <MrMate> i might in a sec[m
-[13:54:58] [Async Chat Thread - #21/INFO]: <MrMate> idk[m
-[13:55:21] [Async Chat Thread - #21/INFO]: <TheUnamedDream> do you have a spare silktouch book and iron??[m
-[13:55:33] [Async Chat Thread - #21/INFO]: <MrMate> i have iron[m
-[13:55:44] [Async Chat Thread - #21/INFO]: <MrMate> its not on me[m
-[13:55:55] [Async Chat Thread - #21/INFO]: <MrMate> i dont have iron on me but there some in the base[m
-[13:58:16] [Thread-53/INFO]: UUID of player rizzler_ is f37d6096-e609-343e-951f-2e47cfba030c
-[13:58:16] [Server thread/INFO]: rizzler_[/0:0:0:0:0:0:0:1:51074] logged in with entity id 88954 at ([world]116.0, 64.0, 256.0)
-[13:58:16] [Craft Scheduler Thread - 91/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[13:58:16] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
-[13:58:46] [Server thread/INFO]: rizzler_ lost connection: Login timed out!
-[13:58:46] [Server thread/INFO]: rizzler_ left the game.
-[13:58:46] [Server thread/WARN]: handleDisconnection() called twice
-[13:59:23] [Thread-54/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
-[13:59:23] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:51078] logged in with entity id 89050 at ([world]116.0, 64.0, 256.0)
-[13:59:46] [Server thread/INFO]: rizzler issued server command: /tpa MrMate
-[13:59:59] [Server thread/INFO]: MrMate issued server command: /tpa rizzler
-[14:00:28] [Server thread/INFO]: MrMate issued server command: /tpa rizzler
-[14:00:35] [Server thread/INFO]: MrMate issued server command: /tpdeny
-[14:00:38] [Server thread/INFO]: MrMate issued server command: /tpa rizzler
-[14:00:41] [Server thread/INFO]: rizzler issued server command: /tpaccept
-[14:01:10] [Server thread/INFO]: rizzler issued server command: /tpaccept
-[14:01:47] [Server thread/INFO]: rizzler lost connection: Disconnected
-[14:01:47] [Server thread/INFO]: rizzler left the game.
-[14:03:09] [Server thread/INFO]: TheUnamedDream lost connection: Disconnected
-[14:03:09] [Server thread/INFO]: TheUnamedDream left the game.
-[14:03:45] [Thread-56/INFO]: UUID of player TheUnamedDream is bc8be78b-9bf1-3459-9b07-2d01135e45c0
-[14:03:45] [Server thread/INFO]: TheUnamedDream[/0:0:0:0:0:0:0:1:51084] logged in with entity id 89663 at ([world]116.0, 64.0, 256.0)
-[14:03:48] [Server thread/INFO]: TheUnamedDream issued server command: /back
-[14:03:54] [Server thread/INFO]: TheUnamedDream issued server command: /dream1
-[14:05:27] [Async Chat Thread - #22/INFO]: <TheUnamedDream> mr mate ti you have the iron yet[m
-[14:07:16] [Async Chat Thread - #23/INFO]: <MrMate> OMG i just got the ultimate pickaxe it have efficeincy IV and Unbreaking III and Fortune III[m
-[14:07:22] [Async Chat Thread - #23/INFO]: <TheUnamedDream> woaaaah[m
-[14:09:08] [Server thread/INFO]: MrMate lost connection: Disconnected
-[14:09:08] [Server thread/INFO]: MrMate left the game.
-[14:09:50] [Thread-57/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
-[14:09:50] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:51094] logged in with entity id 91086 at ([world]116.0, 64.0, 256.0)
-[14:11:16] [Server thread/INFO]: rizzler lost connection: Disconnected
-[14:11:16] [Server thread/INFO]: rizzler left the game.
-[14:12:51] [Thread-58/INFO]: UUID of player XXR_justHuddo is 606148f6-e4c9-3f9e-9e10-ce1285f9add8
-[14:12:51] [Server thread/INFO]: XXR_justHuddo[/0:0:0:0:0:0:0:1:51109] logged in with entity id 91613 at ([world]116.0, 64.0, 256.0)
-[14:13:09] [Thread-59/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
-[14:13:09] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:51112] logged in with entity id 91784 at ([world]116.0, 64.0, 256.0)
-[14:13:22] [Server thread/INFO]: XXR_justHuddo lost connection: Login timed out!
-[14:13:22] [Server thread/INFO]: XXR_justHuddo left the game.
-[14:13:22] [Server thread/WARN]: handleDisconnection() called twice
-[14:13:23] [Thread-60/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
-[14:13:23] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:51115] logged in with entity id 91916 at ([world]116.0, 64.0, 256.0)
-[14:13:35] [Thread-61/INFO]: UUID of player AHHHHHHHHHHHHHHH is cbe77070-fed8-3c8e-be8b-f5e231de5613
-[14:13:35] [Server thread/INFO]: AHHHHHHHHHHHHHHH[/0:0:0:0:0:0:0:1:51117] logged in with entity id 92109 at ([world]116.0, 64.0, 256.0)
-[14:13:39] [Server thread/INFO]: MrMate issued server command: /tpa rizzler
-[14:13:41] [Server thread/INFO]: rizzler issued server command: /tpaccept
-[14:13:43] [Async Chat Thread - #24/INFO]: <rizzler> e[m
-[14:13:53] [Async Chat Thread - #24/INFO]: <AHHHHHHHHHHHHHHH> f[m
-[14:13:59] [Server thread/INFO]: AHHHHHHHHHHHHHHH issued server command: /home Base
-[14:15:04] [Server thread/INFO]: TheUnamedDream has just earned the achievement [Time to Strike!]
-[14:15:08] [Server thread/INFO]: AHHHHHHHHHHHHHHH lost connection: Disconnected
-[14:15:08] [Server thread/INFO]: AHHHHHHHHHHHHHHH left the game.
-[14:15:18] [Server thread/INFO]: TheUnamedDream lost connection: Disconnected
-[14:15:18] [Server thread/INFO]: TheUnamedDream left the game.
-[14:16:37] [Server thread/INFO]: MrMate lost connection: Disconnected
-[14:16:37] [Server thread/INFO]: MrMate left the game.
-[14:17:38] [Thread-62/INFO]: UUID of player TheUnamedDream is bc8be78b-9bf1-3459-9b07-2d01135e45c0
-[14:17:38] [Server thread/INFO]: TheUnamedDream[/0:0:0:0:0:0:0:1:51123] logged in with entity id 92694 at ([world]116.0, 64.0, 256.0)
-[14:17:59] [Server thread/INFO]: rizzler lost connection: Disconnected
-[14:17:59] [Server thread/INFO]: rizzler left the game.
-[14:18:58] [Thread-63/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
-[14:18:59] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:51125] logged in with entity id 93103 at ([world]116.0, 64.0, 256.0)
-[14:22:10] [Async Chat Thread - #25/INFO]: <TheUnamedDream> tt[m
-[14:25:28] [Thread-64/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
-[14:25:28] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:51138] logged in with entity id 93680 at ([world]116.0, 64.0, 256.0)
-[14:25:41] [Server thread/INFO]: rizzler lost connection: Disconnected
-[14:25:41] [Server thread/INFO]: rizzler left the game.
-[14:30:11] [Async Chat Thread - #26/INFO]: <TheUnamedDream> MRMATEEE[m
-[14:30:24] [Async Chat Thread - #26/INFO]: <MrMate> what[m
-[14:30:31] [Server thread/INFO]: MrMate lost connection: Disconnected
-[14:30:31] [Server thread/INFO]: MrMate left the game.
-[14:33:38] [Thread-66/INFO]: UUID of player rizzler is 48726902-3019-3f1a-add9-00bdaf15dde4
-[14:33:38] [Server thread/INFO]: rizzler[/0:0:0:0:0:0:0:1:51154] logged in with entity id 94452 at ([world]116.0, 64.0, 256.0)
-[14:35:32] [Thread-67/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
-[14:35:32] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:51158] logged in with entity id 94794 at ([world]116.0, 64.0, 256.0)
-[14:36:02] [Server thread/INFO]: MrMate lost connection: Login timed out!
-[14:36:02] [Server thread/INFO]: MrMate left the game.
-[14:36:02] [Server thread/WARN]: handleDisconnection() called twice
-[14:38:05] [Thread-68/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
-[14:38:05] [Server thread/INFO]: MrMate[/0:0:0:0:0:0:0:1:51164] logged in with entity id 95156 at ([world]116.66401742696755, 62.0, 256.45850254070285)
-[14:41:41] [Server thread/INFO]: rizzler issued server command: /tpa MrMate
-[14:41:45] [Server thread/INFO]: MrMate issued server command: /tpaccept
-[14:42:59] [Thread-69/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[14:43:00] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51177] logged in with entity id 96686 at ([world]116.0, 64.0, 256.0)
-[14:43:51] [Async Chat Thread - #27/INFO]: <TheUnamedDream> ICEEEEEEEEEEEEE[m
-[14:43:58] [Async Chat Thread - #27/INFO]: <IceSiked> hi[m
-[14:44:08] [Async Chat Thread - #27/INFO]: <TheUnamedDream> come[m
-[14:44:08] [Async Chat Thread - #27/INFO]: <rizzler> helol[m
-[14:44:15] [Async Chat Thread - #27/INFO]: <rizzler> hello[m
-[14:44:26] [Async Chat Thread - #27/INFO]: <TheUnamedDream> ice?[m
-[14:44:30] [Async Chat Thread - #27/INFO]: <IceSiked> what[m
-[14:44:34] [Server thread/INFO]: TheUnamedDream issued server command: /come
-[14:44:36] [Async Chat Thread - #27/INFO]: <TheUnamedDream> come[m
-[14:44:53] [Async Chat Thread - #27/INFO]: <IceSiked> nice house[m
-[14:44:55] [Async Chat Thread - #27/INFO]: <TheUnamedDream> is itcool?[m
-[14:45:00] [Async Chat Thread - #27/INFO]: <rizzler> i will see you next year at r-12[m
-[14:45:09] [Async Chat Thread - #27/INFO]: <TheUnamedDream> ?[m
-[14:45:11] [Async Chat Thread - #27/INFO]: <IceSiked> could wo with bigger windows[m
-[14:45:12] [Async Chat Thread - #27/INFO]: <rizzler> im steapans friend[m
-[14:45:16] [Async Chat Thread - #27/INFO]: <IceSiked> ik[m
-[14:45:26] [Async Chat Thread - #27/INFO]: <TheUnamedDream> okay[m
-[14:45:32] [Server thread/INFO]: MrMate issued server command: /tpa TheUnamedDream
-[14:45:38] [Server thread/INFO]: TheUnamedDream issued server command: /accept
-[14:46:10] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[14:46:10] [Server thread/INFO]: IceSiked left the game.
-[14:46:12] [Server thread/INFO]: rizzler issued server command: /back
-[14:46:24] [Thread-70/INFO]: UUID of player Dark_stalker33 is ad80db31-1448-3ef5-accb-eb9220d5700f
-[14:46:24] [Server thread/INFO]: Dark_stalker33[/0:0:0:0:0:0:0:1:51191] logged in with entity id 97387 at ([world]116.0, 64.0, 256.0)
-[14:46:28] [Async Chat Thread - #28/INFO]: <MrMate> alex[m
-[14:46:30] [Async Chat Thread - #28/INFO]: <MrMate> alex[m
-[14:46:31] [Async Chat Thread - #28/INFO]: <MrMate> ale[m
-[14:46:33] [Async Chat Thread - #28/INFO]: <MrMate> alex[m
-[14:46:34] [Thread-71/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[14:46:34] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51194] logged in with entity id 97963 at ([world]116.0, 64.0, 256.0)
-[14:46:35] [Async Chat Thread - #28/INFO]: <MrMate> alecx[m
-[14:46:37] [Async Chat Thread - #28/INFO]: <Dark_stalker33> sup[m
-[14:46:38] [Async Chat Thread - #28/INFO]: <MrMate> aj[m
-[14:46:40] [Async Chat Thread - #28/INFO]: <MrMate> aj[m
-[14:47:08] [Server thread/INFO]: Dark_stalker33 issued server command: /tpa MrMate
-[14:47:17] [Server thread/INFO]: MrMate issued server command: /tpaccept
-[14:48:01] [Async Chat Thread - #29/INFO]: <Dark_stalker33> what was thatfor[m
-[14:48:11] [Async Chat Thread - #29/INFO]: <MrMate> nothin that was jax][m
-[14:48:15] [Async Chat Thread - #29/INFO]: <MrMate> gtg[m
-[14:48:18] [Server thread/INFO]: MrMate lost connection: Disconnected
-[14:48:18] [Server thread/INFO]: MrMate left the game.
-[14:48:19] [Async Chat Thread - #29/INFO]: <rizzler> it is a joke chill[m
-[14:48:20] [Server thread/INFO]: Dark_stalker33 issued server command: /back
-[14:48:27] [Server thread/INFO]: rizzler lost connection: Disconnected
-[14:48:27] [Server thread/INFO]: rizzler left the game.
-[14:49:55] [Async Chat Thread - #30/INFO]: <TheUnamedDream> 5[m
-[14:50:17] [Server thread/INFO]: TheUnamedDream lost connection: Disconnected
-[14:50:17] [Server thread/INFO]: TheUnamedDream left the game.
-[14:52:23] [Thread-72/INFO]: UUID of player DKing201 is 9d859d2d-73c4-3a8d-9f9d-2c9de25e13d7
-[14:52:23] [Server thread/INFO]: DKing201[/0:0:0:0:0:0:0:1:51208] logged in with entity id 101017 at ([world]116.0, 64.0, 256.0)
-[14:52:24] [Thread-73/INFO]: UUID of player TheUnamedDream is bc8be78b-9bf1-3459-9b07-2d01135e45c0
-[14:52:24] [Server thread/INFO]: TheUnamedDream[/0:0:0:0:0:0:0:1:51211] logged in with entity id 101152 at ([world]116.0, 64.0, 256.0)
-[14:52:32] [Async Chat Thread - #31/INFO]: <TheUnamedDream> i back[m
-[14:52:47] [Async Chat Thread - #31/INFO]: <DKing201> who is unamed dream[m
-[14:53:04] [Async Chat Thread - #31/INFO]: <TheUnamedDream> IceSiked knows who i am[m
-[14:53:09] [Async Chat Thread - #31/INFO]: <DKing201> oh ok[m
-[14:53:22] [Async Chat Thread - #31/INFO]: <DKing201> i am icesiked brothers friend[m
-[14:53:30] [Async Chat Thread - #31/INFO]: <TheUnamedDream> u at school?[m
-[14:53:33] [Async Chat Thread - #31/INFO]: <DKing201> yea[m
-[14:53:39] [Async Chat Thread - #31/INFO]: <DKing201> doin tech[m
-[14:53:45] [Async Chat Thread - #31/INFO]: <TheUnamedDream> ok[m
-[14:54:18] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
-[14:54:31] [Server thread/INFO]: DKing201 issued server command: /tpa Dark_stalker33
-[14:54:34] [Server thread/INFO]: IceSiked issued server command: /home Base
-[14:55:05] [Async Chat Thread - #32/INFO]: <IceSiked> hey dream go to the desert[m
-[14:55:20] [Async Chat Thread - #32/INFO]: <IceSiked> that is near your base[m
-[14:55:39] [Async Chat Thread - #32/INFO]: <TheUnamedDream> k hang on[m
-[14:56:42] [Async Chat Thread - #33/INFO]: <IceSiked> u there?[m
-[14:56:47] [Async Chat Thread - #33/INFO]: <TheUnamedDream> wait[m
-[14:57:11] [Async Chat Thread - #33/INFO]: <DKing201> this is war base[m
-[14:57:11] [Async Chat Thread - #33/INFO]: <TheUnamedDream> i am putiting roof on house[m
-[14:58:10] [Async Chat Thread - #33/INFO]: <TheUnamedDream> k coming[m
-[14:58:12] [Async Chat Thread - #33/INFO]: <TheUnamedDream> coords?[m
-[14:58:19] [Async Chat Thread - #33/INFO]: <IceSiked> its nearby[m
-[14:58:26] [Async Chat Thread - #33/INFO]: <Dark_stalker33> we should start farm dking[m
-[14:58:30] [Async Chat Thread - #33/INFO]: <IceSiked> like -1200 -1200[m
-[14:58:35] [Async Chat Thread - #33/INFO]: <IceSiked> about there i think[m
-[14:59:08] [Server thread/WARN]: TheUnamedDream moved wrongly!
-[14:59:12] [Async Chat Thread - #33/INFO]: <IceSiked> u there?[m
-[14:59:40] [Async Chat Thread - #33/INFO]: <IceSiked> its close ur base dream[m
-[14:59:42] [Async Chat Thread - #33/INFO]: <TheUnamedDream> i at -1200 72 -1200 and i am in a plains[m
-[14:59:51] [Async Chat Thread - #33/INFO]: <IceSiked> go across the river[m
-[15:00:06] [Async Chat Thread - #33/INFO]: <Dark_stalker33> we need farm[m
-[15:00:08] [Async Chat Thread - #33/INFO]: <TheUnamedDream> tell me your coords[m
-[15:00:11] [Server thread/INFO]: IceSiked issued server command: /tpa TheUnamedDream
-[15:00:17] [Server thread/INFO]: TheUnamedDream issued server command: /accept
-[15:01:17] [Server thread/INFO]: TheUnamedDream has just earned the achievement [Monster Hunter]
-[15:01:28] [Async Chat Thread - #34/INFO]: <TheUnamedDream> where'd yougo[m
-[15:01:37] [Async Chat Thread - #34/INFO]: <Dark_stalker33> make gold block dennis[m
-[15:01:51] [Async Chat Thread - #34/INFO]: <DKing201> wait can i use your hoe pls[m
-[15:01:54] [Async Chat Thread - #34/INFO]: <TheUnamedDream> i'll be on about 5pm 6pm k[m
-[15:01:59] [Async Chat Thread - #34/INFO]: <TheUnamedDream> byeeeeeeeeeeeeeeeeee[m
-[15:02:02] [Server thread/INFO]: TheUnamedDream lost connection: Disconnected
-[15:02:02] [Server thread/INFO]: TheUnamedDream left the game.
-[15:02:25] [Server thread/INFO]: DKing201 lost connection: Disconnected
-[15:02:25] [Server thread/INFO]: DKing201 left the game.
-[15:02:41] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[15:02:41] [Server thread/INFO]: IceSiked left the game.
-[15:02:45] [Server thread/INFO]: Dark_stalker33 lost connection: Disconnected
-[15:02:45] [Server thread/INFO]: Dark_stalker33 left the game.
-[15:04:55] [Thread-75/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[15:04:55] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51228] logged in with entity id 104347 at ([world]116.0, 64.0, 256.0)
-[15:04:59] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[15:04:59] [Server thread/INFO]: IceSiked left the game.
-[15:19:57] [Thread-76/INFO]: UUID of player DKing201 is 9d859d2d-73c4-3a8d-9f9d-2c9de25e13d7
-[15:19:57] [Server thread/INFO]: DKing201[/0:0:0:0:0:0:0:1:51253] logged in with entity id 104525 at ([world]116.0, 64.0, 256.0)
-[15:30:39] [Thread-78/INFO]: UUID of player nik123 is 7f377a40-5d7d-3162-a9f9-00cc6c579dbf
-[15:30:39] [Server thread/INFO]: nik123[/0:0:0:0:0:0:0:1:51270] logged in with entity id 106034 at ([world]116.0, 64.0, 256.0)
-[15:30:40] [Craft Scheduler Thread - 135/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[15:30:40] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
-[15:30:50] [Async Chat Thread - #35/INFO]: <DKing201> yo wassup hik its dennis[m
-[15:31:10] [Server thread/INFO]: nik123 lost connection: Login timed out!
-[15:31:10] [Server thread/INFO]: nik123 left the game.
-[15:31:10] [Server thread/WARN]: handleDisconnection() called twice
-[15:31:15] [Thread-79/INFO]: UUID of player nik123 is 7f377a40-5d7d-3162-a9f9-00cc6c579dbf
-[15:31:15] [Server thread/INFO]: nik123[/0:0:0:0:0:0:0:1:51272] logged in with entity id 106249 at ([world]116.0, 64.0, 256.0)
-[15:31:16] [Craft Scheduler Thread - 135/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[15:31:16] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:1.8.0_401]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:1.8.0_401]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
-[15:31:18] [Async Chat Thread - #35/INFO]: <DKing201> and no you are not allowed near my base[m
-[15:31:24] [Server thread/INFO]: nik123 issued server command: /bru
-[15:31:27] [Async Chat Thread - #35/INFO]: <nik123> uh[m
-[15:31:28] [Async Chat Thread - #35/INFO]: <DKing201> btw do /register[m
-[15:31:29] [Server thread/INFO]: nik123 issued server command: /hi
-[15:31:31] [Server thread/INFO]: nik123 issued server command: /ye
-[15:31:33] [Async Chat Thread - #35/INFO]: <nik123> ye ik[m
-[15:31:35] [Async Chat Thread - #35/INFO]: <nik123> i did[m
-[15:31:38] [Async Chat Thread - #35/INFO]: <nik123> wya[m
-[15:31:43] [Async Chat Thread - #35/INFO]: <DKing201> tpa to me[m
-[15:31:50] [Server thread/INFO]: nik123 issued server command: /k
-[15:31:53] [Async Chat Thread - #35/INFO]: <nik123> k[m
-[15:32:01] [Server thread/INFO]: nik123 issued server command: /tp to DKing20
-[15:32:03] [Async Chat Thread - #35/INFO]: <DKing201> do you know how[m
-[15:32:13] [Server thread/INFO]: nik123 issued server command: /tp to DKing201
-[15:32:17] [Async Chat Thread - #35/INFO]: <nik123> uh[m
-[15:32:19] [Async Chat Thread - #35/INFO]: <nik123> no[m
-[15:32:24] [Async Chat Thread - #35/INFO]: <nik123> you tp me[m
-[15:32:32] [Async Chat Thread - #35/INFO]: <DKing201> you do /tpa then my name[m
-[15:32:38] [Async Chat Thread - #35/INFO]: <nik123> i did[m
-[15:32:46] [Async Chat Thread - #35/INFO]: <DKing201> then do not move at all[m
-[15:32:48] [Server thread/INFO]: nik123 issued server command: /tp DKing10`
-[15:32:51] [Async Chat Thread - #35/INFO]: <nik123> mp[m
-[15:32:53] [Async Chat Thread - #35/INFO]: <nik123> mb[m
-[15:32:58] [Async Chat Thread - #35/INFO]: <nik123> i spelt ur user wrong[m
-[15:33:03] [Async Chat Thread - #35/INFO]: <DKing201> k[m
-[15:33:06] [Server thread/INFO]: nik123 issued server command: /tpa Dking201
-[15:33:09] [Server thread/INFO]: DKing201 issued server command: /tpaccept
-[15:33:09] [Server thread/INFO]: There are 2/20 players online:
-[15:33:09] [Server thread/INFO]: DKing201, nik123
-[15:33:13] [Async Chat Thread - #35/INFO]: <DKing201> dont move[m
-[15:33:16] [Async Chat Thread - #35/INFO]: <nik123> k[m
-[15:33:19] [Server thread/INFO]: nik123 issued server command: /hi
-[15:33:20] [Async Chat Thread - #35/INFO]: <DKing201> hi[m
-[15:33:21] [Async Chat Thread - #35/INFO]: <nik123> hi[m
-[15:33:28] [Async Chat Thread - #35/INFO]: <nik123> gimme sm[m
-[15:33:32] [Async Chat Thread - #35/INFO]: <DKing201> no punchies[m
-[15:33:37] [Async Chat Thread - #35/INFO]: <nik123> fine[m
-[15:33:45] [Async Chat Thread - #35/INFO]: <nik123> w[m
-[15:33:53] [Async Chat Thread - #35/INFO]: <nik123> thx[m
-[15:34:08] [Async Chat Thread - #35/INFO]: <DKing201> u ok[m
-[15:34:11] [Async Chat Thread - #35/INFO]: <nik123> i wish we could allie[m
-[15:34:14] [Async Chat Thread - #35/INFO]: <nik123> ye im fine[m
-[15:34:14] [Async Chat Thread - #35/INFO]: <DKing201> sorry i hit you[m
-[15:34:19] [Async Chat Thread - #35/INFO]: <nik123> its k[m
-[15:34:24] [Async Chat Thread - #35/INFO]: <DKing201> follow me[m
-[15:34:26] [Async Chat Thread - #35/INFO]: <nik123> k[m
-[15:34:32] [Async Chat Thread - #35/INFO]: <DKing201> i show you stepans base[m
-[15:34:35] [Async Chat Thread - #35/INFO]: <nik123> k[m
-[15:34:52] [Async Chat Thread - #35/INFO]: <nik123> WOAH[m
-[15:35:00] [Thread-80/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[15:35:00] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:51432] logged in with entity id 107034 at ([world]116.58793446649784, 62.0, 256.45850254070285)
-[15:35:05] [Async Chat Thread - #35/INFO]: <nik123> whos this?[m
-[15:35:11] [Async Chat Thread - #35/INFO]: <DKing201> DDONT TOUCH THAT YOU WILL DIE[m
-[15:35:14] [Async Chat Thread - #35/INFO]: <nik123> i wont[m
-[15:35:16] [Async Chat Thread - #35/INFO]: <nik123> ik[m
-[15:35:21] [Async Chat Thread - #35/INFO]: <nik123> clean base[m
-[15:35:39] [Async Chat Thread - #35/INFO]: <nik123> bro whos icesiked[m
-[15:35:44] [Async Chat Thread - #35/INFO]: <nik123> ????[m
-[15:35:50] [Server thread/INFO]: [Server] the admin
-[15:35:51] [Async Chat Thread - #35/INFO]: <DKing201> stepans brother[m
-[15:35:58] [Async Chat Thread - #35/INFO]: <nik123> oh[m
-[15:36:06] [Async Chat Thread - #35/INFO]: <nik123> ok[m
-[15:36:17] [Async Chat Thread - #35/INFO]: <nik123> ima build my base[m
-[15:36:19] [Async Chat Thread - #35/INFO]: <nik123> close by[m
-[15:36:32] [Async Chat Thread - #35/INFO]: <DKing201> ok dont go in there[m
-[15:36:35] [Server thread/INFO]: nik123 issued server command: /k
-[15:36:37] [Async Chat Thread - #35/INFO]: <nik123> uh ok[m
-[15:36:48] [Async Chat Thread - #35/INFO]: <nik123> welp[m
-[15:37:07] [Server thread/INFO]: IceSiked issued server command: /home Base
-[15:37:21] [Async Chat Thread - #35/INFO]: <nik123> im calling this my base[m
-[15:37:30] [Server thread/INFO]: IceSiked issued server command: /home Base
-[15:37:31] [Async Chat Thread - #35/INFO]: <DKing201> nice[m
-[15:37:35] [Server thread/INFO]: IceSiked issued server command: /home Base
-[15:37:36] [Async Chat Thread - #35/INFO]: <nik123> uhh[m
-[15:37:43] [Async Chat Thread - #35/INFO]: <DKing201> i give u weapon[m
-[15:37:50] [Async Chat Thread - #35/INFO]: <nik123> zombie sounding mad rn[m
-[15:37:54] [Async Chat Thread - #35/INFO]: <DKing201> ikr[m
-[15:38:02] [Async Chat Thread - #35/INFO]: <DKing201> DIE[m
-[15:38:06] [Async Chat Thread - #35/INFO]: <nik123> lol[m
-[15:38:07] [Async Chat Thread - #35/INFO]: <DKing201> gottem[m
-[15:38:19] [Server thread/INFO]: nik123 has just earned the achievement [Taking Inventory]
-[15:38:27] [Server thread/INFO]: IceSiked issued server command: /home Spawner
-[15:38:32] [Async Chat Thread - #35/INFO]: <nik123> yo is stepan or alex or etc online??[m
-[15:38:38] [Server thread/INFO]: nik123 has just earned the achievement [Getting Wood]
-[15:38:44] [Async Chat Thread - #35/INFO]: <nik123> creepy sound[m
-[15:38:46] [Async Chat Thread - #35/INFO]: <nik123> lmao[m
-[15:38:47] [Async Chat Thread - #35/INFO]: <DKing201> no, but to see whos on press tab[m
-[15:38:51] [Async Chat Thread - #35/INFO]: <nik123> k[m
-[15:39:00] [Async Chat Thread - #35/INFO]: <nik123> thanks[m
-[15:39:06] [Async Chat Thread - #35/INFO]: <nik123> oo[m
-[15:39:11] [Async Chat Thread - #35/INFO]: <nik123> ima mine sum coal[m
-[15:39:25] [Async Chat Thread - #35/INFO]: <nik123> im hungry[m
-[15:39:30] [Async Chat Thread - #35/INFO]: <nik123> ima get sm to eat[m
-[15:39:35] [Async Chat Thread - #35/INFO]: <DKing201> kill some sheep or cow[m
-[15:39:37] [Async Chat Thread - #35/INFO]: <nik123> maybe a pig[m
-[15:39:39] [Async Chat Thread - #35/INFO]: <nik123> ye[m
-[15:39:59] [Async Chat Thread - #35/INFO]: <nik123> stay there so i can to back[m
-[15:40:06] [Async Chat Thread - #35/INFO]: <nik123> enemy spotted[m
-[15:40:09] [Async Chat Thread - #35/INFO]: <DKing201> stay where[m
-[15:40:17] [Async Chat Thread - #35/INFO]: <DKing201> lol[m
-[15:40:17] [Async Chat Thread - #35/INFO]: <nik123> where u r rn[m
-[15:40:22] [Async Chat Thread - #35/INFO]: <DKing201> base[m
-[15:40:24] [Server thread/INFO]: nik123 issued server command: /
-[15:40:32] [Server thread/INFO]: nik123 issued server command: //
-[15:40:58] [Server thread/INFO]: nik123 was shot by Skeleton
-[15:41:03] [Async Chat Thread - #35/INFO]: <nik123> UH[m
-[15:41:18] [Server thread/INFO]: nik123 issued server command: /tpa DKing201
-[15:41:23] [Server thread/INFO]: DKing201 issued server command: /tpaccept
-[15:41:24] [Server thread/INFO]: DKing201 issued server command: /tpaccept
-[15:41:33] [Async Chat Thread - #35/INFO]: <DKing201> i have your stuff for u[m
-[15:41:36] [Async Chat Thread - #35/INFO]: <nik123> k[m
-[15:42:00] [Async Chat Thread - #35/INFO]: <nik123> i lagged for like 5 seconds and drowned while a skeleton was violating me[m
-[15:42:11] [Async Chat Thread - #35/INFO]: <DKing201> womp womp[m
-[15:42:13] [Server thread/INFO]: IceSiked issued server command: /home Base
-[15:42:17] [Async Chat Thread - #35/INFO]: <nik123> uh[m
-[15:42:21] [Async Chat Thread - #35/INFO]: <nik123> creeper![m
-[15:42:38] [Async Chat Thread - #35/INFO]: <DKing201> AAAAAAHHHHHH stay away from it[m
-[15:42:44] [Async Chat Thread - #35/INFO]: <nik123> i will[m
-[15:44:34] [Async Chat Thread - #36/INFO]: <nik123> how do u open ur backpack[m
-[15:44:37] [Async Chat Thread - #36/INFO]: <nik123> in here[m
-[15:44:40] [Async Chat Thread - #36/INFO]: <DKing201> e[m
-[15:44:43] [Async Chat Thread - #36/INFO]: <nik123> thanks[m
-[15:46:50] [Server thread/INFO]: nik123 has just earned the achievement [Benchmarking]
-[15:47:19] [Async Chat Thread - #37/INFO]: <nik123> wth was that[m
-[15:47:26] [Async Chat Thread - #37/INFO]: <nik123> eerie sound[m
-[15:47:38] [Async Chat Thread - #37/INFO]: <DKing201> a creeper nearly blowing up[m
-[15:47:42] [Async Chat Thread - #37/INFO]: <nik123> oh[m
-[15:47:45] [Async Chat Thread - #37/INFO]: <DKing201> i made u base[m
-[15:47:51] [Async Chat Thread - #37/INFO]: <nik123> thank u[m
-[15:48:06] [Async Chat Thread - #37/INFO]: <DKing201> what can i say except your welcome[m
-[15:49:19] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[15:49:19] [Server thread/INFO]: IceSiked left the game.
-[15:49:28] [Async Chat Thread - #38/INFO]: <nik123> stepan's brother left?[m
-[15:49:34] [Async Chat Thread - #38/INFO]: <DKing201> gtg go in 10 min[m
-[15:49:36] [Async Chat Thread - #38/INFO]: <DKing201> yea[m
-[15:49:39] [Async Chat Thread - #38/INFO]: <nik123> k[m
-[15:49:53] [Async Chat Thread - #38/INFO]: <DKing201> WE ON OUR OWN YEA BOI[m
-[15:52:53] [Async Chat Thread - #39/INFO]: <DKing201> u still there[m
-[15:52:58] [Async Chat Thread - #39/INFO]: <nik123> ye[m
-[15:53:02] [Async Chat Thread - #39/INFO]: <DKing201> k[m
-[15:54:39] [Async Chat Thread - #40/INFO]: <nik123> got any torches?[m
-[15:54:48] [Async Chat Thread - #40/INFO]: <DKing201> use that for walls[m
-[15:54:52] [Async Chat Thread - #40/INFO]: <nik123> i will[m
-[15:54:56] [Async Chat Thread - #40/INFO]: <DKing201> nah i dont srry[m
-[15:55:00] [Async Chat Thread - #40/INFO]: <nik123> kk[m
-[15:55:05] [Async Chat Thread - #40/INFO]: <DKing201> brb[m
-[15:56:08] [Async Chat Thread - #41/INFO]: <nik123> k[m
-[15:56:22] [Async Chat Thread - #41/INFO]: <DKing201> nooo come back[m
-[15:56:25] [Async Chat Thread - #41/INFO]: <nik123> k[m
-[15:56:28] [Async Chat Thread - #41/INFO]: <nik123> got stone?[m
-[15:56:36] [Async Chat Thread - #41/INFO]: <DKing201> no i got torches[m
-[15:56:42] [Async Chat Thread - #41/INFO]: <nik123> k[m
-[15:56:48] [Async Chat Thread - #41/INFO]: <nik123> ill take it[m
-[15:56:50] [Async Chat Thread - #41/INFO]: <DKing201> dont tell anyone about that ok[m
-[15:56:56] [Async Chat Thread - #41/INFO]: <nik123> uh sure[m
-[15:57:00] [Async Chat Thread - #41/INFO]: <nik123> thanks[m
-[15:57:12] [Async Chat Thread - #41/INFO]: <DKing201> that was stepans base i just stole from[m
-[15:57:16] [Async Chat Thread - #41/INFO]: <nik123> oof[m
-[15:57:42] [Async Chat Thread - #41/INFO]: <DKing201> lachy and aarons old base[m
-[15:57:47] [Async Chat Thread - #41/INFO]: <nik123> oh[m
-[15:57:55] [Async Chat Thread - #41/INFO]: <nik123> do lachy and aaron still share a base?[m
-[15:58:11] [Async Chat Thread - #41/INFO]: <DKing201> nah it got blew up by creeper[m
-[15:58:14] [Async Chat Thread - #41/INFO]: <nik123> RIP[m
-[15:58:27] [Async Chat Thread - #41/INFO]: <DKing201> ROP? i think you mean LOL[m
-[15:58:36] [Async Chat Thread - #41/INFO]: <nik123> lol[m
-[15:58:37] [Async Chat Thread - #41/INFO]: <DKing201> RIP*[m
-[15:58:42] [Async Chat Thread - #41/INFO]: <nik123> yes[m
-[15:58:55] [Async Chat Thread - #41/INFO]: <nik123> uhhhhh[m
-[15:59:00] [Async Chat Thread - #41/INFO]: <nik123> bru[m
-[15:59:21] [Async Chat Thread - #41/INFO]: <nik123> BRU[m
-[15:59:33] [Async Chat Thread - #41/INFO]: <DKing201> k[m
-[15:59:47] [Async Chat Thread - #41/INFO]: <DKing201> u need to use pickaxe[m
-[15:59:51] [Async Chat Thread - #41/INFO]: <nik123> ik[m
-[15:59:59] [Async Chat Thread - #41/INFO]: <nik123> gimme stone (pls)[m
-[16:00:09] [Async Chat Thread - #41/INFO]: <nik123> i alr have sticks[m
-[16:00:24] [Async Chat Thread - #41/INFO]: <DKing201> drop me the sticks[m
-[16:00:31] [Async Chat Thread - #41/INFO]: <nik123> mv[m
-[16:00:32] [Server thread/INFO]: nik123 issued server command: /mb
-[16:01:21] [Async Chat Thread - #41/INFO]: <nik123> thanks for the pick axe[m
-[16:01:26] [Async Chat Thread - #41/INFO]: <DKing201> yw[m
-[16:01:52] [Async Chat Thread - #41/INFO]: <DKing201> gtg now bye[m
-[16:01:57] [Async Chat Thread - #41/INFO]: <nik123> cya[m
-[16:01:59] [Server thread/INFO]: DKing201 lost connection: Disconnected
-[16:01:59] [Server thread/INFO]: DKing201 left the game.
-[16:02:29] [Server thread/INFO]: nik123 lost connection: Disconnected
-[16:02:29] [Server thread/INFO]: nik123 left the game.
-[16:08:27] [Thread-82/INFO]: UUID of player MrMate is 48cc32e4-5906-35ef-ac98-c039a29ed30b
-[16:08:27] [Server thread/INFO]: MrMate[/192.168.1.103:52206] logged in with entity id 113584 at ([world]116.0, 64.0, 256.0)
-[16:09:29] [Server thread/INFO]: MrMate lost connection: Disconnected
-[16:09:29] [Server thread/INFO]: MrMate left the game.
-[16:25:44] [Thread-83/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[16:25:44] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:52379] logged in with entity id 114107 at ([world]116.0, 64.0, 256.0)
-[16:25:47] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[16:25:47] [Server thread/INFO]: IceSiked left the game.
-[19:48:15] [Thread-91/INFO]: UUID of player IceSiked is 678eb20e-1499-320d-893c-dbabf5036a0f
-[19:48:15] [Server thread/INFO]: IceSiked[/0:0:0:0:0:0:0:1:53093] logged in with entity id 114414 at ([world]116.56454995811406, 62.0, 256.564549958114)
-[19:49:25] [Server thread/INFO]: IceSiked issued server command: /home Base
-[19:50:22] [Server thread/INFO]: IceSiked issued server command: /home Monument
-[19:52:19] [Server thread/WARN]: IceSiked moved wrongly!
-[19:52:19] [Server thread/WARN]: IceSiked moved wrongly!
-[19:52:19] [Server thread/WARN]: IceSiked moved wrongly!
-[19:57:21] [Server thread/INFO]: IceSiked lost connection: Disconnected
-[19:57:21] [Server thread/INFO]: IceSiked left the game.
-[22:13:40] [Server thread/INFO]: There are 0/20 players online:
-[22:13:40] [Server thread/INFO]: 
-[22:13:47] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[22:13:49] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[22:13:56] [Server thread/INFO]: Stopping the server
-[22:13:56] [Server thread/INFO]: Stopping server
-[22:13:56] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
-[22:13:56] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[22:13:56] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[22:13:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
-[22:13:56] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
-[22:13:56] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
-[22:13:56] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-[22:13:56] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
-[22:13:56] [Server thread/INFO]: Saving players
-[22:13:56] [Server thread/INFO]: Saving worlds
-[22:13:56] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[22:13:56] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[22:13:56] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[11:08:28] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[11:08:28] [Server thread/INFO]: Loading properties
+[11:08:28] [Server thread/INFO]: Default game type: SURVIVAL
+[11:08:28] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[11:08:28] [Server thread/INFO]: Debug logging is disabled
+[11:08:28] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[11:08:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[11:08:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:08:28] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[11:08:28] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2792)
+
+[11:08:28] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[11:08:28] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[11:08:28] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[11:08:28] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[11:08:28] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[11:08:28] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[11:08:28] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[11:08:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+[11:08:28] [Server thread/INFO]: Data value allowed items: 
+[11:08:28] [Server thread/INFO]: Generating keypair
+[11:08:28] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[11:08:28] [Server thread/INFO]: Using default channel type
+[11:08:28] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[11:08:28] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[11:08:28] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[11:08:28] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[11:08:28] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[11:08:28] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[11:08:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:08:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:08:28] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[11:08:28] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[11:08:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:08:28] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[11:08:28] [Server thread/INFO]: Preparing level "world"
+[11:08:28] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:08:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:08:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:08:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:08:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:08:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:08:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:08:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:08:28] [Server thread/INFO]: Clear tick list: false
+[11:08:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:08:28] [Server thread/INFO]: View Distance: 4
+[11:08:28] [Server thread/INFO]: Anti X-Ray: true
+[11:08:28] [Server thread/INFO]: 	Engine Mode: 1
+[11:08:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:08:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:08:28] [Server thread/INFO]: Structure Info Saving: true
+[11:08:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:08:28] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:08:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:08:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:08:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:08:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:08:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:08:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:08:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:08:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:08:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:08:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:08:28] [Server thread/INFO]: Max Entity Collisions: 8
+[11:08:28] [Server thread/INFO]: Mob Spawn Range: 4
+[11:08:28] [Server thread/INFO]: Max TNT Explosions: 100
+[11:08:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:08:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:08:28] [Server thread/INFO]: Random Lighting Updates: false
+[11:08:28] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:08:28] [Server thread/INFO]: Water over lava flow speed: 5
+[11:08:28] [Server thread/INFO]: Fix TNT cannons: false
+[11:08:28] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:08:28] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:08:28] [Server thread/INFO]: World async lighting: false
+[11:08:28] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:08:28] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:08:28] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:08:28] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:08:28] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:08:28] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:08:28] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:08:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:08:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:08:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:08:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:08:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:08:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:08:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:08:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:08:29] [Server thread/INFO]: Clear tick list: false
+[11:08:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:08:29] [Server thread/INFO]: View Distance: 4
+[11:08:29] [Server thread/INFO]: Anti X-Ray: true
+[11:08:29] [Server thread/INFO]: 	Engine Mode: 1
+[11:08:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:08:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:08:29] [Server thread/INFO]: Structure Info Saving: true
+[11:08:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:08:29] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:08:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:08:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:08:29] [Server thread/INFO]: Max Entity Collisions: 8
+[11:08:29] [Server thread/INFO]: Mob Spawn Range: 4
+[11:08:29] [Server thread/INFO]: Max TNT Explosions: 100
+[11:08:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:08:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:08:29] [Server thread/INFO]: Random Lighting Updates: false
+[11:08:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:08:29] [Server thread/INFO]: Water over lava flow speed: 5
+[11:08:29] [Server thread/INFO]: Fix TNT cannons: false
+[11:08:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:08:29] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:08:29] [Server thread/INFO]: World async lighting: false
+[11:08:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:08:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:08:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:08:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:08:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:08:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:08:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:08:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:08:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:08:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:08:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:08:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:08:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:08:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:08:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:08:29] [Server thread/INFO]: Clear tick list: false
+[11:08:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:08:29] [Server thread/INFO]: View Distance: 4
+[11:08:29] [Server thread/INFO]: Anti X-Ray: true
+[11:08:29] [Server thread/INFO]: 	Engine Mode: 1
+[11:08:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:08:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:08:29] [Server thread/INFO]: Structure Info Saving: true
+[11:08:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:08:29] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:08:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:08:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:08:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:08:29] [Server thread/INFO]: Max Entity Collisions: 8
+[11:08:29] [Server thread/INFO]: Mob Spawn Range: 4
+[11:08:29] [Server thread/INFO]: Max TNT Explosions: 100
+[11:08:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:08:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:08:29] [Server thread/INFO]: Random Lighting Updates: false
+[11:08:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:08:29] [Server thread/INFO]: Water over lava flow speed: 5
+[11:08:29] [Server thread/INFO]: Fix TNT cannons: false
+[11:08:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:08:29] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:08:29] [Server thread/INFO]: World async lighting: false
+[11:08:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:08:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:08:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:08:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:08:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:08:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:08:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:08:29] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1738667849319662948)
+[11:08:30] [Server thread/INFO]: Preparing spawn area: 63%
+[11:08:30] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1738667849319662948)
+[11:08:31] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1738667849319662948)
+[11:08:31] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[11:08:31] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[11:08:31] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[11:08:31] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[11:08:31] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[11:08:31] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[11:08:31] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:08:31] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[11:08:31] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[11:08:32] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[11:08:32] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[11:08:32] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[11:08:32] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[11:08:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:08:32] [Server thread/INFO]: Done (3.367s)! For help, type "help" or "?"
+[11:08:32] [Server thread/INFO]: Timings Reset
+[11:08:33] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[11:08:33] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[11:08:33] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+

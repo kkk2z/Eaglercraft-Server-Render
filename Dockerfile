@@ -11,4 +11,4 @@ RUN chmod +x run.sh
 EXPOSE 8081
 EXPOSE 25577
 
-CMD [ "bash", "run.sh" ]
+CMD [ "java -jar server/server.jar & java -jar bungee/bungee.jar" ]

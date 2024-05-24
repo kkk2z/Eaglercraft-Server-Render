@@ -12,4 +12,4 @@ RUN chmod +x run.sh
 EXPOSE 8081
 EXPOSE 25577
 
-CMD [ "bash", "./run.sh" ] 
+CMD [ "bash", "./Eaglercraft/run.sh" ] 

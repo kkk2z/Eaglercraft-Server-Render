@@ -2,7 +2,6 @@ FROM ubuntu:20.04
 
 WORKDIR /app
 
-COPY run.sh /app/run.sh
 COPY . .
 
 RUN apt update

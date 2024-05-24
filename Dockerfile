@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 WORKDIR /app
 
-COPY . .
+COPY Eaglercraft .
 
 RUN apt update
 RUN apt install default-jre -y

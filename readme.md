@@ -1,9 +1,9 @@
 # 作り方!
 大前提:
-    [bash(ターミナル)が使える](https://qiita.com/rana_kualu/items/7b62898d373901466f5c)<br>
-    [github.dev(VScode)が扱える](https://www.sejuku.net/blog/40607)<br>
-    [githubアカウントがある。](https://github.com/join)<br>
-    [少しは、技術的話し・コードが分かる(コードは、改造するときに読めると便利)](https://qiita.com/euc_/items/1c1ef42d62cdcbd23421)<br>
+     [bash(ターミナル)が使える](https://qiita.com/rana_kualu/items/7b62898d373901466f5c)<br>
+     [github.dev(VScode)が扱える](https://www.sejuku.net/blog/40607)<br>
+     [githubアカウントがある。](https://github.com/join)<br>
+     [少しは、技術的話し・コードが分かる(コードは、改造するときに読めると便利)](https://qiita.com/euc_/items/1c1ef42d62cdcbd23421)<br>
 
 このリポジトリをGithubアカウントにログインした状態でフォークする(画面にフォークを刺すでも可能)<br>
 github codespaceへ、移動する(自分で考えろ)<br>
@@ -20,7 +20,7 @@ github codespaceへ、移動する(自分で考えろ)<br>
 んじゃね<br>
 # サーバ改造
 サーバの名前・アイコンの変更方法
-[Betaさんの動画を見(ry)](https://www.youtube.com/watch?v=Yy6ZFx1x2y8)
+[Betaさんの動画を見(ry)](https://www.youtube.com/watch?v=Yy6ZFx1x2y8)<br>
 外人が書いたやつ<br>
 # EaglerCraftX Server<br>
 

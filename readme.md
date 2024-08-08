@@ -21,6 +21,8 @@ github codespaceへ、移動する(自分で考えろ)<br>
 # サーバ改造
 サーバの名前・アイコンの変更方法
 [Betaさんの動画を見(ry)](https://www.youtube.com/watch?v=Yy6ZFx1x2y8)<br>
+[!['Betaさんの動画...']('https://autumn.revolt.chat/attachments/7qQFfNMNhZJOrmNH-l0vxFYA43DOmQ_oqcFWVCzNVT/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%20(3).png')]('https://www.youtube.com/watch?v=Yy6ZFx1x2y8')
+
 外人が書いたやつ<br>
 # EaglerCraftX Server<br>
 

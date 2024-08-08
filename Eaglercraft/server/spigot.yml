@@ -12,8 +12,8 @@
 
 config-version: 8
 settings:
-  debug: false
   save-user-cache-on-stop-only: false
+  late-bind: false
   sample-count: 12
   player-shuffle: 0
   filter-creative-items: true
@@ -22,7 +22,6 @@ settings:
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-threshold: 100.0
   bungeecord: true
-  late-bind: false
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
@@ -34,6 +33,7 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  debug: false
 timings:
   enabled: true
   verbose: true
@@ -67,6 +67,37 @@ stats:
 world-settings:
   default:
     verbose: true
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+    nerf-spawner-mobs: false
+    mob-spawn-range: 4
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -97,37 +128,6 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    anti-xray:
-      enabled: true
-      engine-mode: 1
-      hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-      replace-blocks:
-      - 1
-      - 5
-    nerf-spawner-mobs: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-      netherwart-modifier: 100
-    mob-spawn-range: 4
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5

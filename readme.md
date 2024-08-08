@@ -1,20 +1,20 @@
 # 作り方!
-1:github codespaceへ、移動する(自分で考えろ)
-ターミナルへ移動する
-ターミナルを気合で2画面にする[こういう感じ](https://qiita-user-contents.imgix.net/https%3A%2F%2Fres.cloudinary.com%2Fpracticaldev%2Fimage%2Ffetch%2Fs--hRJSDud0--%2Fc_limit%252Cf_auto%252Cfl_progressive%252Cq_auto%252Cw_800%2Fhttps%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc73qu0463x2hcyzz10i5.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&w=1400&fit=max&s=d4d3d366e419d18db546ff029372e682)
+1:github codespaceへ、移動する(自分で考えろ)<br>
+ターミナルへ移動する<br>
+ターミナルを気合で2画面にする[こういう感じ](https://qiita-user-contents.imgix.net/https%3A%2F%2Fres.cloudinary.com%2Fpracticaldev%2Fimage%2Ffetch%2Fs--hRJSDud0--%2Fc_limit%252Cf_auto%252Cfl_progressive%252Cq_auto%252Cw_800%2Fhttps%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc73qu0463x2hcyzz10i5.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&w=1400&fit=max&s=d4d3d366e419d18db546ff029372e682)<br>
 
-`cd Eaglercraft`で、Eaglercraftフォルダに移動する・
-そしたらそれぞれに、
-右:`cd server && sudo java -jar server.jar`
-左:`cd bungee && sudo java -jar bungee.jar`
-ポートへ移動する.
-そして、25565と8081を追加して8081を公開にして8081のURLに移動
-そのURLのhttps:// を抜いて　wss:// に置き換えると鯖アドレスになるので
-んじゃね
-外人が書いたやつ
-# EaglerCraftX Server
+`cd Eaglercraft`で、Eaglercraftフォルダに移動する・<br>
+そしたらそれぞれに、<br>
+右:`cd server && sudo java -jar server.jar`<br>
+左:`cd bungee && sudo java -jar bungee.jar`<br>
+ポートへ移動する.<br>
+そして、25565と8081を追加して8081を公開にして8081のURLに移動<br>
+そのURLのhttps:// を抜いて　wss:// に置き換えると鯖アドレスになるので<br>
+んじゃね<br>
+外人が書いたやつ<br>
+# EaglerCraftX Server<br>
 
-## Credits
+## Credits<br>
 Original Project: Lax1Dude
 <br>
 Original Server Fork: EcoliEater87

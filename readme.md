@@ -18,6 +18,9 @@ github codespaceへ、移動する(自分で考えろ)<br>
 そして、25565と8081を追加して8081を公開にして8081のURLに移動<br>
 そのURLのhttps:// を抜いて　wss:// に置き換えると鯖アドレスになるので<br>
 んじゃね<br>
+# サーバ改造
+サーバの名前・アイコンの変更方法
+[Betaさんの動画を見(ry)](https://www.youtube.com/watch?v=Yy6ZFx1x2y8)
 外人が書いたやつ<br>
 # EaglerCraftX Server<br>
 

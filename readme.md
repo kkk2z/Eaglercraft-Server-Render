@@ -1,5 +1,6 @@
 # 作り方!
-1:github codespaceへ、移動する(自分で考えろ)<br>
+このリポジトリをGithubアカウントにログインした状態でフォークする(画面にフォークを刺すでも可能)<br>
+github codespaceへ、移動する(自分で考えろ)<br>
 ターミナルへ移動する<br>
 ターミナルを気合で2画面にする[こういう感じ](https://qiita-user-contents.imgix.net/https%3A%2F%2Fres.cloudinary.com%2Fpracticaldev%2Fimage%2Ffetch%2Fs--hRJSDud0--%2Fc_limit%252Cf_auto%252Cfl_progressive%252Cq_auto%252Cw_800%2Fhttps%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc73qu0463x2hcyzz10i5.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&w=1400&fit=max&s=d4d3d366e419d18db546ff029372e682)<br>
 
